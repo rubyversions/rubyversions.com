@@ -3,10 +3,10 @@ source 'https://rubygems.org'
 ruby File.read('.ruby-version').chomp
 
 # jekyll static site generator
+gem 'env'
 gem 'jekyll'
 gem 'jekyll-feed'
 gem 'jekyll-paginate-v2'
-gem 'env'
 
 # ruby 3.3 deprecations from stdlib, depended on by jekyll, et al
 gem 'base64'

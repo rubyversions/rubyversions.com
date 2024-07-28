@@ -1,0 +1,32 @@
+AllCops:
+  NewCops: enable
+
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+
+# This is too aggressive with our use of Seattle.rb style lack of parens on method calls
+# E.g., return redirect_to [:articles]
+# Rubocop thinks that `redirect_to` is a collection and `:articles` is a hash key
+Layout/SpaceBeforeBrackets:
+  Enabled: false
+
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MethodDefParentheses:
+  EnforcedStyle: require_no_parentheses
+
+Style/MixinUsage:
+  Exclude:
+    # For Scripts to Rule Them All
+    - 'script/*'
