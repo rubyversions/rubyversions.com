@@ -1,0 +1,14 @@
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="{{ site.url }}{{ page.id }}">
+<meta property="og:type" content="{% if page.id %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+
+<!-- TODO: image for facebook preview card -->
+<!--
+<meta property="og:image" content="{%- if page.id %}
+  {{ site.assets }}/images/{{ page.id | split: '/' | last}}.jpg?v={{ site.time | date: '%s' }}
+{%- else %}
+  {{ site.url }}/images/meta.png?v={{ site.time | date: '%s' }}
+{%- endif%}">
+-->
