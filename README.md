@@ -18,7 +18,7 @@ https://github.com/rubyversions/rubyversions.com
 
 ## License
 
-**PUBLIC DOMAIN**
+**[PUBLIC DOMAIN](https://github.com/rubyversions/rubyversions.com/blob/main/LICENSE.md)**
 
 Your heart is as free as the air you breathe. \\
 The ground you stand on is liberated territory.
