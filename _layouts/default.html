@@ -20,8 +20,7 @@
     window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateTheme)
   </script>
 
-  <link rel="stylesheet" href="/assets/css/bootstrap.css">
-  <link rel="stylesheet" href="/assets/css/application.css?v={{ site.time | date: '%s' }}">
+  {% include bootstrap.html %}
 </head>
 
 <body>
