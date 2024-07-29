@@ -1,16 +1,26 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-    <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag "application" %>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <%# Use the title from a page’s frontmatter if it has one %>
+  <title><%= current_page.data.title || "Ruby Versions" %></title>
+
+  <%= partial "bootstrap" %><%# TEMP: replace with bootstrap gem %>
+
+  <%= partial "mode_switcher_js" %>
+  <%= stylesheet_link_tag "application" %>
+  <%= javascript_include_tag "application" %>
+</head>
+
+<body>
+  <%= partial "header" %>
+
+  <main class="container-fluid my-5">
     <%= yield %>
-  </body>
+  </main>
+
+  <%= partial "footer" %>
+</body>
 </html>
