@@ -1,3 +1,11 @@
+# title: Ruby Versions
+# email: veganstraightedge+rubyversions@gmail.com
+# description: All versions of all Ruby implementations
+# url: "https://rubyversions.com"
+
+
+
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
