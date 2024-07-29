@@ -7,8 +7,6 @@
   <%# Use the title from a page’s frontmatter if it has one %>
   <title><%= current_page.data.title || "Ruby Versions" %></title>
 
-  <%= partial "bootstrap" %><%# TEMP: replace with bootstrap gem %>
-
   <%= partial "mode_switcher_js" %>
   <%= stylesheet_link_tag "application" %>
   <%= javascript_include_tag "application" %>
@@ -22,5 +20,6 @@
   </main>
 
   <%= partial "footer" %>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>

@@ -1,16 +1,21 @@
-# title: Ruby Versions
+# Activate and configure extensions
+# https://middlemanapp.com/advanced/configuration/#configuring-extensions
+
 # email: veganstraightedge+rubyversions@gmail.com
 # description: All versions of all Ruby implementations
 # url: "https://rubyversions.com"
 
+set :title, "Ruby Versions"
 
+activate :sprockets
+activate :directory_indexes
 
-
-# Activate and configure extensions
-# https://middlemanapp.com/advanced/configuration/#configuring-extensions
+configure :development do
+  activate :livereload
+end
 
 activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+  prefix.browsers = 'last 2 versions'
 end
 
 # Layouts
@@ -48,7 +53,9 @@ page '/*.txt', layout: false
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript, compressor: Terser.new
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript, compressor: Terser.new
+  activate :asset_hash
+  activate :relative_assets
+end

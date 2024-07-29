@@ -6,13 +6,17 @@ ruby File.read('.ruby-version').chomp
 gem 'env'
 gem 'middleman'
 gem 'middleman-autoprefixer'
+gem 'middleman-livereload'
+gem 'middleman-sprockets'
 
 # # ruby 3.3 deprecations from stdlib, depended on by middleman, et al
 gem 'base64'
 gem 'bigdecimal'
 gem 'csv'
+gem 'mutex_m'
 
 # assets
+gem 'bootstrap'
 gem 'terser'
 
 group :development, :test do
