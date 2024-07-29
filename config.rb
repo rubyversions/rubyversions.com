@@ -1,12 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-# email: veganstraightedge+rubyversions@gmail.com
-# description: All versions of all Ruby implementations
-# url: "https://rubyversions.com"
-
-set :site_title, 'Ruby Versions'
-
 activate :sprockets
 activate :directory_indexes
 
