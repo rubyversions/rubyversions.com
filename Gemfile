@@ -4,14 +4,9 @@ ruby File.read('.ruby-version').chomp
 
 # jekyll static site generator
 gem 'env'
-gem 'jekyll'
-gem 'jekyll-feed'
-gem 'jekyll-paginate-v2'
-
-# ruby 3.3 deprecations from stdlib, depended on by jekyll, et al
-gem 'base64'
-gem 'bigdecimal'
-gem 'csv'
+gem 'middleman'
+gem 'middleman-autoprefixer'
+gem 'terser'
 
 group :development, :test do
   # codestyle guide and linting
