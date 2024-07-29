@@ -2,16 +2,26 @@ source 'https://rubygems.org'
 
 ruby File.read('.ruby-version').chomp
 
-# jekyll static site generator
-gem 'env'
-gem 'jekyll'
-gem 'jekyll-feed'
-gem 'jekyll-paginate-v2'
+# middleman static site generator
+gem 'middleman'
+gem 'middleman-autoprefixer'
+gem 'middleman-livereload'
+# NOTE: middleman-sprockets 4.1.1 fails to import .scss partials
+#       https://github.com/middleman/middleman-sprockets/compare/v4.1.0...v4.1.1
+#       Error: File to import not found or unreadable: ./variables.scss.
+#               on line 1:1 of stdin >> @import "./variables.scss";
+#       I think that #source_file_relative_to_root is where the problem is
+gem 'middleman-sprockets', '4.1.0'
 
-# ruby 3.3 deprecations from stdlib, depended on by jekyll, et al
+# ruby 3.3 deprecations from stdlib, depended on by middleman, et al
 gem 'base64'
 gem 'bigdecimal'
 gem 'csv'
+gem 'mutex_m'
+
+# assets
+gem 'bootstrap'
+gem 'terser'
 
 group :development, :test do
   # codestyle guide and linting
