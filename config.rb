@@ -5,7 +5,7 @@
 # description: All versions of all Ruby implementations
 # url: "https://rubyversions.com"
 
-set :title, 'Ruby Versions'
+set :site_title, 'Ruby Versions'
 
 activate :sprockets
 activate :directory_indexes
