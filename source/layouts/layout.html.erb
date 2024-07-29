@@ -9,7 +9,12 @@
     <%= current_page.data.title %>
   </title>
 
-  <%= partial 'mode_switcher_js' %>
+  <%= partial 'head/mode_switcher_js' %>
+
+  <%= partial 'head/twitter' %>
+  <%= partial 'head/facebook' %>
+  <%= partial 'head/google_analytics' %>
+
   <%= stylesheet_link_tag 'application' %>
   <%= javascript_include_tag 'application' %>
 </head>
