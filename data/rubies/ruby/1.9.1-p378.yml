@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.9.1-p378
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 5922459622a23612eb9b68a3586cb5f8
+    file: ruby-1.9.1-p378.tar.bz2
+  - signature: 9fc5941bda150ac0a33b299e1e53654c
+    file: ruby-1.9.1-p378.tar.gz
+  - signature: 126865c62cd298e12195519f0c52000a
+    file: ruby-1.9.1-p378.zip
+  sha1:
+  - signature: d5904575ea83bf47193d473f8d82eec4a17a764c
+    file: ruby-1.9.1-p378.tar.bz2
+  - signature: 886f4fc22881cfc92d850e976c891d3f31832e31
+    file: ruby-1.9.1-p378.tar.gz
+  - signature: 2800d93639c0622ed826310c7c46bf70340c8d1d
+    file: ruby-1.9.1-p378.zip
+  sha256:
+  - signature: 649e623f77190990d990089a819bc4ee60e21816f682ec37cee98d43adb46e51
+    file: ruby-1.9.1-p378.tar.bz2
+  - signature: b2960c330aa097c0cf90157a3133c6553ccdf8198e4c717c72cbe87c7f277547
+    file: ruby-1.9.1-p378.tar.gz
+  - signature: c3397be8c5372118d0fb011946df6a48e93eeaea4bad8fd8567ed1ddd34ff86c
+    file: ruby-1.9.1-p378.zip
+  sha512:
+  - signature: d120b4c2cffafbbb30e2eeca58cfe5f3602ff6d97cf64822f618992cf67c5b2fffcbc18632461db0b6bc5a5a99efc63b6d227c5ece69c12f6a360abc8ffc6eca
+    file: ruby-1.9.1-p378.tar.bz2
+  - signature: bf63563dd810a35ff2603d8000eacd70fe7b684a697e6b6ce8768f3e3c62bfb5c00b0dd674672b2dad9f9bb6c3807efb6035fc39c41d7f9b08418ebbb903972a
+    file: ruby-1.9.1-p378.tar.gz
+  - signature: 1ad9ed9eb5fd9b3272514e6d08b4c4a8dab957a8f93ce6e6e6d8a6f69e14452198f7576d7fbbf381dff10cb1e02c9fb047a3786074639aa3d5cd78580dc4da13
+    file: ruby-1.9.1-p378.zip

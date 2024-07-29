@@ -199,6 +199,7 @@ DEPENDENCIES
   bigdecimal
   bootstrap
   csv
+  dotenv
   middleman
   middleman-autoprefixer
   middleman-livereload

@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.0.0-p353
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 20eb8f067d20f6b76b7e16cce2a85a55
+    file: ruby-2.0.0-p353.tar.bz2
+  - signature: 78282433fb697dd3613613ff55d734c1
+    file: ruby-2.0.0-p353.tar.gz
+  - signature: 0f8aeb1f1b1cd606ab9790badabd0fb4
+    file: ruby-2.0.0-p353.zip
+  sha1:
+  - signature: 0be863f1c39d7764c52cbb79ca06105743e27c42
+    file: ruby-2.0.0-p353.tar.bz2
+  - signature: 7f2c8b8f5682aabc1114f44d36d314c6c37c11b8
+    file: ruby-2.0.0-p353.tar.gz
+  - signature: 5d7cf21748a93556a3401de5b0013b6a80778071
+    file: ruby-2.0.0-p353.zip
+  sha256:
+  - signature: 3de4e4d9aff4682fa4f8ed2b70bd0d746fae17452fc3d3a8e8f505ead9105ad9
+    file: ruby-2.0.0-p353.tar.bz2
+  - signature: 465afc77d201b5815bb7ce3660a1f5a131f4429a3fa483c126ce66923e4726cc
+    file: ruby-2.0.0-p353.tar.gz
+  - signature: 878c9cec05751a4c7019ad255a9e737d0f47ec7188cee1c522545ac7e3bc73a3
+    file: ruby-2.0.0-p353.zip
+  sha512:
+  - signature: 52aa64c5991e61cc49c2062672554353bc88ab563da93a1d1591257153c2f6d8de02417a33d7a585eb0102f1079a993e46671fb6c97c62eac8615de567b575f2
+    file: ruby-2.0.0-p353.tar.bz2
+  - signature: e0f26e9cd58646162f49e767ddef2d3bbb283ea52b118a43a01e743a3c65fad1c85bc1e42e6d4159e070511a5d144d5c99b693a2ca51be66e2adef8320e6b568
+    file: ruby-2.0.0-p353.tar.gz
+  - signature: 74bd48d9d39e3abb8e2dd7589d2d627b047d820ae1ea2e70ccae6e9f28cc4bb6a5f56f04602e42f39248766ff2752031774ca76bb4c505aeb046b8371485c17a
+    file: ruby-2.0.0-p353.zip

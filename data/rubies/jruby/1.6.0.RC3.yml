@@ -1,0 +1,41 @@
+---
+name: jruby
+version: 1.6.0.RC3
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: 411208e88afd88b4d426de079ff3114f
+    file: jruby-bin-1.6.0.RC3.tar.gz
+  - signature: 186c4b68787ef69c42ee93bb082a5d14
+    file: jruby-bin-1.6.0.RC3.zip
+  - signature: e1764270141c44a39aa250b0349f7b50
+    file: jruby-src-1.6.0.RC3.tar.gz
+  - signature: 8e29a3c191ed6c2bd21c2f8ebeab45e5
+    file: jruby-src-1.6.0.RC3.zip
+  sha1:
+  - signature: 53c15f6ddb1c9f230ca83f06d6fa4fc41dabc3cc
+    file: jruby-bin-1.6.0.RC3.tar.gz
+  - signature: f5cb7100e41d7d76e40e24adba5aeff2e46145d9
+    file: jruby-bin-1.6.0.RC3.zip
+  - signature: cdc031b0c4620ea4458774b3c3916d714d1d7c1b
+    file: jruby-src-1.6.0.RC3.tar.gz
+  - signature: 3034240854f3ab231249c8e90145f6a64b66b0b1
+    file: jruby-src-1.6.0.RC3.zip
+  sha256:
+  - signature: 601077ccf967c10c6269d7ad1899bd7929bcc9cf5a0cbc39861dcfe47c06ce3e
+    file: jruby-bin-1.6.0.RC3.tar.gz
+  - signature: 55eb8d169f4e1fa9592719e615877b4f3acf3febb98976b2fc686e69888f6c0d
+    file: jruby-bin-1.6.0.RC3.zip
+  - signature: dbc760ef754314655b414a199fb654a410112f89cd8538402dc4cbcba28f6271
+    file: jruby-src-1.6.0.RC3.tar.gz
+  - signature: e11b64215886328026c3a09019f5f09d4ac60194a26e5613f3e507226e510bda
+    file: jruby-src-1.6.0.RC3.zip
+  sha512:
+  - signature: 993a0e97d0c71edaf388987fab9a437773e7349b328192aefa5d42c4138a7c447227181f35a4172726a6d6e888b1afe6ec9bc5ca1d9fbd98bdd6f5e697423326
+    file: jruby-bin-1.6.0.RC3.tar.gz
+  - signature: 417336776ad2a17fb9b85f3d06086de838b5c96cf2081240a5bc26641383d1f968b57069264bb12735814058d2f143e585111e93579323d5a39675b285774eb9
+    file: jruby-bin-1.6.0.RC3.zip
+  - signature: 673256ad49b860a520c9c5161f671f5e3d53657bb00b3acdd9c7e18195dc1ff72e69dfb41a5a57d1ac0490641690524f7f3cf40bf0bdc69f641b441f5891c7e4
+    file: jruby-src-1.6.0.RC3.tar.gz
+  - signature: 3e9430d4935627b1e65056fda8d706b455ae89e601369920b299f622293936e6e54ae3e12cbf4f407db9fdf8928dfaba2c63f6bdd048a7f20f67225918fb6084
+    file: jruby-src-1.6.0.RC3.zip

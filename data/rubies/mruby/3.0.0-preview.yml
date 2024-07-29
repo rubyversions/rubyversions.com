@@ -1,0 +1,25 @@
+---
+name: mruby
+version: 3.0.0-preview
+website: https://mruby.org
+checksums:
+  md5:
+  - signature: 8ec496fd0285662620adb97f90cebc1f
+    file: mruby-3.0.0-preview.tar.gz
+  - signature: fb9cda4b7af42f9026d16c6a500865fd
+    file: mruby-3.0.0-preview.zip
+  sha1:
+  - signature: 72bd39f9f8ede1e2f81b2c6f4079151032231ba7
+    file: mruby-3.0.0-preview.tar.gz
+  - signature: fb46873b9d328ae96691cf2e7f73911677447507
+    file: mruby-3.0.0-preview.zip
+  sha256:
+  - signature: b099df0742ad1b44ee7c295c8581b8b6b94d20071aa4aa9a19fef6e843de1fc4
+    file: mruby-3.0.0-preview.tar.gz
+  - signature: 119134af8bd3f361d68251bdf43fe330e8e96afba545588f1018bd7c4d25d2cf
+    file: mruby-3.0.0-preview.zip
+  sha512:
+  - signature: 64ae1f2f23c43a73e8d259fc0dc97f3c3837e41a75477d1fcb1a32f939bfad98a5589193e5ef26947df8f4503c9194eebceafdd7f42ea564cbcc7d81717b588f
+    file: mruby-3.0.0-preview.tar.gz
+  - signature: 3598d0900b1d23ae5ac76f85f9db032ab4098894cdddfc995dadd78abff7c396e53677983af197630002eb80cb2b92744e20c6b6bf330beaed06bcedebe27abc
+    file: mruby-3.0.0-preview.zip

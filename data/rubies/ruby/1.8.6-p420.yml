@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.8.6-p420
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 1c7a978e9ffd4f56dc2ad74bbd2c34f3
+    file: ruby-1.8.6-p420.tar.bz2
+  - signature: ca1eee44f842e93b5098bc5a2bb9a40b
+    file: ruby-1.8.6-p420.tar.gz
+  - signature: d69b342e66114a085615d9b9e7e94c7b
+    file: ruby-1.8.6-p420.zip
+  sha1:
+  - signature: 00e977ac46df0ccd1545657426439a82f44bf284
+    file: ruby-1.8.6-p420.tar.bz2
+  - signature: 7bdba6e8761861d05e07b963cd7c23affb27875c
+    file: ruby-1.8.6-p420.tar.gz
+  - signature: 9b4030c08df758a07ff2eec2e429dd70a3f731b6
+    file: ruby-1.8.6-p420.zip
+  sha256:
+  - signature: 5ed3e6b9ebcb51baf59b8263788ec9ec8a65fbb82286d952dd3eb66e22d9a09f
+    file: ruby-1.8.6-p420.tar.bz2
+  - signature: 118e6f24afce8e8a10dced23635168e58da6c9121a21f120c82f425d40a1e321
+    file: ruby-1.8.6-p420.tar.gz
+  - signature: f231127152912be0969800cfe78d68cde4b87167020d2da5fc24a14caa4ec2ae
+    file: ruby-1.8.6-p420.zip
+  sha512:
+  - signature: 45a2fa389184cd2ba8aacd2588ae6161f6ed854ca1029bb8aa9eb9413b496d4f2adf21e376f356a0996b960d68752dcf86245eff00661e6c7cf3ece315dc7a64
+    file: ruby-1.8.6-p420.tar.bz2
+  - signature: 2582d5d59e3c4dad0e1e7f77b66dd40c01bc73dfde14eec43012eddbc704e945c6022b3a9f9fd43a69d8a09ce77e3025b38eedc28a1fe798b3239c630df9b563
+    file: ruby-1.8.6-p420.tar.gz
+  - signature: ce97e1352aabf9e746f808dbdfbc1626be200bf7ad5439f645e441d25cc640c648ebef29518a3d3d81059608993bf41272a35dd520c7d163f3b37851ad1aa336
+    file: ruby-1.8.6-p420.zip

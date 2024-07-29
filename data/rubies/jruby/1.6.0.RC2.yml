@@ -1,0 +1,41 @@
+---
+name: jruby
+version: 1.6.0.RC2
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: b01aa341a7a135c7c8f5401dd90db888
+    file: jruby-bin-1.6.0.RC2.tar.gz
+  - signature: 2779036542dc2039803cf8c036ae2f1d
+    file: jruby-bin-1.6.0.RC2.zip
+  - signature: a464e5a4d534ebe7ee17f2d5bcbe6bed
+    file: jruby-src-1.6.0.RC2.tar.gz
+  - signature: 739fdb6840d002973185870fb794d0c2
+    file: jruby-src-1.6.0.RC2.zip
+  sha1:
+  - signature: d91493441f4fedffc2608232d9ee576838bf9055
+    file: jruby-bin-1.6.0.RC2.tar.gz
+  - signature: fd6885a28a80d512af767af1430e53e2999969a9
+    file: jruby-bin-1.6.0.RC2.zip
+  - signature: 244dc2e874af13f6c22d20b3a5d40398aa94901a
+    file: jruby-src-1.6.0.RC2.tar.gz
+  - signature: 80b6d805682378778664973fe27da453e5d49821
+    file: jruby-src-1.6.0.RC2.zip
+  sha256:
+  - signature: 44f84a88ed0290a86d4874d5bae8e9fb0ba92813aceeedd6663521ebcedcbd56
+    file: jruby-bin-1.6.0.RC2.tar.gz
+  - signature: ead238e5ad32f0ddf69d8602a306d558988b782207c77b84f2c6cf3cc0e64dc3
+    file: jruby-bin-1.6.0.RC2.zip
+  - signature: e5dd63e0f9a858dc40e30b46681e51086f2dfaae65ca803b38addf237bec92dd
+    file: jruby-src-1.6.0.RC2.tar.gz
+  - signature: d3481f94db593924342ad19424704d6e026c88c8af50f94ece1f7fdeb584a0d1
+    file: jruby-src-1.6.0.RC2.zip
+  sha512:
+  - signature: a4f2f42d1f31f90b4bbaf36de9af5fe9cbaa922c2cc5aa47cb0779d163180b4b22fe30bc46dde74c8af10a09177370acdc7b436c603dfaa19f6d1ec269506718
+    file: jruby-bin-1.6.0.RC2.tar.gz
+  - signature: 379098fb1fb1daf9033097c6a75aef8a01ef12ef93017f72a724918044f42d23bbd3fffd81aaa360e76e68cd98461a83c27926741771ba810578b5fd1727893c
+    file: jruby-bin-1.6.0.RC2.zip
+  - signature: 62c10a3aced5ce105070d08a4fe1d5e11acb587154c6def55305626a0faeb898c2cda7a35240a1192f5659d6b19ed0e146709c129ad9e92c1fbb55da38c98cbb
+    file: jruby-src-1.6.0.RC2.tar.gz
+  - signature: '08aed54e905ef364b42207e0b90f3a1824ca782b4acebeb7b46eaccf5c29ce3437d94b7907e6a0a579da54d5f6a82014fc04dc0222b781764c3b23a6b0af366c'
+    file: jruby-src-1.6.0.RC2.zip

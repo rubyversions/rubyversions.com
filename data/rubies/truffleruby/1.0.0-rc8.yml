@@ -1,0 +1,25 @@
+---
+name: truffleruby
+version: 1.0.0-rc8
+website: https://www.graalvm.org/ruby/
+checksums:
+  md5:
+  - signature: a394167c0331c6d8c1123e1f992e5411
+    file: truffleruby-1.0.0-rc8-linux-amd64.tar.gz
+  - signature: dc1bf0fcfdd5837ae0ca56d6d6e5f7b0
+    file: truffleruby-1.0.0-rc8-macos-amd64.tar.gz
+  sha1:
+  - signature: 971fe99ffe85f898a021908e62e9e94c22aad626
+    file: truffleruby-1.0.0-rc8-linux-amd64.tar.gz
+  - signature: 351311f86733d4e5980a6f7c525079236763e7c3
+    file: truffleruby-1.0.0-rc8-macos-amd64.tar.gz
+  sha256:
+  - signature: '080e066272184a72dc8019841ad0bca015cfa4ab979c6605c30346fcc0604597'
+    file: truffleruby-1.0.0-rc8-linux-amd64.tar.gz
+  - signature: e627b43cdd5e8f1711704c6a2f5a1503957df7b226fd722771c54ea6c217457a
+    file: truffleruby-1.0.0-rc8-macos-amd64.tar.gz
+  sha512:
+  - signature: bcd05d304ee9b4da97193575fb1ad78041a0c7710bb444af6aef12ab4261b1873f472175ec51a187a5e99da481d66b81a132fb691643b793e87d655f31d54657
+    file: truffleruby-1.0.0-rc8-linux-amd64.tar.gz
+  - signature: 2c758221793c38ca8af1831a5d9f3abd555c406569508ac3a86d3c1ea5baeeacf65abb6e904ed3b1e58f555f51bc85ab171135ff4c3d0e08cdae994a861cbda4
+    file: truffleruby-1.0.0-rc8-macos-amd64.tar.gz

@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.8.5-p115
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: '03955e3c367b9beb3efe144c9f00d689'
+    file: ruby-1.8.5-p115.tar.bz2
+  - signature: 20ca6cc87eb077296806412feaac0356
+    file: ruby-1.8.5-p115.tar.gz
+  - signature: a959946329f219bde633646c64387821
+    file: ruby-1.8.5-p115.zip
+  sha1:
+  - signature: a790db642ac6ef6cbfb77c7e949c818ce46106d8
+    file: ruby-1.8.5-p115.tar.bz2
+  - signature: 0a4446179f0fd47143e3d8250f56dd61bdd26473
+    file: ruby-1.8.5-p115.tar.gz
+  - signature: d54bab8cccad95c5a03f82171b039d375f253e52
+    file: ruby-1.8.5-p115.zip
+  sha256:
+  - signature: 3b5b799d6445b4ec8bc8b2944c6797dbd031b22e1756c9ae8b08c1f5d6cdc398
+    file: ruby-1.8.5-p115.tar.bz2
+  - signature: bd7989c07230962e5f79e2556e0c1043483dc981b11467be3f4de4bf20f56e47
+    file: ruby-1.8.5-p115.tar.gz
+  - signature: f96d4c1973741bea8e5270ba468cf9af79bd81ae9222ab791043752bb90f5ca8
+    file: ruby-1.8.5-p115.zip
+  sha512:
+  - signature: bac28a8ca2a42cf1cd7fcb24ceb4d7cc6773a66c9e40373cfa46f4a4ce34001843385eb0b125ae1631f82be5f25d7a415b3ce2d2306d21403c3ff7daadfd4a5a
+    file: ruby-1.8.5-p115.tar.bz2
+  - signature: 7fcdfcc77f5d9131b21d48d4c26c466f244e01b2a4ebb7de96431581a1b75f4b4fdabafc35c7443dfe9048e9d7343bd1bb8e6482286984380c9dea17e8d5a899
+    file: ruby-1.8.5-p115.tar.gz
+  - signature: 91e881ea721917cfff9ccda7ca4f141bb9a8fe2cd36fcd4858a0d029dd3db9009417aae66a916e0d0057812c968e770c21adb89b1ac52cfd70b4f2101c6b1596
+    file: ruby-1.8.5-p115.zip

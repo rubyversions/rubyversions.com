@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.0.0-rc1
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 24cebdda11e01ff4889ac983cd7dc02c
+    file: ruby-2.0.0-rc1.tar.bz2
+  - signature: 7d587dde85e0edf7a2e4f6783e6c0e2e
+    file: ruby-2.0.0-rc1.tar.gz
+  - signature: 6ff5475553946c4dba1f68e9ce42e606
+    file: ruby-2.0.0-rc1.zip
+  sha1:
+  - signature: 8bf2a0b4aa058c23baa78452d0d207dbd3e93b8b
+    file: ruby-2.0.0-rc1.tar.bz2
+  - signature: b315d980046852236464dcd6b192ee27f6c864ec
+    file: ruby-2.0.0-rc1.tar.gz
+  - signature: eb108f640948fac1945ca8a51d23cac7cb43e1ba
+    file: ruby-2.0.0-rc1.zip
+  sha256:
+  - signature: 4033ddadd0b44eecfcb7686231ebd109ee6f22bf09797a7e15882b9df0b1ee81
+    file: ruby-2.0.0-rc1.tar.bz2
+  - signature: f9ca3e5b539ccf6bca6875d448a1aec34e73f7c173af180e58500c6f47096916
+    file: ruby-2.0.0-rc1.tar.gz
+  - signature: 76e7ed7e95057a77bd80f557a60be6a46eb0e17fa7815aadca26d475f7a8f72a
+    file: ruby-2.0.0-rc1.zip
+  sha512:
+  - signature: d97a866eead92aa91f007ad1f384cb7f12aa643cf6c2d86cbdbd407f2bc0a0cf5a8dd99fb413fb86d2303f9d774a1163a3222a602af15ac6a674222260ba0f95
+    file: ruby-2.0.0-rc1.tar.bz2
+  - signature: 2467008e72d9077f12e6d2aa3b46951508fb8e8b3dbe7b6e5b9b9dcee3e415c98f5250d492c174fbcf3e420f190c4c1fb28b149e3f5f885dd04e0488495e0389
+    file: ruby-2.0.0-rc1.tar.gz
+  - signature: b2001e45843504f09af995158160b15c957584fbead74c188bf527dbcfb2c4a0de61c0db40627736d29dd0764a5653d39aca63a29f0614825a1fc34a6bb678b7
+    file: ruby-2.0.0-rc1.zip

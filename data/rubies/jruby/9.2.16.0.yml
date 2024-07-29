@@ -1,0 +1,41 @@
+---
+name: jruby
+version: 9.2.16.0
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: d8d954ee0ab6f4868c3fc63339660af9
+    file: jruby-bin-9.2.16.0.tar.gz
+  - signature: 4fd61a85df546f3cef6bfce56072ed66
+    file: jruby-bin-9.2.16.0.zip
+  - signature: d41d8cd98f00b204e9800998ecf8427e
+    file: jruby-dist-9.2.16.0-bin.tar.gz
+  - signature: 4fd61a85df546f3cef6bfce56072ed66
+    file: jruby-dist-9.2.16.0-bin.zip
+  sha1:
+  - signature: c04d45392da356405becb238d0d48cf32357ddfd
+    file: jruby-bin-9.2.16.0.tar.gz
+  - signature: bb3f7bde0d1bf03c8e7edc20c59c803b9bbc2007
+    file: jruby-bin-9.2.16.0.zip
+  - signature: da39a3ee5e6b4b0d3255bfef95601890afd80709
+    file: jruby-dist-9.2.16.0-bin.tar.gz
+  - signature: bb3f7bde0d1bf03c8e7edc20c59c803b9bbc2007
+    file: jruby-dist-9.2.16.0-bin.zip
+  sha256:
+  - signature: 5ae27f149f73f3fea4f34359cbb773c25d9d987e72b5edec9e8b93957997eb30
+    file: jruby-bin-9.2.16.0.tar.gz
+  - signature: 93eab8ccb8c9ef770806a324ea9db028a2decdf3c2b89724fe2ff07336e9dfa5
+    file: jruby-bin-9.2.16.0.zip
+  - signature: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    file: jruby-dist-9.2.16.0-bin.tar.gz
+  - signature: 93eab8ccb8c9ef770806a324ea9db028a2decdf3c2b89724fe2ff07336e9dfa5
+    file: jruby-dist-9.2.16.0-bin.zip
+  sha512:
+  - signature: f77e314d578a980071bddc25c65659d62e0644927ebc4e7d7d4523935b6c893e611d47ae7478a26ce7acff38b1525eac11b4a329188cdf76aeb07fab667d99d4
+    file: jruby-bin-9.2.16.0.tar.gz
+  - signature: 0bc7315120a0737961a54dd041a33c6dce13579e38fc104ba45566020bbb3b089a421a88aedc0377b10f62be610b56eb7484c22a6ead95635e4d0a094d6351bb
+    file: jruby-bin-9.2.16.0.zip
+  - signature: cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e
+    file: jruby-dist-9.2.16.0-bin.tar.gz
+  - signature: 0bc7315120a0737961a54dd041a33c6dce13579e38fc104ba45566020bbb3b089a421a88aedc0377b10f62be610b56eb7484c22a6ead95635e4d0a094d6351bb
+    file: jruby-dist-9.2.16.0-bin.zip

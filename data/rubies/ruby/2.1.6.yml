@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.1.6
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: e1a8e6c6bfbb09bb7f8d6be8f508e4a1
+    file: ruby-2.1.6.tar.bz2
+  - signature: 6e5564364be085c45576787b48eeb75f
+    file: ruby-2.1.6.tar.gz
+  - signature: ec6f10ca331ce947802ede86259513a8
+    file: ruby-2.1.6.tar.xz
+  - signature: 1f2a502edb3712d4a3fecd81dbbbbdcf
+    file: ruby-2.1.6.zip
+  sha1:
+  - signature: 380c3a5fa508fdaa2b227dbc00c56f703fd271d4
+    file: ruby-2.1.6.tar.bz2
+  - signature: 426289b6647ce35ad101091825b6e7e5fce207f3
+    file: ruby-2.1.6.tar.gz
+  - signature: e429644f27c243474268bf548e6fa95d05579aaf
+    file: ruby-2.1.6.tar.xz
+  - signature: e79a033ab847e0d67940e31bac0debf197fad615
+    file: ruby-2.1.6.zip
+  sha256:
+  - signature: 7b5233be35a4a7fbd64923e42efb70b7bebd455d9d6f9d4001b3b3a6e0aa6ce9
+    file: ruby-2.1.6.tar.bz2
+  - signature: 1e1362ae7427c91fa53dc9c05aee4ee200e2d7d8970a891c5bd76bee28d28be4
+    file: ruby-2.1.6.tar.gz
+  - signature: 137b27bffefd795fd97c288fff539d135f42320f8a1afddde99a34e1fbe7314e
+    file: ruby-2.1.6.tar.xz
+  - signature: ecbc4b97cc78e96e01375b961936133279db806044fd4d23771136dae4c1056d
+    file: ruby-2.1.6.zip
+  sha512:
+  - signature: 75d58120b5f387bcadbf6d19e85624f78c74f81b9018baef39207214673f7ebc0700ab31145acd88b4071c896ba8e1302a29c90955bcf5f8c863634125022aa6
+    file: ruby-2.1.6.tar.bz2
+  - signature: 6563d8f39623ed5ba227725c54e630886412938bdf7c4cf03337d6c245af58d92274a098ea0e03bfd0e94970f4ee82909c366ae81db4b9317c10b92167bfc46d
+    file: ruby-2.1.6.tar.gz
+  - signature: 0cf91fe7ae53a3f9c034fa5996eeed91889b942b8e595e84be4e244adc30d79aa3f540cc6f657982715069dfb14af20786557689d9a8fe4bbfc66280e84dd6cf
+    file: ruby-2.1.6.tar.xz
+  - signature: d1450bd013dbaabf10d7097e9dcd8c3f027110c08693ee7c94c002ea96b7e6e171c951b8b1ca3971b7f89e05b15df00ec56a006f9393889ae7f8045e9b328fad
+    file: ruby-2.1.6.zip

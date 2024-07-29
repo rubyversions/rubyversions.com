@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 3.2.0-preview3
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 0ed16faae50403b4e2ba2e85ec2314a1
+    file: ruby-3.2.0-preview3.tar.gz
+  - signature: f391ae6794dfc3493653c12443ec459f
+    file: ruby-3.2.0-preview3.tar.xz
+  - signature: 0a24ce62f835a65657470531aa0ac6ad
+    file: ruby-3.2.0-preview3.zip
+  sha1:
+  - signature: dafca8116d36ceaa32482ab38359768de8c3ae5e
+    file: ruby-3.2.0-preview3.tar.gz
+  - signature: c94e2add05502cb5c39afffc995b7c8f000f7df0
+    file: ruby-3.2.0-preview3.tar.xz
+  - signature: 346c051c4be7ab8d0b551fd2ff8169785697db62
+    file: ruby-3.2.0-preview3.zip
+  sha256:
+  - signature: c041d1488e62730d3a10dbe7cf7a3b3e4268dc867ec20ec991e7d16146640487
+    file: ruby-3.2.0-preview3.tar.gz
+  - signature: d3f5619de544240d92a5d03aa289e71bd1103379622c523a0e80ed029a74b3bb
+    file: ruby-3.2.0-preview3.tar.xz
+  - signature: cf49aa70e7ebd8abebffd5e49cd3bd92e5b9f3782d587cc7ed88c98dd5f17069
+    file: ruby-3.2.0-preview3.zip
+  sha512:
+  - signature: 860634d95e4b9c48f18d38146dfbdc3c389666d45454248a4ccdfc3a5d3cd0c71c73533aabf359558117de9add1472af228d8eaec989c9336b1a3a6f03f1ae88
+    file: ruby-3.2.0-preview3.tar.gz
+  - signature: c1864e2e07c3711eaa17d0f85dfbcc6e0682b077782bb1c155315af45139ae66dc4567c73682d326975b0f472111eb0a70f949811cb54bed0b3a816ed6ac34df
+    file: ruby-3.2.0-preview3.tar.xz
+  - signature: 4f22b5ea91be17ef5f68cf0acb1e3a226dcc549ad71cc9b40e623220087c4065ca9bea942710f668e5c94ca0323da8d2ccd565f95a9085c1a0e38e9c0543b22f
+    file: ruby-3.2.0-preview3.zip

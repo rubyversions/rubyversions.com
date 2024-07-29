@@ -1,0 +1,25 @@
+---
+name: truffleruby
+version: 20.2.0
+website: https://www.graalvm.org/ruby/
+checksums:
+  md5:
+  - signature: e9859decb24829f9a189d88b3c2e9b79
+    file: truffleruby-20.2.0-linux-amd64.tar.gz
+  - signature: 49e7ccf8f9e60d6c59b3b07b854466cf
+    file: truffleruby-20.2.0-macos-amd64.tar.gz
+  sha1:
+  - signature: 2215c1bca88a46ee8047e419c47cb45f7b753150
+    file: truffleruby-20.2.0-linux-amd64.tar.gz
+  - signature: 0f05579fd2a79935192fa2e562eee6d7a7a15c48
+    file: truffleruby-20.2.0-macos-amd64.tar.gz
+  sha256:
+  - signature: 324e22f510b217c3649d125abda1690b15df474a026efa76e6d5d3e35a771248
+    file: truffleruby-20.2.0-linux-amd64.tar.gz
+  - signature: ac1e6867e357a44d0bb72b0bb44ea50c3900b0574e81e6e48d2317b6b45a6ffd
+    file: truffleruby-20.2.0-macos-amd64.tar.gz
+  sha512:
+  - signature: a37eaf8475364b74d948979ac13dc6e6423bf11949ad1d0f2925f78a4495e80de9767001ccdb777c8cfd7f545839fad4d842522620c3acad179404bc4ce6752c
+    file: truffleruby-20.2.0-linux-amd64.tar.gz
+  - signature: 964c1e02cc53e1646060334a9911771e679a8344d811a0f77d5cae3529dfefff259c45505ac84b7debb958514cd5d2276ffd435802085494e0229dd140ce8f00
+    file: truffleruby-20.2.0-macos-amd64.tar.gz

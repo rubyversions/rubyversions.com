@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.7.7
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 63c55e75150251d3ba092b662138e4af
+    file: ruby-2.7.7.tar.bz2
+  - signature: 5313ecc71f8a7cd92920241e7d314b65
+    file: ruby-2.7.7.tar.gz
+  - signature: 6649e53b400bbe5eca09285a1a8dbdb1
+    file: ruby-2.7.7.tar.xz
+  - signature: c7bd2c55361ec6868b90102a9db41eef
+    file: ruby-2.7.7.zip
+  sha1:
+  - signature: dfcd86b459a9d4bbdf2d4eb82ad3476cb9820892
+    file: ruby-2.7.7.tar.bz2
+  - signature: a038ab04e9d6dff7f9e7187b65497b29d4400597
+    file: ruby-2.7.7.tar.gz
+  - signature: 28e2b97728bf89f64a1b787821660d5412657057
+    file: ruby-2.7.7.tar.xz
+  - signature: bf41b294f428a4f8a38894f8fa613dd6f889c317
+    file: ruby-2.7.7.zip
+  sha256:
+  - signature: cf800820c9e69cdd31a8cdab920391f74ed935db2397a905afabd48961913658
+    file: ruby-2.7.7.tar.bz2
+  - signature: e10127db691d7ff36402cfe88f418c8d025a3f1eea92044b162dd72f0b8c7b90
+    file: ruby-2.7.7.tar.gz
+  - signature: b38dff2e1f8ce6e5b7d433f8758752987a6b2adfd9bc7571dbc42ea5d04e3e4c
+    file: ruby-2.7.7.tar.xz
+  - signature: 7b48a8411bb79a06e9edbbb7380bd82527697b7d8f62840b985111003317bae0
+    file: ruby-2.7.7.zip
+  sha512:
+  - signature: 24cc772ac1b56d3bb423f1b33716f221bf534f3717a506bf8235a698f8a454db7d79d94ae9a84067153c2f737b3f8f6085f34e36cc04be0d75ae2fdd57718870
+    file: ruby-2.7.7.tar.bz2
+  - signature: 7e6259f0e7a5687d12fded914dcb93e283e956022be40ef8fc6a27f66be14e057d8101b05c7b042b43fc24e3b5c4092d1675917a814d74b08adb63a3388baed2
+    file: ruby-2.7.7.tar.gz
+  - signature: a19be3f0dfce040fe79f439e606f179d6750d2cc6e7b64fd65933edd487f5995573f7d0730beec9d3edadf942f8e9216f01ab3fff189d6cbe9d46a9add3e2683
+    file: ruby-2.7.7.tar.xz
+  - signature: 90dabc0fcedc25e3e46d5e9f2dff01c56e142c2e71b95c4c5f4da056f1e47cb320ef8b949282fd9594869e91cd76eab27ad70061be6c26b0d0d8837ae0fb8309
+    file: ruby-2.7.7.zip

@@ -1,0 +1,17 @@
+---
+name: rubinius
+version: '3.26'
+website: https://github.com/rubinius
+checksums:
+  md5:
+  - signature: f96b3b7679a7279dce5f23faa313906d
+    file: rubinius-3.26.tar.bz2
+  sha1:
+  - signature: ffeb0336fbdf4863182ef843629ed25b8953f5ee
+    file: rubinius-3.26.tar.bz2
+  sha256:
+  - signature: 10341c880eef73dda89cf8bcf5ae066b04683e40a3b1721d4d2733f32778819a
+    file: rubinius-3.26.tar.bz2
+  sha512:
+  - signature: 792defa2f409314b461f20a7c0c27245796acf9fb883786c365849dc74c87a352d99b9ebcb8c665cf55d605db548d8e786d4b07b1831e1dc7ef8b35eba3a0968
+    file: rubinius-3.26.tar.bz2

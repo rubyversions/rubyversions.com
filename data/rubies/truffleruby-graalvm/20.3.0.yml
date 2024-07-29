@@ -1,0 +1,25 @@
+---
+name: truffleruby-graalvm
+version: 20.3.0
+website: https://www.graalvm.org/ruby
+checksums:
+  md5:
+  - signature: 9af6fddca6c23493452908e6fd3b1a85
+    file: graalvm-ce-java8-linux-amd64-20.3.0.tar.gz
+  - signature: c4a5d73b1b53a6f75470f8d7388b4fee
+    file: graalvm-ce-java8-darwin-amd64-20.3.0.tar.gz
+  sha1:
+  - signature: b379053f299700f6198eba4d9eefa2a69962c68f
+    file: graalvm-ce-java8-linux-amd64-20.3.0.tar.gz
+  - signature: 881c0945767719ab3675a476b1a02936e3ec56fc
+    file: graalvm-ce-java8-darwin-amd64-20.3.0.tar.gz
+  sha256:
+  - signature: 455cadf810780161b74da9e23b529426398ce40843603cacbc11edbd2310aba4
+    file: graalvm-ce-java8-linux-amd64-20.3.0.tar.gz
+  - signature: 01e84c44032f8932ed04b2b829e0454973145bf55ddeeeed0ce71220c2213ae7
+    file: graalvm-ce-java8-darwin-amd64-20.3.0.tar.gz
+  sha512:
+  - signature: f36aa03a0f4d089b0d06eeaef300526047e196fdcce64b5f1cb6f8582025890396ddd39901f4dc46b6cb8105022d52969f2e824b65c5319ed2ab3836a2e4e891
+    file: graalvm-ce-java8-linux-amd64-20.3.0.tar.gz
+  - signature: e0f30a0f2e326af20c8b31f28d91b5a5f9af6280272a7f7d6d6eac4dd09b9a4d9b630a78b9b28719cf3a925d2532a361a962e0952911d9cfc5f9b477f6edbc89
+    file: graalvm-ce-java8-darwin-amd64-20.3.0.tar.gz

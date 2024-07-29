@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.0.0-p481
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: ea406a8d415a1a5d8365596d4288f3da
+    file: ruby-2.0.0-p481.tar.bz2
+  - signature: 3913e0ad6cc572b7358e4c6a8c4b2551
+    file: ruby-2.0.0-p481.tar.gz
+  - signature: 1cdf06d1a58f3103e9ed7e072d680b19
+    file: ruby-2.0.0-p481.zip
+  sha1:
+  - signature: '08f0cedbaf3bc45b0681973aa7b19aa3be2e1184'
+    file: ruby-2.0.0-p481.tar.bz2
+  - signature: dded7b7349d59feb83d4f774b2ddec23eeab7978
+    file: ruby-2.0.0-p481.tar.gz
+  - signature: 9fc6b7dd7631751d087704b94bfb5847fe095b92
+    file: ruby-2.0.0-p481.zip
+  sha256:
+  - signature: 0762dad7e96d8091bdf33b3e3176c2066fbf3dc09dfe85fbf40e74e83c63d8e2
+    file: ruby-2.0.0-p481.tar.bz2
+  - signature: 00dd3d72435eb77f2bd94537c1738e5219ca42b6d68df3d4f20c183f4bd12d0f
+    file: ruby-2.0.0-p481.tar.gz
+  - signature: 7457cdfac36cefcb0721b0520371939926fa755759631c90dd91e64e986eb23d
+    file: ruby-2.0.0-p481.zip
+  sha512:
+  - signature: 23d662b7cdc92f06161ea648505c156c7e88e86b226baa03fa3ec7c2177e052b0c9ccb95479873dc2ddd3642f58bd7b874fdce95b54d3212db57c3645c67a0de
+    file: ruby-2.0.0-p481.tar.bz2
+  - signature: acb974b46a9b633b604818388fb690a69e725ff25295289db3f259f30182b2c5d193495d07cbbf07f6ab1d8b6aef5c64873ee41a2fc6df152186838a19de60ad
+    file: ruby-2.0.0-p481.tar.gz
+  - signature: 0a59a1f3b26d51dce5b59df318b0a45006826891758945d609c5a2b85c1dacea487f2a1c914f8311aecb4272d04d408fb262cc05fe389834d8c056beaf81f733
+    file: ruby-2.0.0-p481.zip

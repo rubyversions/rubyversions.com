@@ -1,0 +1,4 @@
+---
+name: truffleruby-graalvm
+stable:
+- 24.0.2

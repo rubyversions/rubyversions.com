@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.1.5
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: a7c3e5fec47eff23091b566e9e1dac1b
+    file: ruby-2.1.5.tar.bz2
+  - signature: df4c1b23f624a50513c7a78cb51a13dc
+    file: ruby-2.1.5.tar.gz
+  - signature: 810cd05eb03c00f89b0b03b10e9a3606
+    file: ruby-2.1.5.zip
+  sha1:
+  - signature: d822e022bb8875724852f049f499f101d24a7fe5
+    file: ruby-2.1.5.tar.bz2
+  - signature: 9c0a238bd7839a4b51871641945a3da90997b8c2
+    file: ruby-2.1.5.tar.gz
+  - signature: f988c48004ace1a82884e90c378f813d4dfa5395
+    file: ruby-2.1.5.zip
+  sha256:
+  - signature: 0241b40f1c731cb177994a50b854fb7f18d4ad04dcefc18acc60af73046fb0a9
+    file: ruby-2.1.5.tar.bz2
+  - signature: 4305cc6ceb094df55210d83548dcbeb5117d74eea25196a9b14fa268d354b100
+    file: ruby-2.1.5.tar.gz
+  - signature: 69c517a6d3ea65264455a9316719ffdec49cf6a613a24fd89b3f6da7146a8aa7
+    file: ruby-2.1.5.zip
+  sha512:
+  - signature: d4b1e3c2b6a0dc79846cce056043c48a2a2a97599c76e9a07af21a77fd10e04c8a34f3a60b6975181bff17b2c452af874fa073ad029549f3203e59095ab70196
+    file: ruby-2.1.5.tar.bz2
+  - signature: a7da8dc755e5c013f42269d5e376906947239b41ece189294d4355494a0225590ca73b85261ddd60292934a8c432231c2308ecfa137ed9e347e68a2c1fc866c8
+    file: ruby-2.1.5.tar.gz
+  - signature: a55cf5970203904e7bc8cef2b6fbf7b8d5067a160289a1a49d13c4dfef8c95002bcdf697f5d04d420ef663efad5ee80d5a9e4e7445c4db9a02f9cbc9e4b8444e
+    file: ruby-2.1.5.zip

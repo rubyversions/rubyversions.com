@@ -1,0 +1,25 @@
+---
+name: truffleruby
+version: 21.1.0
+website: https://www.graalvm.org/ruby/
+checksums:
+  md5:
+  - signature: 065bfcc48f6925410e0da21e16428b64
+    file: truffleruby-21.1.0-linux-amd64.tar.gz
+  - signature: 325f6854c10d8a3a114c80da582c469f
+    file: truffleruby-21.1.0-macos-amd64.tar.gz
+  sha1:
+  - signature: 3af6410727e5c4b2c58a606d87fe45c7fecc70a2
+    file: truffleruby-21.1.0-linux-amd64.tar.gz
+  - signature: 133873801fd1eb99222f92452fd7949dd98f856b
+    file: truffleruby-21.1.0-macos-amd64.tar.gz
+  sha256:
+  - signature: e3ed5bffb8af040d174817b267581a9dfa7f18a7dc79d1c5e7a6a4670ad318fb
+    file: truffleruby-21.1.0-linux-amd64.tar.gz
+  - signature: e2ada5a6c9dd6dcac6e1f1f04f290283182c3cf985ba9b599350b1f98f72c0d7
+    file: truffleruby-21.1.0-macos-amd64.tar.gz
+  sha512:
+  - signature: 010e9fb78cab12486641780392be0f284da08dfd955f3a0d1ef72adb52e1c9024b54dc880173645aea2af680b3670a6bb01409198b757239edda4cd9bf2b1e90
+    file: truffleruby-21.1.0-linux-amd64.tar.gz
+  - signature: 96ef8481faef1bfa7f01bb4d396818ef6f0943d19c6a23dedb68f8346740b72bf06efc707bdd29158cf991cc7073c97f429a07b02c2a48050512b46369850058
+    file: truffleruby-21.1.0-macos-amd64.tar.gz

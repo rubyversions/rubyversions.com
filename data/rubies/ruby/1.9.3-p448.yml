@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.9.3-p448
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: aa710d386e5903f78f0231868255e6af
+    file: ruby-1.9.3-p448.tar.bz2
+  - signature: a893cff26bcf351b8975ebf2a63b1023
+    file: ruby-1.9.3-p448.tar.gz
+  - signature: bb3b1108847abaab312c024f3c0bc6c3
+    file: ruby-1.9.3-p448.zip
+  sha1:
+  - signature: 4bd9140bd4760409f771d4dd55138c22d3ff2995
+    file: ruby-1.9.3-p448.tar.bz2
+  - signature: c7f736e3bc1ca1e6619a9121837dd0840aad77ce
+    file: ruby-1.9.3-p448.tar.gz
+  - signature: b202d9735b949649163c180bdd27281237d7495b
+    file: ruby-1.9.3-p448.zip
+  sha256:
+  - signature: a7372230357bfff8e4525fb8019046da521561fe66b02c25d8efc10c9877bc91
+    file: ruby-1.9.3-p448.tar.bz2
+  - signature: 2f35e186543a03bec5e603296d6d8828b94ca58bab049b67b1ceb61d381bc8a7
+    file: ruby-1.9.3-p448.tar.gz
+  - signature: d9f778d08a4c888d19379b09f0c661b1d2af3c062e25b94f647c29350f064cba
+    file: ruby-1.9.3-p448.zip
+  sha512:
+  - signature: d973cf712a0002bf2eba5d19bf2191195ceecf56339026babba53b7b0cacbd8264b8236be92bdb8e7e7fb26e2b8693f8c7c2aa098065ca172c56a602c5771461
+    file: ruby-1.9.3-p448.tar.bz2
+  - signature: ded9075c9728c417b9612c76f1c7c8fa622f18a03e14ea746a3f7e7645892be2c7044141361c2d1ca881db51a4d30d6207cbc739891e90e3108d9c32cfd75250
+    file: ruby-1.9.3-p448.tar.gz
+  - signature: 9c9dbad1e016fd8bc59d0cc790424bcc6e8c6f4b3f4991a5bece89e2fc4f6e5ff235791daed517d5cba2e6b4a5c8b21def036454daebd4ae96fa100625423e84
+    file: ruby-1.9.3-p448.zip

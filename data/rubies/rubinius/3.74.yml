@@ -1,0 +1,17 @@
+---
+name: rubinius
+version: '3.74'
+website: https://github.com/rubinius
+checksums:
+  md5:
+  - signature: 0044cdf12af5b8a0ddf90b3cfb6c4cc7
+    file: rubinius-3.74.tar.bz2
+  sha1:
+  - signature: e2f9c5b58738e119389ae46c6c3f79a1323d7be0
+    file: rubinius-3.74.tar.bz2
+  sha256:
+  - signature: 8dae2c4e4b2361cdeafb39035f8b1b1bfe6387104f43ae6026cae3234793b8e5
+    file: rubinius-3.74.tar.bz2
+  sha512:
+  - signature: edd8bdb2e0b98dfab02e7a7b1f049f6de3703559765d07477ae3613dff1293ca9ab090cb2d4eededb684f620fef26ddf43fff4eac929c3d2d1bb90043dc49367
+    file: rubinius-3.74.tar.bz2

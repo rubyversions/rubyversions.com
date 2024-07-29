@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.8.7-p174
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 88c45aaf627b4404e5e4273cb03ba2ee
+    file: ruby-1.8.7-p174.tar.bz2
+  - signature: 18dcdfef761a745ac7da45b61776afa5
+    file: ruby-1.8.7-p174.tar.gz
+  - signature: 238b4744fc96d8cdba639ac2070333c4
+    file: ruby-1.8.7-p174.zip
+  sha1:
+  - signature: 9e84b49ad545ad54b8e7dc3c227eaaefeb1041aa
+    file: ruby-1.8.7-p174.tar.bz2
+  - signature: f98f5e03121c9614defc6aa6da63ab265d5d6480
+    file: ruby-1.8.7-p174.tar.gz
+  - signature: d05c143fb74e55762996a90ec2f8585b5a932b64
+    file: ruby-1.8.7-p174.zip
+  sha256:
+  - signature: 203978b6db1cc77a79ff03d141d162f6f17d86c3574f76de9eae9d0c8cb920bc
+    file: ruby-1.8.7-p174.tar.bz2
+  - signature: da65d7d7c09ffc018fe5788338dc91ced08e0fb009a90c4bdeececfbd8c0fcc1
+    file: ruby-1.8.7-p174.tar.gz
+  - signature: 0b21024be3d77f13df938cbde5664d5aef3cf4cc168e331130e74980a4f9087d
+    file: ruby-1.8.7-p174.zip
+  sha512:
+  - signature: 183994aab4a75ca74676c20b850a63b365634c35d02378be006cf28def3efe33b7894720fa160d794086c3405b76344f7fff166e955d53a50274fe414c9181b1
+    file: ruby-1.8.7-p174.tar.bz2
+  - signature: 1e6087148122f9350ce210159d38144fa2701ec7938db38014c5e34755f4ac6fc645a55c4116e7112837ad121d4dbefc576d6c10bdf3be81bec6a675cb1fa1b3
+    file: ruby-1.8.7-p174.tar.gz
+  - signature: 3beca9a1ffa35457f209afeafa6ff4bf23382aacbbba07bef479deb0e9321a5a43ff8e574b326ba31d5cb776079e087c740d1810772c8cabaf36800c65af1e75
+    file: ruby-1.8.7-p174.zip

@@ -1,0 +1,57 @@
+---
+name: jruby
+version: 1.7.21
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: bc91594072032023d146f330764d3274
+    file: jruby-bin-1.7.21.tar.gz
+  - signature: 3eec18d61fd4bb3ff0e73dab0fa831ee
+    file: jruby-bin-1.7.21.zip
+  - signature: 23ea98620e18b225dd8460ffff570e35
+    file: jruby-src-1.7.21.tar.gz
+  - signature: be87a0306688006c08e914ea5d2730b5
+    file: jruby-src-1.7.21.zip
+  - signature: bc91594072032023d146f330764d3274
+    file: jruby-dist-1.7.21-bin.tar.gz
+  - signature: 3eec18d61fd4bb3ff0e73dab0fa831ee
+    file: jruby-dist-1.7.21-bin.zip
+  sha1:
+  - signature: 4955b69a913b22f96bd599eff2a133d8d1ed42c6
+    file: jruby-bin-1.7.21.tar.gz
+  - signature: cfd267a2897c038955be5fc8dce145e8e29c2482
+    file: jruby-bin-1.7.21.zip
+  - signature: 5d99f8185ba9c63e4cce3ce2d02124ac190bfca6
+    file: jruby-src-1.7.21.tar.gz
+  - signature: d1933794b24f6bebca942a6d87f332408d02229b
+    file: jruby-src-1.7.21.zip
+  - signature: 4955b69a913b22f96bd599eff2a133d8d1ed42c6
+    file: jruby-dist-1.7.21-bin.tar.gz
+  - signature: cfd267a2897c038955be5fc8dce145e8e29c2482
+    file: jruby-dist-1.7.21-bin.zip
+  sha256:
+  - signature: 9fe56ea173af451ef262faaee6fb90464002584dbacc2523147f809e9d3a1c8b
+    file: jruby-bin-1.7.21.tar.gz
+  - signature: ca7b3ffbf09bffdc96c91061f87e73de021fae85aaab93f9094fe0403a856b45
+    file: jruby-bin-1.7.21.zip
+  - signature: '05968bc7373cabf05a88b39b89b908776256731737d9d2c245a82b0686c116fd'
+    file: jruby-src-1.7.21.tar.gz
+  - signature: 94e61ef32ef81d52e49abb7e2bcb8a89b136d2ef552ef92434773c8b3b8a6ea0
+    file: jruby-src-1.7.21.zip
+  - signature: 9fe56ea173af451ef262faaee6fb90464002584dbacc2523147f809e9d3a1c8b
+    file: jruby-dist-1.7.21-bin.tar.gz
+  - signature: ca7b3ffbf09bffdc96c91061f87e73de021fae85aaab93f9094fe0403a856b45
+    file: jruby-dist-1.7.21-bin.zip
+  sha512:
+  - signature: 111883df12a60d06e9924d33057ba72094fcffd44f7e3954d6c6d2190f8e6442804e739cc525a9e75159251a8dc1cc487570792b1b4f5773f4d0082f0eb360d0
+    file: jruby-bin-1.7.21.tar.gz
+  - signature: d3a304e4ec5b123012bb974434b33bad2ae95e22a20b3df544d1f7823fda287ec7d96474f81c6e034517bcf800372c38c9d20e6b555e01b1e2b255a1c66f9915
+    file: jruby-bin-1.7.21.zip
+  - signature: af03b445351c7a131b5b34cb2624e6ff672ef4f989828caf481198b3f5fdb227e8e0392607ecf85d7912f2255a71537ff00ae9ba74026a4a040c664a6a0958a7
+    file: jruby-src-1.7.21.tar.gz
+  - signature: e100060b0ea15f6bc34eb206adc8aa9d0562c4ebeb05e7bfc544587cf64b12480f862b89ab15e9e6bc6eb2868e8c9b4b3b71684cf7662d3a45a5551fb01f69d4
+    file: jruby-src-1.7.21.zip
+  - signature: 111883df12a60d06e9924d33057ba72094fcffd44f7e3954d6c6d2190f8e6442804e739cc525a9e75159251a8dc1cc487570792b1b4f5773f4d0082f0eb360d0
+    file: jruby-dist-1.7.21-bin.tar.gz
+  - signature: d3a304e4ec5b123012bb974434b33bad2ae95e22a20b3df544d1f7823fda287ec7d96474f81c6e034517bcf800372c38c9d20e6b555e01b1e2b255a1c66f9915
+    file: jruby-dist-1.7.21-bin.zip

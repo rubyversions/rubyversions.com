@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 3.0.0-preview1
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: c0288af621e8386c1e07a5c31e0df4f0
+    file: ruby-3.0.0-preview1.tar.bz2
+  - signature: 991df063b86a8f8412ca07f548579f39
+    file: ruby-3.0.0-preview1.tar.gz
+  - signature: bdc95582c402908bff35592c5fea6e99
+    file: ruby-3.0.0-preview1.tar.xz
+  - signature: b98dad465bf9d5d3d86ec1bd3ea89e8e
+    file: ruby-3.0.0-preview1.zip
+  sha1:
+  - signature: '032697f3ace0a697cd72f68bac0032c31a8328d4'
+    file: ruby-3.0.0-preview1.tar.bz2
+  - signature: 2842d2af2568d74c8d4071f5f536889a6b149202
+    file: ruby-3.0.0-preview1.tar.gz
+  - signature: 91d9fbe87504924148deeec90199d6ff4d7dcf56
+    file: ruby-3.0.0-preview1.tar.xz
+  - signature: 4b5b61066373daf0a947d3fafe2645788504a164
+    file: ruby-3.0.0-preview1.zip
+  sha256:
+  - signature: 013bdc6e859d76d67a6fcd990d401ed57e6e25896bab96d1d0648a877f556dbb
+    file: ruby-3.0.0-preview1.tar.bz2
+  - signature: ce8bd7534e7ec2a870b24d2145ea20e9bbe5b2d76b7dfa1102dbee5785253105
+    file: ruby-3.0.0-preview1.tar.gz
+  - signature: aa7cce0c99f4ea2145fef9b78d74a44857754396790cd23bad75d759811e7a2a
+    file: ruby-3.0.0-preview1.tar.xz
+  - signature: a39a48ed9a8ca2c83d65d225a1bb3db331c6587a77ba156c20e630c1b4bfc23b
+    file: ruby-3.0.0-preview1.zip
+  sha512:
+  - signature: 3a6a6458d9c5f06555ab8705160f6b071f4dbe9d2a91cd7848852633657b495c480d74e4b2ff2cebddda556118d26bbb271160c989bc970bb1b5cb234e868d2f
+    file: ruby-3.0.0-preview1.tar.bz2
+  - signature: b94892951f842a1538f4b99022606ac2c0b5031f1ede7eef3833a8caa9ed63e9b22868509173bfefb406f263c65211db75597b152b61f49e5ba2a875fce63a27
+    file: ruby-3.0.0-preview1.tar.gz
+  - signature: dca5dcc965c434371947c100864090e29e649e19ae24b8bb2e88a534ebd8220c5a086035a999b1e8b1cd5ec154a6985a8d8dfea56095d712d62aeea7a2054f7d
+    file: ruby-3.0.0-preview1.tar.xz
+  - signature: 10f6f28715a52093d7d9da82d1678147091b45e2f279e463626adea8efbf181485daa42565e5086057ffb45a097ffb8ff395c572b247b6b5da27d85933cf58a8
+    file: ruby-3.0.0-preview1.zip

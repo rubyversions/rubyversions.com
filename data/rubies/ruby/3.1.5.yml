@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 3.1.5
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: ce1e92ddb1230fa2d4f4367882542555
+    file: ruby-3.1.5.tar.gz
+  - signature: 5e87a3801351e120c0c728041e208278
+    file: ruby-3.1.5.tar.xz
+  - signature: 67c1bcfc2a22efcd2603bee7b6bd0ca8
+    file: ruby-3.1.5.zip
+  sha1:
+  - signature: e3387c8fa2b6faf20beade2239ebdfc701ee6268
+    file: ruby-3.1.5.tar.gz
+  - signature: 807bf2b261cf71e7fe58641a6b5dac61fdeb05ea
+    file: ruby-3.1.5.tar.xz
+  - signature: 83c6b2f26a35a1b23fef091e6db5c60ad0f52bf9
+    file: ruby-3.1.5.zip
+  sha256:
+  - signature: 3685c51eeee1352c31ea039706d71976f53d00ab6d77312de6aa1abaf5cda2c5
+    file: ruby-3.1.5.tar.gz
+  - signature: f9375a45bdf1cc41298558e7ac6c367f7b6cdcccf7196618b21f0886ff583b91
+    file: ruby-3.1.5.tar.xz
+  - signature: e5eefbd95844b0322f6b2650cdef4d884d31c08856df7362375d26360cca9ba4
+    file: ruby-3.1.5.zip
+  sha512:
+  - signature: 23661cb1b61013d912b7433f8707bbcd723391694d91f413747c71428e74f8c7385c1304de7d08b70c9fa3bd649e4eb5e9acb472d89dc2ad5678cc54855a24ae
+    file: ruby-3.1.5.tar.gz
+  - signature: a9883f4d074825bb1f54ef3429a9a71341274bd2de1aa8ea32bce19b6b9c1bac5e5dc4c34a92b8e7caa73ba71d7ed7c546a6fec6f1fd3d8986974dce214f6d49
+    file: ruby-3.1.5.tar.xz
+  - signature: 390e6f99b101aa80de924532bfb0b9fc29702b1e14b92e12cc596e9c76f9a2e52ba0e72eb95accb4bac16d5d10d81900a2e8afba80aa514ef870f52cfd50b4fd
+    file: ruby-3.1.5.zip

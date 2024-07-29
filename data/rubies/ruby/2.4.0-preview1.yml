@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.4.0-preview1
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 64b8983b5f53d053906e394f734aa296
+    file: ruby-2.4.0-preview1.tar.bz2
+  - signature: 4fad029d76e606a752634b42e32a70ce
+    file: ruby-2.4.0-preview1.tar.gz
+  - signature: c009e9ace25592e3c3547522dae7272b
+    file: ruby-2.4.0-preview1.tar.xz
+  - signature: afd4c43bd5cedcd88c19b6c14d83e122
+    file: ruby-2.4.0-preview1.zip
+  sha1:
+  - signature: 7dcc42548d0724d83b6589ab98f34282845d7bcd
+    file: ruby-2.4.0-preview1.tar.bz2
+  - signature: 1003a1e57547d81f4bb979c0f40f242afc284cd5
+    file: ruby-2.4.0-preview1.tar.gz
+  - signature: bc33085277266f5a09a143bf6817affcb77f8e7f
+    file: ruby-2.4.0-preview1.tar.xz
+  - signature: 25c16ee91bbcb0224f80e20d938f5c08832973f7
+    file: ruby-2.4.0-preview1.zip
+  sha256:
+  - signature: 17570f0b84215ca82252f10c167ee50bc075383c018420c6b2601ae1cade0649
+    file: ruby-2.4.0-preview1.tar.bz2
+  - signature: 80d02f49f40e7ce07b70bee7efda751b0595a349a017306e9fe8caad5da13e64
+    file: ruby-2.4.0-preview1.tar.gz
+  - signature: 62942c7300727469fe3d2b43e5a5c772d4836cf624a1d644bdece2afaca472c8
+    file: ruby-2.4.0-preview1.tar.xz
+  - signature: fd588aea1558b1171f87a3dd342ee207b8995a2c0a8241d7aa15bcfa16036854
+    file: ruby-2.4.0-preview1.zip
+  sha512:
+  - signature: c9873e8686eb54dbde61d6e23cd5197beebccd6cb31fd12c82763ebe1fde17095d7514d9d93c2c82b238032c98691df5479dc2d666a8a590e0fc54450ec29cb5
+    file: ruby-2.4.0-preview1.tar.bz2
+  - signature: 4b603ab4ff9ea7e8bb8053aa4b638839d534241466d7f0e4d5bca3f2ea416694c2ea391790f1ffdc07fa538918d27707621741eb0ddc7bd00eb9d7628622787a
+    file: ruby-2.4.0-preview1.tar.gz
+  - signature: dfc2c6642d49fa95383817a6dc82c416b3218ddfdaf882d6d2e5a7da22d0a5ac142e516a57aa96214070f3c7551d275044233ac052c82d67189b01c39847aad4
+    file: ruby-2.4.0-preview1.tar.xz
+  - signature: f2fff35ff9157a4b31177b3d6b91bdaad04c22b3c626c3a5e5ec9a31b103f9607b31c909ef27880065cfdbcfa5d6901a6db89d22e0c645666d069c5b6dd1818b
+    file: ruby-2.4.0-preview1.zip

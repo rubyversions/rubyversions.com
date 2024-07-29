@@ -1,0 +1,41 @@
+---
+name: truffleruby
+version: 23.1.2
+website: https://www.graalvm.org/ruby/
+checksums:
+  md5:
+  - signature: e3e5b01b291d7fea61be2be842c7e8dc
+    file: truffleruby-23.1.2-linux-amd64.tar.gz
+  - signature: 8fe26f643fa81eec6de3bde7024c858a
+    file: truffleruby-23.1.2-linux-aarch64.tar.gz
+  - signature: 83bc41bf699fa847df7e60412bee2823
+    file: truffleruby-23.1.2-macos-amd64.tar.gz
+  - signature: 7dbd2e182cfec0cf2d2e37784721903f
+    file: truffleruby-23.1.2-macos-aarch64.tar.gz
+  sha1:
+  - signature: 0de62540270c88cc7223c3cc745ea7ee1737f98e
+    file: truffleruby-23.1.2-linux-amd64.tar.gz
+  - signature: c0f43f6f6738fa6304c8239607411daebcaeaa9a
+    file: truffleruby-23.1.2-linux-aarch64.tar.gz
+  - signature: f0fed1f050e21964d0fbbfe208206c8c5e207368
+    file: truffleruby-23.1.2-macos-amd64.tar.gz
+  - signature: f5e52388ff04a6d7b0b50e5424f9d93e25869d0f
+    file: truffleruby-23.1.2-macos-aarch64.tar.gz
+  sha256:
+  - signature: 0bb0b7ebfd58c4beb77988cb1ab9fdb2952bd92924e3fa1d130748cde9478ae2
+    file: truffleruby-23.1.2-linux-amd64.tar.gz
+  - signature: 9cd0dfe37fbb879b03230f131b64bc971db6edf777a9c64c378feac278debc6b
+    file: truffleruby-23.1.2-linux-aarch64.tar.gz
+  - signature: f68e9dfec5655f06142e5cc74f311803e77efb3167f373c0df8fd8f847e28988
+    file: truffleruby-23.1.2-macos-amd64.tar.gz
+  - signature: c8960ddbd749fd1e406d26d80c5f320c8857203c56782f6c4a3feab2576c81ab
+    file: truffleruby-23.1.2-macos-aarch64.tar.gz
+  sha512:
+  - signature: 6307fd71fb1431fb12346d1f13dee4b3afe53947e8a9c1f3e3aa0baae5f9fc9e1496ede0a7d86b169d912ffef9625af998b4e698dc57a2a649140150e3fae28a
+    file: truffleruby-23.1.2-linux-amd64.tar.gz
+  - signature: 0f0c5e4aa4e9fbc9b9f91d2b3d3fbfe26e78c5bc5b369fc78dd54775a7582b8c084a64f02848058bec79387fd80b09a5a5594ecfb268635fe76e1f9d957c2e92
+    file: truffleruby-23.1.2-linux-aarch64.tar.gz
+  - signature: 648401a73b29c28862a1fa077c2e1bf8fff65015c8bc690ff883a00a3dfd99389ffdb71f39ad85a4f16c531470f4cc891ae51ec927a426b0fa05fa85c9c6a2f9
+    file: truffleruby-23.1.2-macos-amd64.tar.gz
+  - signature: 4ec88684c09aacfa1d8bfed9a17243579ededacecd869e98e12841710bae29ed6e5f080611e53fc217a853f730bb2a9cb3d47ef15443eb8a1ad76a120118c8a5
+    file: truffleruby-23.1.2-macos-aarch64.tar.gz

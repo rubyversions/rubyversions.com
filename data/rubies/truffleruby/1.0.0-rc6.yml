@@ -1,0 +1,25 @@
+---
+name: truffleruby
+version: 1.0.0-rc6
+website: https://www.graalvm.org/ruby/
+checksums:
+  md5:
+  - signature: 7f394a8c7fe356b7bd36683c57f74ebd
+    file: truffleruby-1.0.0-rc6-linux-amd64.tar.gz
+  - signature: f033329d03f1f846d25728c2af9d7524
+    file: truffleruby-1.0.0-rc6-macos-amd64.tar.gz
+  sha1:
+  - signature: 7b0cd263432aa5d4c04a213a9f5c3599ee7a4ab6
+    file: truffleruby-1.0.0-rc6-linux-amd64.tar.gz
+  - signature: 852aab1eeaeccd2994b6eaf50a0404c927d6c8f5
+    file: truffleruby-1.0.0-rc6-macos-amd64.tar.gz
+  sha256:
+  - signature: a2514b1f992d9359de86a7e4faa5c14ad6b418e88fd7cf6e67cd9b2fdb1ae85d
+    file: truffleruby-1.0.0-rc6-linux-amd64.tar.gz
+  - signature: de2af4e1115fa96245d143fa323234cc78cd6ab3e29d68cee4bb74064c97a124
+    file: truffleruby-1.0.0-rc6-macos-amd64.tar.gz
+  sha512:
+  - signature: 2597b375f590755b851d3b8cbad3eeab4c965eb02d0c944044f57e39f6c3db1e2f513e2aa55db789e4a885c697f81ce5c8bdbe9a7e44ee30fc09d234e44fb512
+    file: truffleruby-1.0.0-rc6-linux-amd64.tar.gz
+  - signature: 2eb177190de0408dfdaf30264132955d1db7783ddfb63880d97d5933f66c5662794c3bb6198edf230fbff348674203e61f7f5481e74ac875974467f2f128e939
+    file: truffleruby-1.0.0-rc6-macos-amd64.tar.gz

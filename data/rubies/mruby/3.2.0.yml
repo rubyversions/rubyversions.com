@@ -1,0 +1,25 @@
+---
+name: mruby
+version: 3.2.0
+website: https://mruby.org
+checksums:
+  md5:
+  - signature: fbb67cc8a1ecfb9cdc1307ec1c02b489
+    file: mruby-3.2.0.tar.gz
+  - signature: c4d4bae9cb886e6f5c7d19a6e0c6a7d5
+    file: mruby-3.2.0.zip
+  sha1:
+  - signature: b3c57a3308c33a14ef940834c7f6016573ff3c7c
+    file: mruby-3.2.0.tar.gz
+  - signature: cb65cc63c8363acc087f87483693f3bcc0aa5a46
+    file: mruby-3.2.0.zip
+  sha256:
+  - signature: 3c198e4a31d31fe8524013066fac84a67fe6cd6067d92c25a1c79089744cb608
+    file: mruby-3.2.0.tar.gz
+  - signature: 64a0dd8b65825f2e7cdac6699e818648dc73bfdfc68aa1bfd58417a35315e5cc
+    file: mruby-3.2.0.zip
+  sha512:
+  - signature: bb46fa0eda6507cabe775e3f9cceec6da64d5a96c20e704e7ada94f5b4906989553c363cfd85789c4adcb030a6cfd36b8a99d8247f32687c913bbe06edb9bbca
+    file: mruby-3.2.0.tar.gz
+  - signature: 0c459a4ce31363b672fbbb5e67ab76732d00873e24b9c7779a1e507e2cae262c2378f528ad2510e4d3937b3ade29097f0dc3ad81a8eaa16d1911d44b4f5c2e8a
+    file: mruby-3.2.0.zip

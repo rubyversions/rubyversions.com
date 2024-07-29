@@ -1,0 +1,41 @@
+---
+name: jruby
+version: 1.6.5.1
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: 246a7aa2b7d7e6e9e8a0c2e282cbcfd0
+    file: jruby-bin-1.6.5.1.tar.gz
+  - signature: 49754f426c4ae59ecbca2f50c3b0b328
+    file: jruby-bin-1.6.5.1.zip
+  - signature: dd51e6b04daacb077682e7102d194704
+    file: jruby-src-1.6.5.1.tar.gz
+  - signature: 9eb478dac4bacefec0501eff068ea01f
+    file: jruby-src-1.6.5.1.zip
+  sha1:
+  - signature: 67aea320036cf9700a6d8a9155738d38c41ce505
+    file: jruby-bin-1.6.5.1.tar.gz
+  - signature: d4ca26c67a343a050a0308440716c31691f93413
+    file: jruby-bin-1.6.5.1.zip
+  - signature: 8e1f6fbf609ed98ad848d3636aac1bcdcb63e3ff
+    file: jruby-src-1.6.5.1.tar.gz
+  - signature: 8cf02de1c10d102712b8b36c1fe2b784f0f166f7
+    file: jruby-src-1.6.5.1.zip
+  sha256:
+  - signature: 0d2751a1aca147a5b9c6ddeef395440207374611ef39bc538e9e829270d811c8
+    file: jruby-bin-1.6.5.1.tar.gz
+  - signature: 73f5687961a2dc265c401e68fcfab7d74281f7b19696b69128805dbb1cf431ee
+    file: jruby-bin-1.6.5.1.zip
+  - signature: 1126f29b888b5427c2d416042a6c010849ab1d29ee9be97e592caf6859921be5
+    file: jruby-src-1.6.5.1.tar.gz
+  - signature: aacce288fb129acf633eafd83b5b0e046fb0efb419bbb5c85bf54da9cc58574b
+    file: jruby-src-1.6.5.1.zip
+  sha512:
+  - signature: 39f02a84fe6d2b6d929c1df9e1f90fc66a01d00ddf56a3102b9e551841b4d5667242a6ac144e33423877430477c3985c921dbc4c82c88aac837f44fe1abc65c9
+    file: jruby-bin-1.6.5.1.tar.gz
+  - signature: 452a446d6c09abc45fbda86e368a18372bdf70028f526183d330c24a7a531c6efc12928b3a502dd2c734cab65999db3764dfa956bbc94dbe0ebd5d4b78fc7cce
+    file: jruby-bin-1.6.5.1.zip
+  - signature: f777e8c09e1f3e2be42a2043cf189496f826158769c0fd82a4bc6912fdbc63905905a4a32534adc156efe0c3cbb4e198077c61262fad0463b42515b8e2f96821
+    file: jruby-src-1.6.5.1.tar.gz
+  - signature: 615fe44bf9e4fff2f1985c439633dc03c450c0e2366c84918ee02805d6f5f06912a382822f200afdab068160607cecd202721e987f7abc0ee209714349999a3e
+    file: jruby-src-1.6.5.1.zip

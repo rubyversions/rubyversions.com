@@ -1,0 +1,41 @@
+---
+name: jruby
+version: 9.2.17.0
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: 382fb3d9d2982efd5396f1a42e3fa6a1
+    file: jruby-bin-9.2.17.0.tar.gz
+  - signature: 487e46c4e881dd81e1bbb02b80be96e4
+    file: jruby-bin-9.2.17.0.zip
+  - signature: 382fb3d9d2982efd5396f1a42e3fa6a1
+    file: jruby-dist-9.2.17.0-bin.tar.gz
+  - signature: 487e46c4e881dd81e1bbb02b80be96e4
+    file: jruby-dist-9.2.17.0-bin.zip
+  sha1:
+  - signature: 71932970f8ea6b9a1d226a3e833ec2b1bfb6fab3
+    file: jruby-bin-9.2.17.0.tar.gz
+  - signature: 79a94374bb8191a33a599437bfffbb9cee452cb6
+    file: jruby-bin-9.2.17.0.zip
+  - signature: 71932970f8ea6b9a1d226a3e833ec2b1bfb6fab3
+    file: jruby-dist-9.2.17.0-bin.tar.gz
+  - signature: 79a94374bb8191a33a599437bfffbb9cee452cb6
+    file: jruby-dist-9.2.17.0-bin.zip
+  sha256:
+  - signature: 7701d3537b3a606d2765ac6d5c40e675ddaa01d3cebad26a21a66e3aadd5c202
+    file: jruby-bin-9.2.17.0.tar.gz
+  - signature: 33353560417aab7705c3544dd73e36ce33ef843930044279b6c5ee502e2efe13
+    file: jruby-bin-9.2.17.0.zip
+  - signature: 7701d3537b3a606d2765ac6d5c40e675ddaa01d3cebad26a21a66e3aadd5c202
+    file: jruby-dist-9.2.17.0-bin.tar.gz
+  - signature: 33353560417aab7705c3544dd73e36ce33ef843930044279b6c5ee502e2efe13
+    file: jruby-dist-9.2.17.0-bin.zip
+  sha512:
+  - signature: e90ac1890a54a892b13adbbeab3cc5242889ff2a4b6cae535c0a3172072bda6ab01b960705ba608d6d7ebe9de5984d8384dbbb6399ab3b2e53a9e347e7849e1b
+    file: jruby-bin-9.2.17.0.tar.gz
+  - signature: c07f4edf6e49f8453e032650c0a110b09bb94fc73ff163df9a8f9502e2715a59c6afdb33f41b7e59419f7506c2fd94c82589e0171f70bfb2c560c56af4477364
+    file: jruby-bin-9.2.17.0.zip
+  - signature: e90ac1890a54a892b13adbbeab3cc5242889ff2a4b6cae535c0a3172072bda6ab01b960705ba608d6d7ebe9de5984d8384dbbb6399ab3b2e53a9e347e7849e1b
+    file: jruby-dist-9.2.17.0-bin.tar.gz
+  - signature: c07f4edf6e49f8453e032650c0a110b09bb94fc73ff163df9a8f9502e2715a59c6afdb33f41b7e59419f7506c2fd94c82589e0171f70bfb2c560c56af4477364
+    file: jruby-dist-9.2.17.0-bin.zip

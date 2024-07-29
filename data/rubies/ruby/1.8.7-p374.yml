@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.8.7-p374
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: b72a0bc5b824398537762e5272bbb8dc
+    file: ruby-1.8.7-p374.tar.gz
+  - signature: 83c92e2b57ea08f31187060098b2200b
+    file: ruby-1.8.7-p374.tar.bz2
+  - signature: 07b1b9032b616faeafb5ac1063494925
+    file: ruby-1.8.7-p374.zip
+  sha1:
+  - signature: 2fc15677e03b84695ea3a749ffe86e6719896cf0
+    file: ruby-1.8.7-p374.tar.gz
+  - signature: cf82b6cbeed8e389705aa6b66c2a8141626705c3
+    file: ruby-1.8.7-p374.tar.bz2
+  - signature: 01350c07cf5034ee089ab692e6ca94a5a33b6bcd
+    file: ruby-1.8.7-p374.zip
+  sha256:
+  - signature: 876eeeaaeeab10cbf4767833547d66d86d6717ef48fd3d89e27db8926a65276c
+    file: ruby-1.8.7-p374.tar.gz
+  - signature: b4e34703137f7bfb8761c4ea474f7438d6ccf440b3d35f39cc5e4d4e239c07e3
+    file: ruby-1.8.7-p374.tar.bz2
+  - signature: ed1fcc402d77814b277e2ef552c5f1e4ce3b6d1affacf5d6ba845ec0d4df67d0
+    file: ruby-1.8.7-p374.zip
+  sha512:
+  - signature: 85cab9082a96d78e0369f690b508db85ed5ed198480562d7c99804bd03aff2aa0da21c3b6c133c129f57b03edfd2160c43994f7d13cce13b62ca75f31984496b
+    file: ruby-1.8.7-p374.tar.gz
+  - signature: c6859aec9a796c71bb30c18236bd5548826655b08312181376b8dae4a006575f711065f15a002329c5e62c1e1ee44bb86723138abb3b658c8958920f13a5adea
+    file: ruby-1.8.7-p374.tar.bz2
+  - signature: 350b88c9bd3e8c9324ba329d4f1de512ff7153bdfcb5b9c1c26a52f8573fd8b4855fe510f7685f44a34b69a048903eec6367912bff4f273096320e410ef479fd
+    file: ruby-1.8.7-p374.zip

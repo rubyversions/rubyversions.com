@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.9.2-rc1
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 242dcfaed8359a6918941b55d0806bf0
+    file: ruby-1.9.2-rc1.tar.bz2
+  - signature: fdedd5b42ae89a9a46797823ad2d9acf
+    file: ruby-1.9.2-rc1.tar.gz
+  - signature: 3da59c5d3567f6e1f1697abbef71f507
+    file: ruby-1.9.2-rc1.zip
+  sha1:
+  - signature: 944e4f33ddf22b2f69b0721289800424fe05ec96
+    file: ruby-1.9.2-rc1.tar.bz2
+  - signature: '08d8edb14d3b162c12ed76133fd8e05c78ea4ee3'
+    file: ruby-1.9.2-rc1.tar.gz
+  - signature: 50aa48de61dd495497cb55f995303e95e1f6e15b
+    file: ruby-1.9.2-rc1.zip
+  sha256:
+  - signature: c2a680aa5472c8d04a71625afa2b0f75c030d3655a3063fe364cfda8b33c1480
+    file: ruby-1.9.2-rc1.tar.bz2
+  - signature: 3e90036728342ce8463be00d42d4a36de70dabed96216c5f8a26ec9ba4b29537
+    file: ruby-1.9.2-rc1.tar.gz
+  - signature: 4f593a3d0873cea8f371a7fc7484cad7bc03acac0ada1970cb9f83a89bc27997
+    file: ruby-1.9.2-rc1.zip
+  sha512:
+  - signature: 0c80c5822aa0d60f7816b5dd8ecf54dcd7e7b0f37aaddc2b0cc1ce7a352ddf932cf60d97b408827d9f1b0aeb109fa04ffd6ef597183b4163abb07942c8408901
+    file: ruby-1.9.2-rc1.tar.bz2
+  - signature: 10cdc2818b9cba0671d20b1614f4f95ee4e0aa26dc6bd09ddb8214d9ea1e22c7fe854c43a98adcb9a00dfc74d36aac35321605a3a1968accb0b830a08759044c
+    file: ruby-1.9.2-rc1.tar.gz
+  - signature: a7912aacd16a2aeebb1a06c16b50be9476f9c05ff3bcdf230018aead961239e29846d72b271a2bb6c359842e51ad3b7528d7cb1be08a3c3fb5d79682b5e28d6c
+    file: ruby-1.9.2-rc1.zip

@@ -1,0 +1,57 @@
+---
+name: jruby
+version: 9.2.6.0
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: dba182ac9943b726b609ca61747c1835
+    file: jruby-bin-9.2.6.0.tar.gz
+  - signature: 651c08bb02525f0e991e501a51650f9c
+    file: jruby-bin-9.2.6.0.zip
+  - signature: 36b9a58d173024fa11a7919611b1dd81
+    file: jruby-src-9.2.6.0.tar.gz
+  - signature: fde1993d97a35d159ee31f3ac73d22dc
+    file: jruby-src-9.2.6.0.zip
+  - signature: dba182ac9943b726b609ca61747c1835
+    file: jruby-dist-9.2.6.0-bin.tar.gz
+  - signature: 651c08bb02525f0e991e501a51650f9c
+    file: jruby-dist-9.2.6.0-bin.zip
+  sha1:
+  - signature: 3c13ec3966f6cc44966f3978c96325b9e56174f1
+    file: jruby-bin-9.2.6.0.tar.gz
+  - signature: 22ba7c85d991267b431a9404358e3e5e5ae0b840
+    file: jruby-bin-9.2.6.0.zip
+  - signature: e4f7fc475d6b3fae5673e70e9d8b4fee43a6fcea
+    file: jruby-src-9.2.6.0.tar.gz
+  - signature: 3ffafdb28bce9360b2f62a09fe39efecf8739b91
+    file: jruby-src-9.2.6.0.zip
+  - signature: 3c13ec3966f6cc44966f3978c96325b9e56174f1
+    file: jruby-dist-9.2.6.0-bin.tar.gz
+  - signature: 22ba7c85d991267b431a9404358e3e5e5ae0b840
+    file: jruby-dist-9.2.6.0-bin.zip
+  sha256:
+  - signature: 70a1ff0e17a98baa63ea92c91fd38ff1e55a2056e5d57ba0409c4543d29e0e3d
+    file: jruby-bin-9.2.6.0.tar.gz
+  - signature: f5a51f461a5cb0e788e2504ec8471ff6742fa8930f9fecd290e077d023c494c4
+    file: jruby-bin-9.2.6.0.zip
+  - signature: 2d07ce1723a600335a4cade390f37283497e8da8a9df3d7fa42c7f0c072128a1
+    file: jruby-src-9.2.6.0.tar.gz
+  - signature: '08f5f8acdc2c5863ce0781d808399a74a72a5433615fd109ede12680b378fe81'
+    file: jruby-src-9.2.6.0.zip
+  - signature: 70a1ff0e17a98baa63ea92c91fd38ff1e55a2056e5d57ba0409c4543d29e0e3d
+    file: jruby-dist-9.2.6.0-bin.tar.gz
+  - signature: f5a51f461a5cb0e788e2504ec8471ff6742fa8930f9fecd290e077d023c494c4
+    file: jruby-dist-9.2.6.0-bin.zip
+  sha512:
+  - signature: 20c7897da0d2b585616ea5848998fe8770517e24e16955797db2e5bff4622c348082628d304240a71a97e9551ef7aa63271cfb728eb5fb7e7d19bb48aff20d4c
+    file: jruby-bin-9.2.6.0.tar.gz
+  - signature: 2459f4ec9337e1993e7c27195e6a3fd6cc57de552ef1cc60e5d2429deaafd863163b3731d977ded5394c4b1ff704719fb6843196a20dd2e9fe1c861bebaf3fd5
+    file: jruby-bin-9.2.6.0.zip
+  - signature: e6af6f46e6519776903d1be619cb138f810033988dbb8f7f517aebb72514025b4af0086d5d56df487614ab5298c862be1580d1d27e735b5aed186ad51caa38eb
+    file: jruby-src-9.2.6.0.tar.gz
+  - signature: 695dc83e9e434769a104b3527ec41ead54bdc5e37eaf117ac89696302ad85721669b00162e481d63ef273564a9ac175633c19819a48f1e2a51d1c3a032c35325
+    file: jruby-src-9.2.6.0.zip
+  - signature: 20c7897da0d2b585616ea5848998fe8770517e24e16955797db2e5bff4622c348082628d304240a71a97e9551ef7aa63271cfb728eb5fb7e7d19bb48aff20d4c
+    file: jruby-dist-9.2.6.0-bin.tar.gz
+  - signature: 2459f4ec9337e1993e7c27195e6a3fd6cc57de552ef1cc60e5d2429deaafd863163b3731d977ded5394c4b1ff704719fb6843196a20dd2e9fe1c861bebaf3fd5
+    file: jruby-dist-9.2.6.0-bin.zip

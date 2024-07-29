@@ -1,0 +1,41 @@
+---
+name: jruby
+version: 1.2.0
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: 760a2d650b0d81f93610acc9732b86b5
+    file: jruby-bin-1.2.0.tar.gz
+  - signature: 5fc0ad28a766ea657460b0bab4295cdf
+    file: jruby-bin-1.2.0.zip
+  - signature: 10fbbc0477e19be4aeda04865984bed3
+    file: jruby-src-1.2.0.tar.gz
+  - signature: ea8b1626999caa94e5323de5c34ed3fa
+    file: jruby-src-1.2.0.zip
+  sha1:
+  - signature: 35042bde736f53ab4ba4db4722cf3bb7237b629c
+    file: jruby-bin-1.2.0.tar.gz
+  - signature: bef9d3d3d283288746922a4c3fa77bd313fd3332
+    file: jruby-bin-1.2.0.zip
+  - signature: 69f13b5ec216a7e615f4077730908217a6a9f1fc
+    file: jruby-src-1.2.0.tar.gz
+  - signature: da9c49e293c5b5dc5ba750c6376dc815767ea2ce
+    file: jruby-src-1.2.0.zip
+  sha256:
+  - signature: 19610cac603545049d66743e5a4b77314e4bb54a5ee5fb7d81fd6d0c97f5101d
+    file: jruby-bin-1.2.0.tar.gz
+  - signature: 0d19e9085e3e05f8b0a21fbe1bbf6aa47b0de7422301961ee569162279d8b2b1
+    file: jruby-bin-1.2.0.zip
+  - signature: 8bd4e007f4d132b15fe968d88f474c97b5058e8cdd1e674820363c2cdc5fb048
+    file: jruby-src-1.2.0.tar.gz
+  - signature: 3982051e6b715b5bc0c9bfd134871a6bee5d8cce66d62ab26a9dfd4d28306495
+    file: jruby-src-1.2.0.zip
+  sha512:
+  - signature: '05349d5176b7c9a913f3fb5817a46ded3dbc35ecd94ad222f32a59186a75ee547be3fd719553beb3c5e9f989528693e2e3dac7f1fda69ffc90319869688da0b7'
+    file: jruby-bin-1.2.0.tar.gz
+  - signature: dd9e0a3b164141eecc2218fd3ca515f46901017b82f796bf466c3ccbe8e36b27563363176f96cef9046e1a7052c6cb9bd9172c4987edad929997e381e16fe032
+    file: jruby-bin-1.2.0.zip
+  - signature: 820976632d6bbae696ad2fe45ba65e9ac280f00cdc6549d5a71e2a5957516012f3943fceb8955a090e55ce7cdd37d9e299d1fda2263fa53a46814d3b7b9e8590
+    file: jruby-src-1.2.0.tar.gz
+  - signature: ecf1ca66510fd95f16da1da8dd5704134334a3daa814c5f772da513e097cb09ffc1f5e00aced09979919e6c9867155b386c530b0afd07c056bd6cc0f01100e89
+    file: jruby-src-1.2.0.zip

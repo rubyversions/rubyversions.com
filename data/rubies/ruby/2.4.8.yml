@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.4.8
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 396d35f1a2d1deaf303f59cb5245d4ae
+    file: ruby-2.4.8.tar.bz2
+  - signature: 2411a233bcc3440a152e7802bf80ce0a
+    file: ruby-2.4.8.tar.gz
+  - signature: 8b3f59a290db29ea5bbd03d3501fd9eb
+    file: ruby-2.4.8.tar.xz
+  - signature: 91b0ef129d62102b73c19a46c2fc993d
+    file: ruby-2.4.8.zip
+  sha1:
+  - signature: 5f742a8df243fa4e216ff6f0c26cc8222a182459
+    file: ruby-2.4.8.tar.bz2
+  - signature: a13b0915b7fb3dd0fe1ed6a4e3640034038ba6c9
+    file: ruby-2.4.8.tar.gz
+  - signature: adf24e0b0ad1755067435f21baa8d142bcaff5a9
+    file: ruby-2.4.8.tar.xz
+  - signature: 756a206a5f91c1237432f693b157a6842039d760
+    file: ruby-2.4.8.zip
+  sha256:
+  - signature: e30eedd91386bec81489d2637522c9017aebba46f98e8b502f679df6b2f6a469
+    file: ruby-2.4.8.tar.bz2
+  - signature: 37f0d180afa56ec3e7a3669c6f1b6ee8a47a811261f0e1afa8f817c8b577bd68
+    file: ruby-2.4.8.tar.gz
+  - signature: a2a8f53ef14b891821dbbf67b081d7b9e223007a347000ff4a86a226a4708272
+    file: ruby-2.4.8.tar.xz
+  - signature: a84e1c946761b1ed947194b6248a50f9aee21ca412dcd6021973951fd846a035
+    file: ruby-2.4.8.zip
+  sha512:
+  - signature: 2d7e0f5ad766e2a12a1b53ff838e6bfe86244ffb7202196769c25e9df6f71f3ccdd8605e7ef35c53e54310bc82caf6b368ad5111dd0a3ad70a3aae1a7be93f08
+    file: ruby-2.4.8.tar.bz2
+  - signature: 4e5068b73356a9fa0bd2c8aaa261909039653c62dc363dd8b36c9c73b11b9c4e6ade752d7c67f1b38c00e27a4861f94ce696158bd210035ea0b417d0887a329b
+    file: ruby-2.4.8.tar.gz
+  - signature: 5f51a8312c23c1c2bfbb9c59efbd789492a4a7e4b1d4e7764db6eaaa542008e814b40817f10825e22c7fa8715fb9187be5d09b06128da211559b3601785937ea
+    file: ruby-2.4.8.tar.xz
+  - signature: dcf7dead5baed4ffbd68016581ef1162f78729db9b5a49501a04d68d768e9138faa6e293c91dd9203a9a28d406bb236dd633688f1e96a07906e37db273ac8846
+    file: ruby-2.4.8.zip

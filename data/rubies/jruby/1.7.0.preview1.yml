@@ -1,0 +1,41 @@
+---
+name: jruby
+version: 1.7.0.preview1
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: 7b9e5e1cd0d818d0199086d948f948b4
+    file: jruby-bin-1.7.0.preview1.tar.gz
+  - signature: dade2c0589312937b7cc7598d9424b4a
+    file: jruby-bin-1.7.0.preview1.zip
+  - signature: 8e7671b53cd059b7b618128a55839420
+    file: jruby-src-1.7.0.preview1.tar.gz
+  - signature: 73fc79c2c5fc3ffd5f69c1aaacdcedc1
+    file: jruby-src-1.7.0.preview1.zip
+  sha1:
+  - signature: 3961fe19de5d91e23471545710ee731872505cc2
+    file: jruby-bin-1.7.0.preview1.tar.gz
+  - signature: b9b3a06a01d974588d473d420ca523a64af2676d
+    file: jruby-bin-1.7.0.preview1.zip
+  - signature: 20b12383f3900ddd606401b8ea9113c01046ab14
+    file: jruby-src-1.7.0.preview1.tar.gz
+  - signature: 1d0e53afb63c0b3125964a7efb13c93f3cc89269
+    file: jruby-src-1.7.0.preview1.zip
+  sha256:
+  - signature: 155839462fcb8eaab6af49f406499722c8fb82d00127bc6ed4b55d06cb690caf
+    file: jruby-bin-1.7.0.preview1.tar.gz
+  - signature: c48e82b27ef8e6810e38304fa360fa54949dce393d841926d0e2c30a279e6153
+    file: jruby-bin-1.7.0.preview1.zip
+  - signature: 72be75334f0d4c1835160eb7b3207ff8c5defd095b3ba8ed0d42d23454bf8628
+    file: jruby-src-1.7.0.preview1.tar.gz
+  - signature: 46f27c193b3af423d35a4eb59068c940a3426dd07caee1cacfc396f49b807398
+    file: jruby-src-1.7.0.preview1.zip
+  sha512:
+  - signature: 85daad0c321bb7edffe34c59096047b7b941a1174d31654b57dd50b0edfdea3a2b87961867ae0748431ce602e444214d4fd283629a64134ef21d727ace392f15
+    file: jruby-bin-1.7.0.preview1.tar.gz
+  - signature: 433c55e07832aa7947c90d413ffa49e04f99acc035fddefd269ba836f875205f18b186c0092abb86ff2af846b27f4ebf926079caf2a73f26b053c4a89fcb8ec9
+    file: jruby-bin-1.7.0.preview1.zip
+  - signature: badf083d2473b6deb2fcf71fb2c42937137c6aca770cc1b2ec26daa9767f210f56bced20d15a7f4ec472a9a81d2af964b3666e649b3af391eeb0d55c39190e78
+    file: jruby-src-1.7.0.preview1.tar.gz
+  - signature: 3c5a94846a466f70bf10695d7b1b04f8a7ec8e4781dcd30f9ca734e3deb7015744465c429b231530eeb8bb7f208934fa7d54e253ce2d1e91264c7aec18a33da3
+    file: jruby-src-1.7.0.preview1.zip

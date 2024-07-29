@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.0.0-p0
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 895c1c581f8d28e8b3bb02472b2ccf6a
+    file: ruby-2.0.0-p0.tar.bz2
+  - signature: 50d307c4dc9297ae59952527be4e755d
+    file: ruby-2.0.0-p0.tar.gz
+  - signature: db5af5d6034646ad194cbdf6e50f49ee
+    file: ruby-2.0.0-p0.zip
+  sha1:
+  - signature: bd61b731d12ff4fd9d57f5d47bd2f9a2c4c007bf
+    file: ruby-2.0.0-p0.tar.bz2
+  - signature: 5349078b65fdeea85c7217d0ca98e718d3612df4
+    file: ruby-2.0.0-p0.tar.gz
+  - signature: bceb72c583fd5ca62179152252f268d2c0cfbeda
+    file: ruby-2.0.0-p0.zip
+  sha256:
+  - signature: c680d392ccc4901c32067576f5b474ee186def2fcd3fcbfa485739168093295f
+    file: ruby-2.0.0-p0.tar.bz2
+  - signature: aff85ba5ceb70303cb7fb616f5db8b95ec47a8820116198d1c866cc4fff151ed
+    file: ruby-2.0.0-p0.tar.gz
+  - signature: 0d0af6a9c8788537efd8d7d2358ce9468e6e2b7703dacba9ebd064d8b7da5f99
+    file: ruby-2.0.0-p0.zip
+  sha512:
+  - signature: 2e7a2f8aaff66bb33b0ed122332c873ee7c26a088a33a1de849b9ef97283476cd4ffd0748755b1d3f56f85cbb10dc8ec020a55b100c45e47a8ccca8809eaf732
+    file: ruby-2.0.0-p0.tar.bz2
+  - signature: 942c87616c6248d1284e114b769f938e81aefa805cfe32de81a344c7d982d4939efd69907a990b6e76a45da02f198fbac579aca3e74fa68472d301c70433a0ba
+    file: ruby-2.0.0-p0.tar.gz
+  - signature: 4a8a83e5f51f1d2aa555224dc45d05c25d24c9d6111c8ee53e0d60b7882867f2202f93401b3ba71701be6a23d04364125bdbc456d9519991051b1e926d400fef
+    file: ruby-2.0.0-p0.zip

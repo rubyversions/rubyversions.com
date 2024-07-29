@@ -1,0 +1,25 @@
+---
+name: jruby
+version: 9.4.4.0
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: 287b5c3a9b63ff93e49ae9dc0347263b
+    file: jruby-dist-9.4.4.0-bin.tar.gz
+  - signature: 1f39c8dadb852796126b035975fd4973
+    file: jruby-dist-9.4.4.0-bin.zip
+  sha1:
+  - signature: 91215f823196a01173b54b2726ef97fbf084dcee
+    file: jruby-dist-9.4.4.0-bin.tar.gz
+  - signature: 4c70b5540df6cf828eaee0cfdd528015a06a1942
+    file: jruby-dist-9.4.4.0-bin.zip
+  sha256:
+  - signature: 6ab12670afd8e5c8ac9305fabe42055795c5ddf9f8e8f1a1e60e260f2d724cc0
+    file: jruby-dist-9.4.4.0-bin.tar.gz
+  - signature: d368b66d7dcc8191e2a6072acb1bb2a2ccf2f92f326ce773b2e16b373275145e
+    file: jruby-dist-9.4.4.0-bin.zip
+  sha512:
+  - signature: e89dff0cc5b4a948daa95196d4bd4fee0c6901bb4aa023ae35b3679d9739967c2a74e8a4388b1835465dd39f1332a1f321b450b40c54ad2b81802645b4a31ca4
+    file: jruby-dist-9.4.4.0-bin.tar.gz
+  - signature: 68cec91f63163798085aa0affd96262e0d21533d96c1afe15b604a1b6262fc2b628509464dcb8574d61321de49db7557197c08765ee866febad275dc339a3e86
+    file: jruby-dist-9.4.4.0-bin.zip

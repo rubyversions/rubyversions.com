@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 3.1.2
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 9daf064899cccc32fd564117c7a7e0dd
+    file: ruby-3.1.2.tar.gz
+  - signature: e2c35af69d1f94e8634f38c80e809c0d
+    file: ruby-3.1.2.tar.xz
+  - signature: 31e085306e486687c427a30b210fad8f
+    file: ruby-3.1.2.zip
+  sha1:
+  - signature: b0d86c60457fdfbcb532cb681877a2f790f66b25
+    file: ruby-3.1.2.tar.gz
+  - signature: 4c47f1dfeeb23fc55d65bcae50cf70c23bc28aa3
+    file: ruby-3.1.2.tar.xz
+  - signature: 2e04f25dc73d7236fd4f4a170329793cd5e7dc38
+    file: ruby-3.1.2.zip
+  sha256:
+  - signature: 61843112389f02b735428b53bb64cf988ad9fb81858b8248e22e57336f24a83e
+    file: ruby-3.1.2.tar.gz
+  - signature: ca10d017f8a1b6d247556622c841fc56b90c03b1803f87198da1e4fd3ec3bf2a
+    file: ruby-3.1.2.tar.xz
+  - signature: f2bb80de50bcc17c29c1995d87d657d461ede6a73e71db44c0cf77f65f32e9b6
+    file: ruby-3.1.2.zip
+  sha512:
+  - signature: 9155d1150398eaea7c9954af61ecf8dfdb885cfcf63a67bbcf6c92e282cd3ccac0ff9234d039286a9623297b65197441438c37f707e31d270ce2fe11e8f38a44
+    file: ruby-3.1.2.tar.gz
+  - signature: 4a74e9efc6ea4b3eff4fec7534eb1fff4794d021531defc2e9937e53c6668db8ecdc0fff2bc23d5e6602d0df344a2caa85b31c5414309541e3d5313ec82b6e21
+    file: ruby-3.1.2.tar.xz
+  - signature: fa3ba25a051bd1e0ea1ee9fadfeef674f2f3217b1468ccb24975c4a19493115cdeb0015a78d391d08870947de95a8c7409f1c00fed51dc49d40cc3e6cda25bb7
+    file: ruby-3.1.2.zip

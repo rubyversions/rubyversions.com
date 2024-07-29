@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.1.4
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: f4136e781d261e3cc20748005e1740b7
+    file: ruby-2.1.4.tar.bz2
+  - signature: 89b2f4a197621346f6724a3c35535b19
+    file: ruby-2.1.4.tar.gz
+  - signature: 71c7afca08734f0105a06d2feea11422
+    file: ruby-2.1.4.zip
+  sha1:
+  - signature: c80ea0d5dddf1b0e7846b618fa7ae0e0cf7e55df
+    file: ruby-2.1.4.tar.bz2
+  - signature: 29e9cfdd9e989b7621d7696ef3f970262a08dbc3
+    file: ruby-2.1.4.tar.gz
+  - signature: '0228670fff096a4521bfc9a07bed9e94e5c30df0'
+    file: ruby-2.1.4.zip
+  sha256:
+  - signature: f37f11a8c75ab9215bb9f61246ef98e0e57e1409f0872e5cf59033edcf5b8d2a
+    file: ruby-2.1.4.tar.bz2
+  - signature: bf9952cdeb3a0c6a5a27745c9b4c0e5e264e92b669b2b08efb363f5156549204
+    file: ruby-2.1.4.tar.gz
+  - signature: bdb26a725e1fd7982f12d5390209064687def61c330b92597322e3898131391e
+    file: ruby-2.1.4.zip
+  sha512:
+  - signature: 68db1567751166c5e7d24b6e5015124b8a15568c50556e1f429486395352fa56c4a195a74820ab135697924149d014b445b345a1b9755678aaf824fba79c606b
+    file: ruby-2.1.4.tar.bz2
+  - signature: 7a6c70ec60db9866d5988e53c75e5c7e7288d68d87ba74ad317a0f74be79b387d05f665d9273d24dc64edc011d396b6396d2c7b1de6fd6a03569103e5acdcc36
+    file: ruby-2.1.4.tar.gz
+  - signature: 7fd8d13810a4336dc498a6eb05e140825d52eca0317d0848152688060b95ce4c79ab6a10cf14ab2499ae559fb4676d86538eacd94fb262c16795067fb4f47614
+    file: ruby-2.1.4.zip

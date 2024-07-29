@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.9.2-p320
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: b226dfe95d92750ee7163e899b33af00
+    file: ruby-1.9.2-p320.tar.bz2
+  - signature: 5ef5d9c07af207710bd9c2ad1cef4b42
+    file: ruby-1.9.2-p320.tar.gz
+  - signature: 0bdfd04bfeb0933c0bdcd00e4ea94c49
+    file: ruby-1.9.2-p320.zip
+  sha1:
+  - signature: f4892311ea4ca2a6c979c9fd3a03c8e473998315
+    file: ruby-1.9.2-p320.tar.bz2
+  - signature: ead282bf780eb671a627e5e071f96c2fa4c64c1a
+    file: ruby-1.9.2-p320.tar.gz
+  - signature: de895fc209b756fc9f22b6c946a9430caafb7818
+    file: ruby-1.9.2-p320.zip
+  sha256:
+  - signature: 6777f865cfa21ffdc167fcc4a7da05cb13aab1bd9e59bfcda82c4b32f75e6b51
+    file: ruby-1.9.2-p320.tar.bz2
+  - signature: 39a1f046e8756c1885cde42b234bc608196e50feadf1d0f202f7634f4a4b1245
+    file: ruby-1.9.2-p320.tar.gz
+  - signature: 83db9c86d5cf20bb91e625c3c9c1da8e61d941e1bc8ff4a1b9ea70c12f2972d3
+    file: ruby-1.9.2-p320.zip
+  sha512:
+  - signature: eeec4770832b292819809a75754838c63243c1128bbf860a702c9c436f284d4317f0801066ea90b86954d4a6c9566cc3e339ea217be145b7bb1e58e772357bc6
+    file: ruby-1.9.2-p320.tar.bz2
+  - signature: bee6c0ed04fce35d8a29fdc68b164722fad29a3dbfa0eec156c581ab7c5af45f7ae332a2176ae5d722734d1f746ad030a81a4da592c81450b1053a87bf5eb0e3
+    file: ruby-1.9.2-p320.tar.gz
+  - signature: 4d875d2b561093db403eb158f9479e76e84e5d0e2f21eae568811cf732d1eccac4d947cb073b2fbcbbd741f5f805636b4e1bda93a9c6aed214e0bdc7a4d8d452
+    file: ruby-1.9.2-p320.zip

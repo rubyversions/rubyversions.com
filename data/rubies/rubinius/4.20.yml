@@ -1,0 +1,17 @@
+---
+name: rubinius
+version: '4.20'
+website: https://github.com/rubinius
+checksums:
+  md5:
+  - signature: 244d56e3d4dc4b1aa795a1bba0f14517
+    file: rubinius-4.20.tar.bz2
+  sha1:
+  - signature: 01e44d1feb3797f36fec25dbef810333ec0bac46
+    file: rubinius-4.20.tar.bz2
+  sha256:
+  - signature: 2499826151950d8d657fe71b5666d58cf93b0c97b56dabc1e7ec35d263df9bbf
+    file: rubinius-4.20.tar.bz2
+  sha512:
+  - signature: f30a95325aaf05ce03b9ce5f6b63b569ed172c97473036d775c4fda2f87ae3b4d2c90dbb2fe43e6765d4409e2d4205c8d66f05a5a6f4f404c2cd40fdaaf2fc99
+    file: rubinius-4.20.tar.bz2

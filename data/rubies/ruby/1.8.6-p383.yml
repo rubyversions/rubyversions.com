@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.8.6-p383
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: a48703cd982b9f0e3002700a50b0e88e
+    file: ruby-1.8.6-p383.tar.bz2
+  - signature: 4f49544d4a4d0d34e9d86c41e853db2e
+    file: ruby-1.8.6-p383.tar.gz
+  - signature: 36643b4e3e66ffcf7bd3eddcd23b9877
+    file: ruby-1.8.6-p383.zip
+  sha1:
+  - signature: 225a28956406b3bd8c5839a391131936ddce4eb9
+    file: ruby-1.8.6-p383.tar.bz2
+  - signature: 3d569a814f49d29299874b5de73065745d9a89a8
+    file: ruby-1.8.6-p383.tar.gz
+  - signature: 3f68bc37440965d79ee3d1e45ed907a7d947736f
+    file: ruby-1.8.6-p383.zip
+  sha256:
+  - signature: c39dd7e211cb7245d08d9a7a3d4fe0c7b9f796a4bed9f92fed500ad58bb53d1a
+    file: ruby-1.8.6-p383.tar.bz2
+  - signature: cea6c67f737727007ec89d1c93fd7d0dba035220f981706091b8642d7a43c03a
+    file: ruby-1.8.6-p383.tar.gz
+  - signature: 2dd0ddd8ed378e417d47aeb446eb07ded3d53b1952ad3a4d7676f617221331a1
+    file: ruby-1.8.6-p383.zip
+  sha512:
+  - signature: 541254bb6f29c13d74c6a77a8bb64182cc5e41b20b8cf4e6358be3dea6fc8c93867ccffd25a012071f1ca7570c8f3aa7dcbdab433be31d7ffa37eddd38fcd491
+    file: ruby-1.8.6-p383.tar.bz2
+  - signature: 288a57fcc8096e27aa726fe6b9a09392f2d536d6d3906f2cfb2d57f2c28e595c16fb87eda63422cbdf8848b11faf5ca1e25e03e6390cccacdb3fc0b6de3ef151
+    file: ruby-1.8.6-p383.tar.gz
+  - signature: 9aaa18bfbaff4c589f0c75501e514df0a735871b70a9e21721702e4f8dcfb9dfdf0a7dfd6acc655a5ccf5b02eeada2a189a73518bec06f121bd5095083334980
+    file: ruby-1.8.6-p383.zip

@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.7.3
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 72ef97685008981de3ddb748d0dab31f
+    file: ruby-2.7.3.tar.gz
+  - signature: 5c48387661ced18fd896667e80788418
+    file: ruby-2.7.3.tar.xz
+  - signature: 882847ab32a8de2a99440e2a9e7e073f
+    file: ruby-2.7.3.zip
+  sha1:
+  - signature: 1fef38fbb31134e6e14df63ee6ce673e118d64ce
+    file: ruby-2.7.3.tar.gz
+  - signature: ce3d5203d5ab734df01e602c05f68f25249dc3e0
+    file: ruby-2.7.3.tar.xz
+  - signature: 384cd3a915ad666d7f6b51b2babbe08285433202
+    file: ruby-2.7.3.zip
+  sha256:
+  - signature: 8925a95e31d8f2c81749025a52a544ea1d05dad18794e6828709268b92e55338
+    file: ruby-2.7.3.tar.gz
+  - signature: 5e91d1650857d43cd6852e05ac54683351e9c301811ee0bef43a67c4605e7db1
+    file: ruby-2.7.3.tar.xz
+  - signature: 42b56a95e9016bee468af00db49456ee4720d3f9916dda726cdaf83597158376
+    file: ruby-2.7.3.zip
+  sha512:
+  - signature: 1d036d08016351e8f9e7506a6abaf490fe226cf2ff9c2f9df582b57bff22a960dbaf271a8a167ac09f864613b9b8b14191bb79f8a6900ad5ca24131ecf571d54
+    file: ruby-2.7.3.tar.gz
+  - signature: b755d418b3bab2f9f6a8893afd13869269f17065643dde78b9e85ae3538a6d0617893db6e9c3908e00a40c7577a5c912a7c822d8f245cdcfb857be76dfb66c1e
+    file: ruby-2.7.3.tar.xz
+  - signature: 527c8ba425b75f13b5837863735811d00b4af49132df13c65fe71a6e04a83d3780a5b2b54b43a95f5b33592f3d689da3f18cefbecef86bcdb0c5e5fc51c7b037
+    file: ruby-2.7.3.zip

@@ -24,8 +24,8 @@ gem 'bootstrap'
 gem 'terser'
 
 group :development, :test do
-  # codestyle guide and linting
-  gem 'rubocop', require: false
+  gem 'dotenv' # reading ENV vars from .env file
+  gem 'rubocop', require: false # code style guide and linting
 end
 
 # Windows and JRuby does not include zoneinfo files,

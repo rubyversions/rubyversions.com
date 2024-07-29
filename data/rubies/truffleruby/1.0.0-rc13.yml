@@ -1,0 +1,25 @@
+---
+name: truffleruby
+version: 1.0.0-rc13
+website: https://www.graalvm.org/ruby/
+checksums:
+  md5:
+  - signature: 0f36eed2eb36846785fdd4eae24adfa0
+    file: truffleruby-1.0.0-rc13-linux-amd64.tar.gz
+  - signature: 1bd3087a0f2df4c006b87c9488ada6d4
+    file: truffleruby-1.0.0-rc13-macos-amd64.tar.gz
+  sha1:
+  - signature: 8ee0a595be6b3cf23893ab635dad329267357a8e
+    file: truffleruby-1.0.0-rc13-linux-amd64.tar.gz
+  - signature: 88335dcf22b9785282140287d2fde76238cba7a7
+    file: truffleruby-1.0.0-rc13-macos-amd64.tar.gz
+  sha256:
+  - signature: 26936811d08eed742b3ccf04ae7cc894abc0ba4e5c2cbfd3d43163d620f446e4
+    file: truffleruby-1.0.0-rc13-linux-amd64.tar.gz
+  - signature: c3dd003ee97c69da2697e2c09e538e13252f2c409b07b4bde4e5acbdbbf5314c
+    file: truffleruby-1.0.0-rc13-macos-amd64.tar.gz
+  sha512:
+  - signature: 1eb6b80cb05133d253f20629a11ed9ec3f37da002d5668cdc6577b2a20524e0cdd4d739d3f1aa2e8c518e2f7ebfd519ec1c647293714a1133ad4d569375c0e69
+    file: truffleruby-1.0.0-rc13-linux-amd64.tar.gz
+  - signature: e3cddb0d0ae48f7d5ee4dd094ddb5a13f6a7aff1521b1adf25710971664b235cf67144e3b81525fd710dc49b6f6f6ba06e10eee1df5dc08119e9494c6be86934
+    file: truffleruby-1.0.0-rc13-macos-amd64.tar.gz

@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.8.6-p114
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: b4d0c74497f684814bcfbb41b7384a71
+    file: ruby-1.8.6-p114.tar.bz2
+  - signature: 500a9f11613d6c8ab6dcf12bec1b3ed3
+    file: ruby-1.8.6-p114.tar.gz
+  - signature: cb7ad0a3a6536953e623d6f17938f80f
+    file: ruby-1.8.6-p114.zip
+  sha1:
+  - signature: 9929782935ebb77d040593a010b8d65b03ce6e23
+    file: ruby-1.8.6-p114.tar.bz2
+  - signature: 149d19caa3059de9faef34f80630642fd61651ad
+    file: ruby-1.8.6-p114.tar.gz
+  - signature: 3d2baaa682c635254a9b384b909277a931959e64
+    file: ruby-1.8.6-p114.zip
+  sha256:
+  - signature: 4ac0d0271324c54525210f775e5fcc9a37e3d8a10b96d68cdfeeb361c6f64a63
+    file: ruby-1.8.6-p114.tar.bz2
+  - signature: 6cdf4dfa9266f85184d58a80007f0f8af1d933ed2820da448c1842690e55ef6a
+    file: ruby-1.8.6-p114.tar.gz
+  - signature: ecd80e33ce136d3144fb20c42162999e6cfa6387192e8cc91a6b2ff96d3dc12f
+    file: ruby-1.8.6-p114.zip
+  sha512:
+  - signature: 50bf3a63261d1319edcb9ea610fe66c9a368319fab9817c1293949b8aed4e7a51af5fee7ec5aad9cf75cf301e9853d56bc272c87e10bb4f0684b1b4493fbbf2d
+    file: ruby-1.8.6-p114.tar.bz2
+  - signature: e9a3287286f1d5867ce9d84ff674e912bf6f040154f4f3add015c62c9f9b1b9ec747a76a161c4669bdeb785f5a2a63109b7e370c54d9d52b68a0656b671b2000
+    file: ruby-1.8.6-p114.tar.gz
+  - signature: d6835b4f438ae10bf58c4c4c28288de56be36a799e8fc4504cd0c4afd5466e3034ba7b18b04b10af19a207cdc24bc271b5dd87fef9333a90f2ae18c36ccd116d
+    file: ruby-1.8.6-p114.zip

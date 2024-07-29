@@ -1,0 +1,41 @@
+---
+name: jruby
+version: 9.2.19.0
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: '0961867a77838853f32ee72dbde7c00e'
+    file: jruby-bin-9.2.19.0.tar.gz
+  - signature: 8fcf28c3bef13e7ffda60334cde351a4
+    file: jruby-bin-9.2.19.0.zip
+  - signature: '0961867a77838853f32ee72dbde7c00e'
+    file: jruby-dist-9.2.19.0-bin.tar.gz
+  - signature: 8fcf28c3bef13e7ffda60334cde351a4
+    file: jruby-dist-9.2.19.0-bin.zip
+  sha1:
+  - signature: e61ac187d5e312a198a0b1767eb8c4f36c750749
+    file: jruby-bin-9.2.19.0.tar.gz
+  - signature: bd45b2a58b17fb0819c6da0e35fa354014baf845
+    file: jruby-bin-9.2.19.0.zip
+  - signature: e61ac187d5e312a198a0b1767eb8c4f36c750749
+    file: jruby-dist-9.2.19.0-bin.tar.gz
+  - signature: bd45b2a58b17fb0819c6da0e35fa354014baf845
+    file: jruby-dist-9.2.19.0-bin.zip
+  sha256:
+  - signature: 1f74885a2d3fa589fcbeb292a39facf7f86be3eac1ab015e32c65d32acf3f3bf
+    file: jruby-bin-9.2.19.0.tar.gz
+  - signature: f538495f1240631e1d829475aff02491ee2f13495e24274b5e335a270a5980f2
+    file: jruby-bin-9.2.19.0.zip
+  - signature: 1f74885a2d3fa589fcbeb292a39facf7f86be3eac1ab015e32c65d32acf3f3bf
+    file: jruby-dist-9.2.19.0-bin.tar.gz
+  - signature: f538495f1240631e1d829475aff02491ee2f13495e24274b5e335a270a5980f2
+    file: jruby-dist-9.2.19.0-bin.zip
+  sha512:
+  - signature: 3740674035e27cf7961b3570ad65536c30faab1c9a71a42a696b173379e79647411d57e0d1d06b5f9c9a970eb02a595a559191af08a083773dc4601dcfd07491
+    file: jruby-bin-9.2.19.0.tar.gz
+  - signature: 5e252f0ca4756623045aa1b4b90f666f497b56b95a7299ea2e95e922f736d35dba4a71705b5845977ebd731f7293d5827ffe2136585124d79af343acd450f783
+    file: jruby-bin-9.2.19.0.zip
+  - signature: 3740674035e27cf7961b3570ad65536c30faab1c9a71a42a696b173379e79647411d57e0d1d06b5f9c9a970eb02a595a559191af08a083773dc4601dcfd07491
+    file: jruby-dist-9.2.19.0-bin.tar.gz
+  - signature: 5e252f0ca4756623045aa1b4b90f666f497b56b95a7299ea2e95e922f736d35dba4a71705b5845977ebd731f7293d5827ffe2136585124d79af343acd450f783
+    file: jruby-dist-9.2.19.0-bin.zip

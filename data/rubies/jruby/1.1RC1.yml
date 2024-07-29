@@ -1,0 +1,41 @@
+---
+name: jruby
+version: 1.1RC1
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: 7c243b239c8ace17a43ba4785a61a7d3
+    file: jruby-bin-1.1RC1.tar.gz
+  - signature: b3434b4212cda6bf29c39d22ff2590b1
+    file: jruby-bin-1.1RC1.zip
+  - signature: 43ad6b88df208391bea37e3016a23f3e
+    file: jruby-src-1.1RC1.tar.gz
+  - signature: f74bc172f5111b5447270f952499ee4a
+    file: jruby-src-1.1RC1.zip
+  sha1:
+  - signature: 1ee8a7d54223f835bd9ee95d96ae4c83fd091c8c
+    file: jruby-bin-1.1RC1.tar.gz
+  - signature: 72c6893925681da3bb49b897eabf93fd7946753a
+    file: jruby-bin-1.1RC1.zip
+  - signature: 61c0ae949477fbbbc70ef915eaa11e44bdfb1f15
+    file: jruby-src-1.1RC1.tar.gz
+  - signature: 6705b0cda4f3974606be94b7c78fc1eeedc49c61
+    file: jruby-src-1.1RC1.zip
+  sha256:
+  - signature: 82589a22f2234e4fc1b5bb64f823ef31c56c9d41e02c60944ce64ffe14a643da
+    file: jruby-bin-1.1RC1.tar.gz
+  - signature: 3651305f30cbbd581adbb5cca272efd0b360bbe08404a8db9b39d4f7f3af84b1
+    file: jruby-bin-1.1RC1.zip
+  - signature: cae19a7cc2dbb1a3dbfba381fa576073412153cc81dfd06226b981449eb1b20b
+    file: jruby-src-1.1RC1.tar.gz
+  - signature: ed2575b945a2b0c5da9fda95a6bfb6557069794dec083e73d07480ad7a9b4ada
+    file: jruby-src-1.1RC1.zip
+  sha512:
+  - signature: 017cd20c130ed0d5951cacf53741c78ba46b01b791784c7448df1f8c7d082af6a50a6712a0e5c941c6cf37c647bbce99a01705e9692e68a635a886c21ebbf3fc
+    file: jruby-bin-1.1RC1.tar.gz
+  - signature: bed90dfe4e648ce37ac2da73860e2640ace03a8253f3772c886370342e0753be96cfd5149f29d6466a63df160e866bfd5851290adfdcdf3f83a5289d9a963753
+    file: jruby-bin-1.1RC1.zip
+  - signature: 9ba8a2c9dfedb98f583907bcd45c77276ae7a52181c501aa747db14d3b0451d414ea2d8049ae0b327c9efd314ef75b6d91a4ba96112de703349ceae63751623a
+    file: jruby-src-1.1RC1.tar.gz
+  - signature: 754e3edcfaac883fe8608c8e401da3720f3be50a3267596afa91910c3afb82ce8f9a656ed3c6ae4d0b1313739c0e9ac8565c86d976d8a475cf99686c52d275fc
+    file: jruby-src-1.1RC1.zip

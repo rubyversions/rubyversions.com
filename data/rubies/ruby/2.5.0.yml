@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.5.0
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 63a6cd49546783d62de25a0ffc4aecc3
+    file: ruby-2.5.0.tar.bz2
+  - signature: f4711f856fe14de222b9da3d3b8efa89
+    file: ruby-2.5.0.tar.gz
+  - signature: e3a98c7b7de49ed5134398367ab3a3bc
+    file: ruby-2.5.0.tar.xz
+  - signature: f2f8bc834cec066336b54830264f5012
+    file: ruby-2.5.0.zip
+  sha1:
+  - signature: 827b9a3bcffa86d1fc9ed96d403cb9dc37731688
+    file: ruby-2.5.0.tar.bz2
+  - signature: 58f77301c891c1c4a08f301861c26b1ea46509f6
+    file: ruby-2.5.0.tar.gz
+  - signature: 9c7babcf9e299be3f197d9091024ae458f1a1273
+    file: ruby-2.5.0.tar.xz
+  - signature: 700b6f55d689a5c8051c8c292b9e77a1b50bf96e
+    file: ruby-2.5.0.zip
+  sha256:
+  - signature: d87eb3021f71d4f62e5a5329628ac9a6665902173296e551667edd94362325cc
+    file: ruby-2.5.0.tar.bz2
+  - signature: 46e6f3630f1888eb653b15fa811d77b5b1df6fd7a3af436b343cfe4f4503f2ab
+    file: ruby-2.5.0.tar.gz
+  - signature: 1da0afed833a0dab94075221a615c14487b05d0c407f991c8080d576d985b49b
+    file: ruby-2.5.0.tar.xz
+  - signature: 94559ea6e3c619423da604e503ce1dc1c465d6e0747a07fbdc5f294acaf14c24
+    file: ruby-2.5.0.zip
+  sha512:
+  - signature: 8f6fdf6708e7470f55bc009db2567cd8d4e633ad0678d83a015441ecf5b5d88bd7da8fb8533a42157ff83b74d00b6dc617d39bbb17fc2c6c12287a1d8eaa0f2c
+    file: ruby-2.5.0.tar.bz2
+  - signature: 0712fe68611f5d0cd6dd54b814f825478e64b6a62bdf67bce431f4dca2dc00b1a33f77bebfbcd0a151118a1152554ab457decde435b424aa1f004bc0aa40580d
+    file: ruby-2.5.0.tar.gz
+  - signature: 55714a33d7661fe8b432f73c34fd67b49699f8b79df1cbd680a74899124d31111ab0f444677672aac1ba725820182940d485efb2db0bf2bc96737c5d40c54578
+    file: ruby-2.5.0.tar.xz
+  - signature: e4324064cee8c65b80192e3eff287e915d2d40464d300744c36fb326ae4b1846911400a99d4332192d8a217009d3a5209b43eb5e8bc0b739035bef89cc493e84
+    file: ruby-2.5.0.zip

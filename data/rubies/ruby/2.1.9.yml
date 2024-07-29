@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.1.9
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 62bd1cbfcbc22e4d137462bce992f6d1
+    file: ruby-2.1.9.tar.bz2
+  - signature: d9d2109d3827789344cc3aceb8e1d697
+    file: ruby-2.1.9.tar.gz
+  - signature: 07b2fdbad3a4da01a779c407f7365075
+    file: ruby-2.1.9.tar.xz
+  - signature: 2fd94918417df10a262c267408b79033
+    file: ruby-2.1.9.zip
+  sha1:
+  - signature: 39524185b580a3390a3b5019819c8b28d3249766
+    file: ruby-2.1.9.tar.bz2
+  - signature: dd68afc652fe542f83a9a709a74f4da2662054bf
+    file: ruby-2.1.9.tar.gz
+  - signature: 5e89efa5189c3def8ee8de18ce750a7e4a20ac32
+    file: ruby-2.1.9.tar.xz
+  - signature: 4aa288b65fbf12692ac53577adc561c9a0f6a6ca
+    file: ruby-2.1.9.zip
+  sha256:
+  - signature: 4f21376aa11e09b499c3254bbd839e68e053c0d18e28d61c428a32347269036e
+    file: ruby-2.1.9.tar.bz2
+  - signature: 034cb9c50676d2c09b3b6cf5c8003585acea05008d9a29fa737c54d52c1eb70c
+    file: ruby-2.1.9.tar.gz
+  - signature: 39f203f7498aed2456fb500147fada5adcbf102d89d4f6aca773ebcadd8ea82a
+    file: ruby-2.1.9.tar.xz
+  - signature: 8610fdb1836d493c19600cfed4828083f85197096c0aea3f73fa1ed532cbb5a7
+    file: ruby-2.1.9.zip
+  sha512:
+  - signature: a86422132e4c64007a84a91696f4557bdcbc8716fbfe1962f1eef3754ee7f994f4de0b5b7e7231c25057515767040d5c4af33339750b6db15744662e9bd24f38
+    file: ruby-2.1.9.tar.bz2
+  - signature: 1e03aa720e932f019c4651c355e8ef35b87fdf69b054c9d39a319467d2a8e5bfe4995cbacd9add36b832c77761a47c9d1040f00e856ad5888d69ec7221455e35
+    file: ruby-2.1.9.tar.gz
+  - signature: 1f331a8910fd7a9ab9c41bf56aef12041dd413ad49c696f6df2c9a7ec3a3d5cdf383f2a3d30949ea37b8ecb39f50355e526412b36ed4e07b60733d9db4d2bd14
+    file: ruby-2.1.9.tar.xz
+  - signature: a212b6a58637f6bf4f456d7ecc7bbd8ceaa0c3f16cb844b872eb62eaf261b5874fdb79705241d05a356fcdc1d3fdd8a94fcd8e6ca62190e9f544c8f45a9f41af
+    file: ruby-2.1.9.zip

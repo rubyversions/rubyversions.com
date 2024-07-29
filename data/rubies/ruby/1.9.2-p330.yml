@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.9.2-p330
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 8ba4aaf707023e76f80fc8f455c99858
+    file: ruby-1.9.2-p330.tar.bz2
+  - signature: 4b9330730491f96b402adc4a561e859a
+    file: ruby-1.9.2-p330.tar.gz
+  - signature: 42d261b28d1b7e500dd3bdbdbfba7fa5
+    file: ruby-1.9.2-p330.zip
+  sha1:
+  - signature: e50bb975ccb6c07a14ccac851559f8184399f437
+    file: ruby-1.9.2-p330.tar.bz2
+  - signature: d25dca1adf186a1be7dcf12a48ea4c7abadfcf12
+    file: ruby-1.9.2-p330.tar.gz
+  - signature: 7d7736c99d818002213764332985379e5bfb6f2f
+    file: ruby-1.9.2-p330.zip
+  sha256:
+  - signature: 6d3487ea8a86ad0fa78a8535078ff3c7a91ca9f99eff0a6a08e66c6e6bf2040f
+    file: ruby-1.9.2-p330.tar.bz2
+  - signature: 23ef45fdaecc5d6c7b4e9e2d51b23817fc6aa8225a20f123f7fa98760e8b5ca9
+    file: ruby-1.9.2-p330.tar.gz
+  - signature: 7a04a028564de7f2ad09f26c8d57fd40fe2b0a6a0e1d9ff7205010ca6e70cea6
+    file: ruby-1.9.2-p330.zip
+  sha512:
+  - signature: 113280aa810f87c2845594d745db8290b9c5fb77d880d8b84411a715f68370ee9db3d09477a2d1fb2a1ce933d487cc01fcb759df9aad053bc0d2c5107350b347
+    file: ruby-1.9.2-p330.tar.bz2
+  - signature: 564ec7d731644c95630bd08f11aca1e0ff58a38e58e1076a1553943b000c1feb1a74eb0718567f320af966e8c8a5b840af5f6e116b006db38f4ea6142d79e846
+    file: ruby-1.9.2-p330.tar.gz
+  - signature: 510f587ac0933547603b9b8f191f3e0afaa67a455cd6f3bb85d9e3e76296e142b4bb65b713d8268c2efb866f04789f1017f9e5f079993d1f300f720a5953c558
+    file: ruby-1.9.2-p330.zip

@@ -1,0 +1,33 @@
+---
+name: truffleruby-graalvm
+version: 21.2.0
+website: https://www.graalvm.org/ruby
+checksums:
+  md5:
+  - signature: e034d91ff640e5b76217851d5ea95a60
+    file: graalvm-ce-java11-linux-amd64-21.2.0.tar.gz
+  - signature: 1b926e33a53af3f9d63cfea3c665f425
+    file: graalvm-ce-java11-linux-aarch64-21.2.0.tar.gz
+  - signature: dbcf3c3ad14145250ffa3d801ab7e6c8
+    file: graalvm-ce-java11-darwin-amd64-21.2.0.tar.gz
+  sha1:
+  - signature: 0b8f5cee6189e25f2c4c94f2750c49503eda6e78
+    file: graalvm-ce-java11-linux-amd64-21.2.0.tar.gz
+  - signature: 48f0fe9fe56ddf0a821fd66dc0e19a2c31c7d497
+    file: graalvm-ce-java11-linux-aarch64-21.2.0.tar.gz
+  - signature: 300b4070de724849c559ab41949d3176d88ed863
+    file: graalvm-ce-java11-darwin-amd64-21.2.0.tar.gz
+  sha256:
+  - signature: bbd3e03025168172a76c2a29e6a14c1c37e3476b30774259c3ef5952fb86f470
+    file: graalvm-ce-java11-linux-amd64-21.2.0.tar.gz
+  - signature: bbdf38d5e6871f7e3b2470ab9b9bb760667d4524ee2a20eadfaf13636a2d018c
+    file: graalvm-ce-java11-linux-aarch64-21.2.0.tar.gz
+  - signature: f62cdc44a031731aa221426724a55eb09c79d6b2e9275ae3ca7003da5884ca36
+    file: graalvm-ce-java11-darwin-amd64-21.2.0.tar.gz
+  sha512:
+  - signature: 91828daf9dc077ade8986129f5eede9dd99d094995a70393a45a75e17e131951502854f8067010817c73507d22e8c17937b7a7280f6ae6d040094b79d841642b
+    file: graalvm-ce-java11-linux-amd64-21.2.0.tar.gz
+  - signature: a2e5923295679ed3c8d2e07ec6868249e8641ef4f1b8b304f203b906f8c0050dc3dd6a1bf6d8f3289b4324a142981999dcfa6e3f8c45415cf90181aac61eb05c
+    file: graalvm-ce-java11-linux-aarch64-21.2.0.tar.gz
+  - signature: 72152e6ccd10ad62453c2cc835743ce0f2365859778855154ca517af1f43450adfec94b3857b417298c3f0bff44b72a1bfb51fa9024d60f1560b0be1bffdeab5
+    file: graalvm-ce-java11-darwin-amd64-21.2.0.tar.gz

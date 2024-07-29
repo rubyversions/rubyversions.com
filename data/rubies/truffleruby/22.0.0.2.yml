@@ -1,0 +1,33 @@
+---
+name: truffleruby
+version: 22.0.0.2
+website: https://www.graalvm.org/ruby/
+checksums:
+  md5:
+  - signature: 324327026e9b2963a8e5fb4ee3f4e216
+    file: truffleruby-22.0.0.2-linux-amd64.tar.gz
+  - signature: f56812b20b628d19633b0404ca8790a0
+    file: truffleruby-22.0.0.2-linux-aarch64.tar.gz
+  - signature: 7029d0e291d498a264d9b413729a3e17
+    file: truffleruby-22.0.0.2-macos-amd64.tar.gz
+  sha1:
+  - signature: 3c3030e2f777abcef9c55019cd03f8ba5e7253ff
+    file: truffleruby-22.0.0.2-linux-amd64.tar.gz
+  - signature: 87e7de4704048ec3f328d779dac3876f7f0dbd00
+    file: truffleruby-22.0.0.2-linux-aarch64.tar.gz
+  - signature: 1e6c2fe0ade6f97f4bdef7e1d479bf240e31b956
+    file: truffleruby-22.0.0.2-macos-amd64.tar.gz
+  sha256:
+  - signature: d09a1231d389c10b1334ec377ced371a4f22a6bdba57374964f666d9345921d0
+    file: truffleruby-22.0.0.2-linux-amd64.tar.gz
+  - signature: a758e3021c863d5b7a5090c16db862cf21de6d4ecccd98982fee33fb302c9246
+    file: truffleruby-22.0.0.2-linux-aarch64.tar.gz
+  - signature: f49cba9d8dcb1fc2ae95ffb6b325cad8e4697f844945521daf445020202f23b4
+    file: truffleruby-22.0.0.2-macos-amd64.tar.gz
+  sha512:
+  - signature: 2231a0cfd27238c34ea0bbad27ba387453e48f39032607cbb829b347ea6ac804df15eb3f84d50b09248782d6202284498e7bc9aaa2060f0ce81bb83a84d700ad
+    file: truffleruby-22.0.0.2-linux-amd64.tar.gz
+  - signature: 888d415caab6e50dab874e2e55588dc54a2e4a25b4f81193e4fdcc57c2d11eaddee8d063c0fce79c47faa8c1bf5464ac8bdaf4d1d15bc6a08f6c17a46ee0afae
+    file: truffleruby-22.0.0.2-linux-aarch64.tar.gz
+  - signature: 1d7ac44f0862ad23cf17a7bba73d23dfd4727aadd9a3aa9633361e9bcd19655d163e160eae9c8db8ec9892f8fbf82d7a38b1cd689475bf41609a828208098623
+    file: truffleruby-22.0.0.2-macos-amd64.tar.gz

@@ -1,0 +1,17 @@
+---
+name: rubinius
+version: '3.75'
+website: https://github.com/rubinius
+checksums:
+  md5:
+  - signature: 37b77eb82aeb048842f3daec3fed46b1
+    file: rubinius-3.75.tar.bz2
+  sha1:
+  - signature: 19dee40201e7a2eceec3d1c5fee84a271018d6b0
+    file: rubinius-3.75.tar.bz2
+  sha256:
+  - signature: 04cd1bc8fa021d569aac38cf98aeeb97f8324815f82d7ea1a0c963898c79e137
+    file: rubinius-3.75.tar.bz2
+  sha512:
+  - signature: 2e7c26f6e32a0dc5c8cd75f5eceacaf65e8632edc90b191a0343c51f9b1a8624fe37d0d7d21791559d34c9e91ac927dec5dba7e37825066257826702a36c22d0
+    file: rubinius-3.75.tar.bz2

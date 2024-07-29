@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.2.0
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: d03cd4690fec1fff81d096d1c1255fde
+    file: ruby-2.2.0.tar.bz2
+  - signature: cd03b28fd0b555970f5c4fd481700852
+    file: ruby-2.2.0.tar.gz
+  - signature: f8e1d0cee4f2d9535a9529ed23ae3700
+    file: ruby-2.2.0.zip
+  sha1:
+  - signature: 8ff78e4aef404fcb92459b2e9e88be2b9c5f9cf1
+    file: ruby-2.2.0.tar.bz2
+  - signature: 680302104b24f850fddfe93ee37396de01765b37
+    file: ruby-2.2.0.tar.gz
+  - signature: b0c864cfdd25536263b6f53f16560f880c7b3b2a
+    file: ruby-2.2.0.zip
+  sha256:
+  - signature: 1c031137999f832f86be366a71155113675b72420830ce432b777a0ff4942955
+    file: ruby-2.2.0.tar.bz2
+  - signature: 7671e394abfb5d262fbcd3b27a71bf78737c7e9347fa21c39e58b0bb9c4840fc
+    file: ruby-2.2.0.tar.gz
+  - signature: e06c1e2b1248cf881749833084b2bec93f7612676009190ff9bc89b8fd07c29f
+    file: ruby-2.2.0.zip
+  sha512:
+  - signature: 04edc53e8cd1732c3ca61ebeb1d6133614beb10f77f9abb80d8d36352fe8aa205112068e460bf600b2c7e81e0ddcc3b311e7e027c320366f1bd992b3e378a6ad
+    file: ruby-2.2.0.tar.bz2
+  - signature: 1ba0c68e1c8d2b60bbd1e218cf36463edbe34cf9418d7593702b631e68d02297465f752e71395f6cfa4104f4cd70a1eb44381ffb74bc7801758b830931fdcfc6
+    file: ruby-2.2.0.tar.gz
+  - signature: 364dd927b496520d95a1b06c68e1a265015f4cab08bdf3efaa323d385e7bf075eae47f2e1db78a629db0f3c0c1ed24e086603ba21e2da02ac06dd3c8b716766e
+    file: ruby-2.2.0.zip

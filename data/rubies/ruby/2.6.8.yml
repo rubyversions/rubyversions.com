@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.6.8
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: c53761123d17e929cfe248f50429bcab
+    file: ruby-2.6.8.tar.bz2
+  - signature: 7de3f787dab53d577cefb67b304ec3c3
+    file: ruby-2.6.8.tar.gz
+  - signature: 4dc6e5e1988364898b082416a0c477c7
+    file: ruby-2.6.8.tar.xz
+  - signature: 270f7ae18a85cee4c0399d27284a0667
+    file: ruby-2.6.8.zip
+  sha1:
+  - signature: 7d38cacb6a0779f04b9f19f94406da97e95bbec4
+    file: ruby-2.6.8.tar.bz2
+  - signature: 949dce34bba3ae93fd302fe705017b03d13b69ab
+    file: ruby-2.6.8.tar.gz
+  - signature: fa5ad518ef31bbf5c3386dbcec7b57196a1e618e
+    file: ruby-2.6.8.tar.xz
+  - signature: ece4908dd84c7aaefbe6b188c0aca39eaedb2a77
+    file: ruby-2.6.8.zip
+  sha256:
+  - signature: dac96ca6df8bab5a6fc7778907f42498037f8ce05b63d20779dce3163e9fafe6
+    file: ruby-2.6.8.tar.bz2
+  - signature: 1807b78577bc08596a390e8a41aede37b8512190e05c133b17d0501791a8ca6d
+    file: ruby-2.6.8.tar.gz
+  - signature: 8262e4663169c85787fdc9bfbd04d9eb86eb2a4b56d7f98373a8fcaa18e593eb
+    file: ruby-2.6.8.tar.xz
+  - signature: d5da2d7e1b9a6b570c66b3bb0cfa2de3ce21d002d2385a1fdf7195e2d0d1d5c7
+    file: ruby-2.6.8.zip
+  sha512:
+  - signature: 51806d48187dfcce269ff904943dd008df800216ad4797f95481bdeecc2fbac40016bc02eabfff32414839ebb2087511d25eebfd6acead1a1d3813be6c10edf7
+    file: ruby-2.6.8.tar.bz2
+  - signature: 4f8b8736bdae8bb4b2b63d576232d376b4c87239d25bf7aa807d3eeea704cb8b06f465c37050be79b57a52b9bde65a5cc05679dd6df0f443c8e00a19513f882a
+    file: ruby-2.6.8.tar.gz
+  - signature: d040ad2238523587d8f356fcb796b8b6ad7f8caff7dd6df09e3f7efcbfa0369e33600e78c7f2bc713ae77c040757cce5c4fec223cb9070209f2bf741899c556d
+    file: ruby-2.6.8.tar.xz
+  - signature: 143ee01da2cba85a2dcb394b1a64b18a748aeb0eda4d6d2d83638706ce4bb05f60f3e80a0429878f823437e0dfba285f8080637523a552eb04aca87df63831dc
+    file: ruby-2.6.8.zip

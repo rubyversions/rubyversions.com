@@ -1,0 +1,57 @@
+---
+name: jruby
+version: 9.0.0.0
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: fe9036ea69bf23dc3b69cfc94adb5404
+    file: jruby-bin-9.0.0.0.tar.gz
+  - signature: e5c2101007b8f6b3db5bfcd0f57923eb
+    file: jruby-bin-9.0.0.0.zip
+  - signature: 270ebfba1bb57aca3b41a98aadd53549
+    file: jruby-src-9.0.0.0.tar.gz
+  - signature: 03556bdab6a2f54d8660000482a2bfad
+    file: jruby-src-9.0.0.0.zip
+  - signature: fe9036ea69bf23dc3b69cfc94adb5404
+    file: jruby-dist-9.0.0.0-bin.tar.gz
+  - signature: e5c2101007b8f6b3db5bfcd0f57923eb
+    file: jruby-dist-9.0.0.0-bin.zip
+  sha1:
+  - signature: 7dd05e327ba3b39a4b8efb02b03f2ca7f5cec5ec
+    file: jruby-bin-9.0.0.0.tar.gz
+  - signature: 0d8ee1ae3af11d822e0b99b0d515a8387b95e883
+    file: jruby-bin-9.0.0.0.zip
+  - signature: fa59e15694fb893e63b5560f5dcf25b4d909b5c9
+    file: jruby-src-9.0.0.0.tar.gz
+  - signature: f8f3c8e5ff1ddeae0a861e031b4f8449fb238fb7
+    file: jruby-src-9.0.0.0.zip
+  - signature: 7dd05e327ba3b39a4b8efb02b03f2ca7f5cec5ec
+    file: jruby-dist-9.0.0.0-bin.tar.gz
+  - signature: 0d8ee1ae3af11d822e0b99b0d515a8387b95e883
+    file: jruby-dist-9.0.0.0-bin.zip
+  sha256:
+  - signature: 655665db3a1dc0462cba99d45532ab57d8416b5f168d8a0081bde9b7a93a394e
+    file: jruby-bin-9.0.0.0.tar.gz
+  - signature: 80e81c2705d09dc3f0daf5ac6d2add50522faa6f21d688312e5f93e723a33644
+    file: jruby-bin-9.0.0.0.zip
+  - signature: cef101e4265b65e2c729eba97838546c8e08123d8ee18f0e12fd0dd8d0db16b6
+    file: jruby-src-9.0.0.0.tar.gz
+  - signature: 363d3e2f9f1af74b0d80e0c0f89ed047524dee4bff5a7cd954511b4306e54d1c
+    file: jruby-src-9.0.0.0.zip
+  - signature: 655665db3a1dc0462cba99d45532ab57d8416b5f168d8a0081bde9b7a93a394e
+    file: jruby-dist-9.0.0.0-bin.tar.gz
+  - signature: 80e81c2705d09dc3f0daf5ac6d2add50522faa6f21d688312e5f93e723a33644
+    file: jruby-dist-9.0.0.0-bin.zip
+  sha512:
+  - signature: 33308a983533c129cffbf521bdb8c1996a10a6159a4a436248e645bda682c5a5395ac1aa767e971ae679c935f3b61573cb22d5b8c64af026752db3411a6356e1
+    file: jruby-bin-9.0.0.0.tar.gz
+  - signature: 9e8e5e85069bc53eee7e6b8337567208695e5b04b0fd241091aee6610d1bc6bc5ed4f73565f1b9f80e9aadb0e4e679eb1f5dbadd5bcbae08c8e5526f6edf3e14
+    file: jruby-bin-9.0.0.0.zip
+  - signature: 7dcd6335ff43f273c36964ee287af84c5a0073dc4cd06f70dbe574207375aeb9b732ec732bf3fc62583cfa2156ec305a623a7ea7be774e11fb9cd8dc54f44f85
+    file: jruby-src-9.0.0.0.tar.gz
+  - signature: 6717ca681e09b511c3fb8fb14860f94f3cb526951c48513464b8662e1d5b798ab6bc44b3deb3c2a6346afafb61bdbd9df2229a9a3406f722cc4ede7c8ae4dac2
+    file: jruby-src-9.0.0.0.zip
+  - signature: 33308a983533c129cffbf521bdb8c1996a10a6159a4a436248e645bda682c5a5395ac1aa767e971ae679c935f3b61573cb22d5b8c64af026752db3411a6356e1
+    file: jruby-dist-9.0.0.0-bin.tar.gz
+  - signature: 9e8e5e85069bc53eee7e6b8337567208695e5b04b0fd241091aee6610d1bc6bc5ed4f73565f1b9f80e9aadb0e4e679eb1f5dbadd5bcbae08c8e5526f6edf3e14
+    file: jruby-dist-9.0.0.0-bin.zip

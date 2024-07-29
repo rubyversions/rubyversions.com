@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.3.7
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 5eb580d5cd13ffb5aacfb96580c0043d
+    file: ruby-2.3.7.tar.bz2
+  - signature: d8afe2fa44f9a14cac337d4344ff216e
+    file: ruby-2.3.7.tar.gz
+  - signature: 4ba012bf1bf4aae94c5123acea298640
+    file: ruby-2.3.7.tar.xz
+  - signature: a13cd3af4877a6e67fd5e819811de39c
+    file: ruby-2.3.7.zip
+  sha1:
+  - signature: 3bb88965405da5e4de2432eeb445fffa8a66fb33
+    file: ruby-2.3.7.tar.bz2
+  - signature: 540996fec64984ab6099e34d2f5820b14904f15a
+    file: ruby-2.3.7.tar.gz
+  - signature: c489248730cbce7721edd3e97de81e68eec938b2
+    file: ruby-2.3.7.tar.xz
+  - signature: ec6870b39125238d8d57d642225592896ed3b6d9
+    file: ruby-2.3.7.zip
+  sha256:
+  - signature: 18b12fafaf37d5f6c7139c1b445355aec76baa625a40300598a6c8597fc04d8e
+    file: ruby-2.3.7.tar.bz2
+  - signature: 35cd349cddf78e4a0640d28ec8c7e88a2ae0db51ebd8926cd232bb70db2c7d7f
+    file: ruby-2.3.7.tar.gz
+  - signature: c61f8f2b9d3ffff5567e186421fa191f0d5e7c2b189b426bb84498825d548edb
+    file: ruby-2.3.7.tar.xz
+  - signature: ffa42eeff928624a05dc7ad39426c855c6e9a757417f17b6fe9e54664ec91012
+    file: ruby-2.3.7.zip
+  sha512:
+  - signature: e72754f7703f0706c4b0bccd053035536053451fe069a55427984cc0bc5692b86bd51c243c5f62f78527c66b08300d2e4aa19b73e6ded13d6020aa2450e66a7d
+    file: ruby-2.3.7.tar.bz2
+  - signature: 1ceccf00981d6d60e7587e89a04cc028f976950313ee445db5afd03e323472d3e69a35423733b24f9cbd9729f034cf80d2233b5c159764839f5bee4ca7052fe0
+    file: ruby-2.3.7.tar.gz
+  - signature: fd91c8db3d3aa4cc962a62f27b4d1a71f6b5567ab836e6dbfbbb1553eb269d11e12faf9e36af6c489c33b54fd89dab99bfe81a563158b704877f0628d6f5bc5a
+    file: ruby-2.3.7.tar.xz
+  - signature: c85255a7f43c7df2fb11be4f9aa96e2ae70a94d3e963ccff4d8c1349ad6d455d9a436812efb24c91e451e68b8f81e5d335c6d5811b2a0e945a7070c305054434
+    file: ruby-2.3.7.zip

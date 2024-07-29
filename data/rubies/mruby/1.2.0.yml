@@ -1,0 +1,25 @@
+---
+name: mruby
+version: 1.2.0
+website: https://mruby.org
+checksums:
+  md5:
+  - signature: b5a3b7962d9db8cb8fb8105aa914d16c
+    file: mruby-1.2.0.tar.gz
+  - signature: 5807e5083db594c8d489effb50c7d3a3
+    file: mruby-1.2.0.zip
+  sha1:
+  - signature: ae6fe327b6fce446ec1a5aff0a13d3f97799b919
+    file: mruby-1.2.0.tar.gz
+  - signature: 0f3c535d6c89b710d1fd0fdbf167077abce55996
+    file: mruby-1.2.0.zip
+  sha256:
+  - signature: 05ad0135a9c34158ff0cfd4631f4fbaed28cbb8243680d2c97ffdb9c246b1f3d
+    file: mruby-1.2.0.tar.gz
+  - signature: cd689bcb548b783377506fe8dc0c8474bb0af91cda4c0967d45a24f8583d68dc
+    file: mruby-1.2.0.zip
+  sha512:
+  - signature: bd5de32ba52b6642358752755329fa45a954082122a8983012930056c286ac328fb52fbdd11f34ff7c80af2c0e9a6348abcd5214602aca1150f2e7ae25cad1f2
+    file: mruby-1.2.0.tar.gz
+  - signature: 6d67311c479b149497db0dfa190d3e47a87ed5b2ea4031fab4e30db6f9ccb390ea72d313a3282cbadf01e6c5fe51d2cfef810712fad174cc091d2448cbff60b1
+    file: mruby-1.2.0.zip

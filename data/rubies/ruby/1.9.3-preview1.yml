@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.9.3-preview1
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 7d93dc773c5824f05c6e6630d8c4bf9b
+    file: ruby-1.9.3-preview1.tar.bz2
+  - signature: 0f0220be4cc7c51a82c1bd8f6a0969f3
+    file: ruby-1.9.3-preview1.tar.gz
+  - signature: 960e08b2dc866c9987f17d0480de63a1
+    file: ruby-1.9.3-preview1.zip
+  sha1:
+  - signature: b74db0a7b515633bce74983c73f7fbd3cb627489
+    file: ruby-1.9.3-preview1.tar.bz2
+  - signature: 1c2682441fcefd92eb0ede6b7c0b287f8ab1218b
+    file: ruby-1.9.3-preview1.tar.gz
+  - signature: 94dc28e8513eb80c86508d4881b4c828df5000df
+    file: ruby-1.9.3-preview1.zip
+  sha256:
+  - signature: a15d7924d74a45ffe48d5421c5fc4ff83b7009676054fa5952b890711afef6fc
+    file: ruby-1.9.3-preview1.tar.bz2
+  - signature: 75c2dd57cabd67d8078a61db4ae86b22dc6f262b84460e5b95a0d8a327b36642
+    file: ruby-1.9.3-preview1.tar.gz
+  - signature: 249483f88156b4ae65cd45742c6f6316660f793b78739657596c63b86f76aaeb
+    file: ruby-1.9.3-preview1.zip
+  sha512:
+  - signature: e8929d724099d9e261fc6cf8ce09780dbe9ebae8202fdb2090a10a819cee55077db503ed243458ef7645e25399d1904dd58043b4277bdab3452672e1f1b0dd81
+    file: ruby-1.9.3-preview1.tar.bz2
+  - signature: 813efff51d170f8a911c1d7229dd6677599f8b7736ba492a93c481b53cb0b9b7146067d277a08328d18bf87dfdc45bf2eeacfcc45046854d972c39db1dcc51d0
+    file: ruby-1.9.3-preview1.tar.gz
+  - signature: f364adde96fd4d05d1ed90fda1ae04394bbc21b6e4fdb99aa5130d472748aa9bdf297191ef6ce28777a9841b45e8c47654539bd6701b74dfb8db601d83aa6270
+    file: ruby-1.9.3-preview1.zip

@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.6.4
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: d9b35753c65f54c745ab6b0094511839
+    file: ruby-2.6.4.tar.bz2
+  - signature: 49b628cdb21db967d8a3f6ca6e222583
+    file: ruby-2.6.4.tar.gz
+  - signature: 624ecd14d366b20f41db35f06337d007
+    file: ruby-2.6.4.tar.xz
+  - signature: 4ca62ca6093d003a53e4d02942de2c1b
+    file: ruby-2.6.4.zip
+  sha1:
+  - signature: fa1c7b7f91edb92de449cb1ae665901ba51a8b81
+    file: ruby-2.6.4.tar.bz2
+  - signature: 2eaddc428cb5d210cfc256a7e6947196ed24355b
+    file: ruby-2.6.4.tar.gz
+  - signature: 6ef7d60b8aaa5efb04de2eb4b682f91bc0ab3910
+    file: ruby-2.6.4.tar.xz
+  - signature: 3e1d98afc7804a291abe42f0b8e2e98219e41ca3
+    file: ruby-2.6.4.zip
+  sha256:
+  - signature: fa1ecc67b99fa13201499002669412eae7cfbe2c30c4f1f4526e8491edfc5fa7
+    file: ruby-2.6.4.tar.bz2
+  - signature: 4fc1d8ba75505b3797020a6ffc85a8bcff6adc4dabae343b6572bf281ee17937
+    file: ruby-2.6.4.tar.gz
+  - signature: df593cd4c017de19adf5d0154b8391bb057cef1b72ecdd4a8ee30d3235c65f09
+    file: ruby-2.6.4.tar.xz
+  - signature: 8446eaaa633a8d55146df0874154b8eb1e5ea5a000d803503d83fd67d9e9372c
+    file: ruby-2.6.4.zip
+  sha512:
+  - signature: a9fa2f51fb5f86cd8dcaa0925fe6f13d4f19f110b5d4c5fd251f199d16aaf920db39ad3bb50460eb94ab8d471ab2ac8bb54daea4a3bb080eaf45250aac3437fe
+    file: ruby-2.6.4.tar.bz2
+  - signature: 3dad0d98695e10ece015933e96114ffd9a10d3c59d1ead8a9ab041df113aabee3f4100aa7ffe7ef5c43b62ac3c7506c3f3ceeb8828b2a800b6d0f4119d5bf926
+    file: ruby-2.6.4.tar.gz
+  - signature: 930a4162fdb008d2446247908c14269fd13db4dc80bd2bb201a65a69c03f5933f97b4c5079ccd2a12db4934ff97b2debaa10a6c6f5c3060e55873f4397747eaa
+    file: ruby-2.6.4.tar.xz
+  - signature: 5696f2921b8488bde42536dd23d933c8a5ab9ce33632760d217d79567324c4a20f8007d4815f33e56c0a764d1ca372b40c41a5937f9938bb1d63ea078d10d657
+    file: ruby-2.6.4.zip

@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.4.10
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: b10a7d2fcaf218c98edbaf57efc36e58
+    file: ruby-2.4.10.tar.bz2
+  - signature: 1d236b3054b113d95419b6c0e87bdbd0
+    file: ruby-2.4.10.tar.gz
+  - signature: ce83a931f49f224af8b9466501455854
+    file: ruby-2.4.10.tar.xz
+  - signature: 3090b383e99ed201ffe2edb1bf475d22
+    file: ruby-2.4.10.zip
+  sha1:
+  - signature: 96737b609f4a82f8696669a17017a46f3bd07549
+    file: ruby-2.4.10.tar.bz2
+  - signature: 3140909df03941865012a247969f355cb17e5cde
+    file: ruby-2.4.10.tar.gz
+  - signature: 757707eaf3d013f17d63717b0b00dfde7ef6684e
+    file: ruby-2.4.10.tar.xz
+  - signature: 38568a192e042fdd93cd9ba0cdae1de3b299b0b5
+    file: ruby-2.4.10.zip
+  sha256:
+  - signature: 6ea3ce7fd0064524ae06dbdcd99741c990901dfc9c66d8139a02f907d30b95a8
+    file: ruby-2.4.10.tar.bz2
+  - signature: 93d06711795bfb76dbe7e765e82cdff3ddf9d82eff2a1f24dead9bb506eaf2d0
+    file: ruby-2.4.10.tar.gz
+  - signature: d5668ed11544db034f70aec37d11e157538d639ed0d0a968e2f587191fc530df
+    file: ruby-2.4.10.tar.xz
+  - signature: 3babcf264a22b52951974ed4c5232c3fe14f2ada72daad47bf8b73639a7eec50
+    file: ruby-2.4.10.zip
+  sha512:
+  - signature: 4d730d2d7cb96b002167ee358258f2620862a5a6d8627cfa5b49bd43c6e59c50c0f437b959d4689b231d57706ec7d5910d9b144f4ca1c1ed56bc879ed92e8a59
+    file: ruby-2.4.10.tar.bz2
+  - signature: dfbe2a28b1a2d458dfc8d4287fbe7caec70890dfecf1e12ac62cddd323d8921ca14a0479453e3691641e3d49366de2e4eb239029c46685234b8f29ac84e1da11
+    file: ruby-2.4.10.tar.gz
+  - signature: 11c7a9ea1353f752763b189815ac34674cc8ebf7141517838b7f040823e892780d94ec3091c1f5d1415f9bc1b838b7f6f9de13a706df7bef80ce3b146a7d6660
+    file: ruby-2.4.10.tar.xz
+  - signature: 7dbc14d8d548848a8f6d6a6fa84fd514386df86b5e3f0613cdb6d1dd68740b934052f71eee63e0a2fd5cdc7f4acf20ae8ef6219f8e3d7d0c476bb6f411bb6320
+    file: ruby-2.4.10.zip

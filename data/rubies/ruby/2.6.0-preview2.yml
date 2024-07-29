@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.6.0-preview2
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 2d461ec566a994a337b3cdea51ffb4c3
+    file: ruby-2.6.0-preview2.tar.gz
+  - signature: e45011116334d21857b9e1712a01e6b3
+    file: ruby-2.6.0-preview2.tar.bz2
+  - signature: 83c261aded7ea8e818ae899fd680b4e4
+    file: ruby-2.6.0-preview2.tar.xz
+  - signature: addce6d250327220383582b2cfc62981
+    file: ruby-2.6.0-preview2.zip
+  sha1:
+  - signature: 6867b00e81af0b70fcb6f1aa7fc22d89d48a7d12
+    file: ruby-2.6.0-preview2.tar.gz
+  - signature: a9b1b4f359601b94b3f5b77115fcbf3790ff69cd
+    file: ruby-2.6.0-preview2.tar.bz2
+  - signature: e795abe1a4f828b3d851f7148b4bf6c9d9a7e7fd
+    file: ruby-2.6.0-preview2.tar.xz
+  - signature: eba80a09b552ce3142fd571ff5867a13736d170e
+    file: ruby-2.6.0-preview2.zip
+  sha256:
+  - signature: ee15ab35f17c942b1f41bd792f2494f639affff6e03babf44708b72fdbb6de34
+    file: ruby-2.6.0-preview2.tar.gz
+  - signature: d8ede03d5ad3abd9d2c81cf0ad17a41d22b747c003cc16fd59befb2aaf48f0b2
+    file: ruby-2.6.0-preview2.tar.bz2
+  - signature: 00ddfb5e33dee24469dd0b203597f7ecee66522ebb496f620f5815372ea2d3ec
+    file: ruby-2.6.0-preview2.tar.xz
+  - signature: 97fc187b90570fce110d22803a319ab04e68700692b2b6b4e9961886f1a931e5
+    file: ruby-2.6.0-preview2.zip
+  sha512:
+  - signature: 95c5a277785dfeb3006503e1b9ccccefdf6ce29669d4576f0191ee6986ba0e3567fbbed18a8d2b1f147d637434e4a3a4fdf47d84995e10ad4a354950e9092690
+    file: ruby-2.6.0-preview2.tar.gz
+  - signature: 3872227e9b1c97c206d19bf1e6ce15a38ee15a26c431b4436605dea67affcf16372358984df76b35e7abaa902c15c16f533ac7af47e3031dea9451bbe459b693
+    file: ruby-2.6.0-preview2.tar.bz2
+  - signature: bef3e90e97d6e58889cd500c591c579b728ca5833022b690182c0bf4d661e437b3a2ca33470dac35fcf693897819b9d7f500c0f71b707e2fcdcb0644028f2c03
+    file: ruby-2.6.0-preview2.tar.xz
+  - signature: d5501819635bda64ac3dc717815652b692302b44a7cdf4c08edfa5cb9ec7f79a70fffc534879b316a4a9584825ed3c0948667beae2d7c313de58583931b981f4
+    file: ruby-2.6.0-preview2.zip

@@ -1,0 +1,41 @@
+---
+name: ruby
+version: 2.2.3
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: f49a734729a71774d4a94a9a603114b2
+    file: ruby-2.2.3.tar.bz2
+  - signature: 150a5efc5f5d8a8011f30aa2594a7654
+    file: ruby-2.2.3.tar.gz
+  - signature: 2a8bc1f46aba8938add70f742e8af1ff
+    file: ruby-2.2.3.tar.xz
+  - signature: 7a3941be5041451e2ca43a69a5e2aacb
+    file: ruby-2.2.3.zip
+  sha1:
+  - signature: 59fe80aeeb518ffb396bb1df74b47b25541fb207
+    file: ruby-2.2.3.tar.bz2
+  - signature: 0d9e158534cb31e72740138b8f697b57b448e5c3
+    file: ruby-2.2.3.tar.gz
+  - signature: cff5421e3a7f6dbe72009ef44164d4b9e6d1801f
+    file: ruby-2.2.3.tar.xz
+  - signature: d0baec39caa5d3bb0c65175b8fdc38a8a98b120d
+    file: ruby-2.2.3.zip
+  sha256:
+  - signature: c745cb98b29127d7f19f1bf9e0a63c384736f4d303b83c4f4bda3c2ee3c5e41f
+    file: ruby-2.2.3.tar.bz2
+  - signature: df795f2f99860745a416092a4004b016ccf77e8b82dec956b120f18bdc71edce
+    file: ruby-2.2.3.tar.gz
+  - signature: c6ec90e9ed018e6d9a578fc93755d8565839908d5796809e1aecd1798c7ea8a7
+    file: ruby-2.2.3.tar.xz
+  - signature: 0af3035be23120e5a617fcae0d34bc6cd5ee313ed7a6e1b68591268b415c95e4
+    file: ruby-2.2.3.zip
+  sha512:
+  - signature: 795f1b66a6d4f0baef897068899c3a1a4370ce1268618e6a7d6d4720234444259f371d1ba2e174b2f7580265e9f18eda3f295fbb087447aa6e8fb7a0f07526ce
+    file: ruby-2.2.3.tar.bz2
+  - signature: 360ce8a99284c77b5789d292ac1669c299a66264691af7c29cb93df9b9136adbfa9965f3259eba561b082650770e2f5552f273ab8178e9c81f93bf0091a7056b
+    file: ruby-2.2.3.tar.gz
+  - signature: e3ce3333e8d59f4f3bfc84cf9bbbc6f74272470e12913d299fd1d41fc166dee21921eed1789591f50c3f3b6e5fd38fd1b99855c16aff28bdc4ae8fcc680c71bd
+    file: ruby-2.2.3.tar.xz
+  - signature: ae288d7c0c21a159cf8173b4b4d51281616cf92a50ec63fe3b17b0af2b97302106406330aaf203a997c1169dda215068b480b5947a6bed56db5d378b0a4d2be5
+    file: ruby-2.2.3.zip

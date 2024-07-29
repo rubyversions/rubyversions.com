@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.7.6
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: f972fb0cce662966bec10d5c5f32d042
+    file: ruby-2.7.6.tar.gz
+  - signature: a426258d48bccd0178525f9dd57e5543
+    file: ruby-2.7.6.tar.xz
+  - signature: 453fc8137e9ce88a5e95761aa3813ac9
+    file: ruby-2.7.6.zip
+  sha1:
+  - signature: 645f85941b4f69fc5bfb8aa3ba85f0e43dfb520c
+    file: ruby-2.7.6.tar.gz
+  - signature: '068e3e11799250781ba4a68eb4f015bab35966e3'
+    file: ruby-2.7.6.tar.xz
+  - signature: 59517436c536a817f52fe77b7cbed32d5d3764c3
+    file: ruby-2.7.6.zip
+  sha256:
+  - signature: e7203b0cc09442ed2c08936d483f8ac140ec1c72e37bb5c401646b7866cb5d10
+    file: ruby-2.7.6.tar.gz
+  - signature: 54dcd3044726c4ab75a9d4604720501442b229a3aed6a55fe909567da8807f24
+    file: ruby-2.7.6.tar.xz
+  - signature: 2ead329cfb9a5975348d2fdcfa0cb60bb3ba47a6693e93afd52db7a0ba01ac4c
+    file: ruby-2.7.6.zip
+  sha512:
+  - signature: 94810bb204cec55b5bbec8d51a5f5cc696613d1812b152399441a5cc7e4eddd2b376bc85e16d8da0b12f1938d19bf0d056b49a028809c036fb5a446a65bffbee
+    file: ruby-2.7.6.tar.gz
+  - signature: e86410b59d5917786fe43b00fd75dedd0e7f84611286b9274c542d2e562088fcee6bcc6c2596c30ccf793280d2bac6bfbb2619ef0513b3ca31f10f88684c7b1f
+    file: ruby-2.7.6.tar.xz
+  - signature: d7210aa211333cc1afa080b999bf1a50db1708bb8e2c608892bb42fe450f4567aa4d974532071e0eba3d96bee63ed1f2d51f123d443edc46668c4eca3fe1f791
+    file: ruby-2.7.6.zip

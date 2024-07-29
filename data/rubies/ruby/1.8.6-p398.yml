@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.8.6-p398
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: fbd43dc44ee26be4d37e6bebbed6f8bd
+    file: ruby-1.8.6-p398.tar.bz2
+  - signature: 736db5f56c2d9b0136e563d049249fa8
+    file: ruby-1.8.6-p398.tar.gz
+  - signature: e57e9cded6225b1681609a40f1de4a67
+    file: ruby-1.8.6-p398.zip
+  sha1:
+  - signature: 9ffc88716ed15de11a0c8c612dfa7befd2201a91
+    file: ruby-1.8.6-p398.tar.bz2
+  - signature: 7d1b9a9a91a9c88b1c0f6820988379c2415e3ad3
+    file: ruby-1.8.6-p398.tar.gz
+  - signature: a35ac9ab9c369eec89f7752ce50614243a14b1d5
+    file: ruby-1.8.6-p398.zip
+  sha256:
+  - signature: 9890c5eb899f19d5bca7b9b04bba597d14ec6627e992ee376143147c19e3990d
+    file: ruby-1.8.6-p398.tar.bz2
+  - signature: 37181c88a8bb6903da9ff2e61c5cb5a3068f11bcd7037c4e0ddd8c5d59da0d22
+    file: ruby-1.8.6-p398.tar.gz
+  - signature: 9c6edb867cbce101906a121228f1169ace72fbf12281b288c839e302d0451307
+    file: ruby-1.8.6-p398.zip
+  sha512:
+  - signature: f6b344a5201163978015dc6d7d5ef12ed5df1ec341b834648e1f179c92465220c8d14d1026f3d9d27ca1cde7fb14d084daf054f061e0dfe094c2a4c53f858593
+    file: ruby-1.8.6-p398.tar.bz2
+  - signature: bbc3ba1d7223a08c81e28f204fd91485c4586db199537936d12e2ed45f3a180308107a788e8a15c9cdf6d7dfe42f20650de96a6abc973521e13b1f23725340c0
+    file: ruby-1.8.6-p398.tar.gz
+  - signature: 25b58450be276c890e673b7bbe7245c0ae1b210036e5609a890865212a4e1327d41171110429e7ae53cff13736c58bfc41b456c095e2d5526187ace29dea1c84
+    file: ruby-1.8.6-p398.zip

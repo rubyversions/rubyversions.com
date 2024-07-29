@@ -1,0 +1,41 @@
+---
+name: truffleruby-graalvm
+version: 22.2.0
+website: https://www.graalvm.org/ruby
+checksums:
+  md5:
+  - signature: 41a1653fcdee605a21d8e03763a861c4
+    file: graalvm-ce-java11-linux-amd64-22.2.0.tar.gz
+  - signature: e1e5fc2cb5e521bb38c7ff7adfbe7d7c
+    file: graalvm-ce-java11-linux-aarch64-22.2.0.tar.gz
+  - signature: 9dc83938e4201d44e75769d0a0a64386
+    file: graalvm-ce-java11-darwin-amd64-22.2.0.tar.gz
+  - signature: 79e818baf978324efd559ea20219a476
+    file: graalvm-ce-java11-darwin-aarch64-22.2.0.tar.gz
+  sha1:
+  - signature: 4316595c211567f5ef214774e88e20d0e12dde72
+    file: graalvm-ce-java11-linux-amd64-22.2.0.tar.gz
+  - signature: 8ef1ec721cf3af24bddd79e4e3069b8f1e5392c4
+    file: graalvm-ce-java11-linux-aarch64-22.2.0.tar.gz
+  - signature: fa975157c9c5975a181dcc7fb48dc4fba592de3c
+    file: graalvm-ce-java11-darwin-amd64-22.2.0.tar.gz
+  - signature: 0a80e5d77fff6a31e386b3e6a3e8482b4cfc35cc
+    file: graalvm-ce-java11-darwin-aarch64-22.2.0.tar.gz
+  sha256:
+  - signature: 882363c75d1b1782a48bbf7dd8b155ab231b0957fd5885941376d90b69f21b9e
+    file: graalvm-ce-java11-linux-amd64-22.2.0.tar.gz
+  - signature: 1ab64b35ed2478160bc6725d13ff5a2b9e31676b59ea3aaa9aca7a3a3db47132
+    file: graalvm-ce-java11-linux-aarch64-22.2.0.tar.gz
+  - signature: 3c6aca6faefa9e1f73de45fc56cc07d6f7864f63ce0b95148002dadb8f78cd86
+    file: graalvm-ce-java11-darwin-amd64-22.2.0.tar.gz
+  - signature: ee513cec2ef7b34ae6fbb8a3015c227ab2a24bfb2771c16152f15a1846df01f4
+    file: graalvm-ce-java11-darwin-aarch64-22.2.0.tar.gz
+  sha512:
+  - signature: 1f9bfbd83ce95bcdaeb074bcf1561438a6ec2e7fdc6d8ff17e1427231fc071540475e75c76cc0cdff72d2b5f77ba688a59f59d40399d685fe291cae5f1e3248b
+    file: graalvm-ce-java11-linux-amd64-22.2.0.tar.gz
+  - signature: c02178f73bd466bb44bb9ba3e80bbdb900b9849e067106af311c9c9d6c46dcd9667eba21d415d068efab7628e1067ad482f437b6651db836897bc24a8686db49
+    file: graalvm-ce-java11-linux-aarch64-22.2.0.tar.gz
+  - signature: dedb5b27caf819d3c0a8be1af3ac4278f046a8c02367be92e4ecf247cad6ebd4b78400c8199f8718fd0424952d58fb0b817baea3884915811328d6d57bb826f3
+    file: graalvm-ce-java11-darwin-amd64-22.2.0.tar.gz
+  - signature: 1fc5e8897c60006e74a13cea8c567b677889773ee86ebca66e7896eab1ec67dcf0e8aea748f488e5e33d31fee9c9d890323de4c469baf50eae1b4d4ca7ec0f3b
+    file: graalvm-ce-java11-darwin-aarch64-22.2.0.tar.gz

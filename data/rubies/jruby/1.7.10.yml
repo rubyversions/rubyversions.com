@@ -1,0 +1,57 @@
+---
+name: jruby
+version: 1.7.10
+website: https://www.jruby.org
+checksums:
+  md5:
+  - signature: c84fe9245a73f9cd29f56343b7d2e39a
+    file: jruby-bin-1.7.10.tar.gz
+  - signature: bdfe0a31a70c3713fca8728aec0b7def
+    file: jruby-bin-1.7.10.zip
+  - signature: d914cbab98d125f525b5feff549bd06f
+    file: jruby-src-1.7.10.tar.gz
+  - signature: 38dcd3cc9871f45ae7d74dcb9e8bc403
+    file: jruby-src-1.7.10.zip
+  - signature: c84fe9245a73f9cd29f56343b7d2e39a
+    file: jruby-dist-1.7.10-bin.tar.gz
+  - signature: bdfe0a31a70c3713fca8728aec0b7def
+    file: jruby-dist-1.7.10-bin.zip
+  sha1:
+  - signature: 5ec267dd3ddaa6e27801692a7080204067662289
+    file: jruby-bin-1.7.10.tar.gz
+  - signature: 54b8b8adce51378892b2689e40ed6957c774a73f
+    file: jruby-bin-1.7.10.zip
+  - signature: ca91c3920bae0704de963b60c1c6f599527e9d1a
+    file: jruby-src-1.7.10.tar.gz
+  - signature: a69199c7e3559b1e7b82e2bc1d645d4be1a532a7
+    file: jruby-src-1.7.10.zip
+  - signature: 5ec267dd3ddaa6e27801692a7080204067662289
+    file: jruby-dist-1.7.10-bin.tar.gz
+  - signature: 54b8b8adce51378892b2689e40ed6957c774a73f
+    file: jruby-dist-1.7.10-bin.zip
+  sha256:
+  - signature: 223285ee2fca5a4825f017b8a441232ec05d3fba5de213336c7ef6b6a36de651
+    file: jruby-bin-1.7.10.tar.gz
+  - signature: c326e5f179b1de3b4dfed5a68b5547eec6baccfdf3a7f5e61ea875dd3d7cfd49
+    file: jruby-bin-1.7.10.zip
+  - signature: ea1a711afe390885c28a715258d5f193d4da838af2d8ba8c54f1a5d18417a3bf
+    file: jruby-src-1.7.10.tar.gz
+  - signature: 96de34731978bce7d123761b872d837b265fb8c6ce7117478c24cd123e01ac63
+    file: jruby-src-1.7.10.zip
+  - signature: 223285ee2fca5a4825f017b8a441232ec05d3fba5de213336c7ef6b6a36de651
+    file: jruby-dist-1.7.10-bin.tar.gz
+  - signature: c326e5f179b1de3b4dfed5a68b5547eec6baccfdf3a7f5e61ea875dd3d7cfd49
+    file: jruby-dist-1.7.10-bin.zip
+  sha512:
+  - signature: 160b701f2f500dfab64beb635e5c4dc57760dd422d0fffe8d3cf8d84ee6ea17a877ef77a0087b4888ea9db64ce7750de01a73a51530aa6666a2efdcdccdb89e0
+    file: jruby-bin-1.7.10.tar.gz
+  - signature: 4e2cb7a4c3cc6f5575a0ddf87b7ed7754014782094d54c1b49338e5101119533016ab7b597ff9b9900227b9e12ee2f11079d7eca7ccc350d0ef939c5c403a44f
+    file: jruby-bin-1.7.10.zip
+  - signature: 7ff5c47669b1fe27d4bdc4a7348f019345457c3c1db0bf6bd6684340cb9e30d4d3e869bdb6e6887477ef25518124926863a7e0cb9b577c5ff9fbdb1fb3755381
+    file: jruby-src-1.7.10.tar.gz
+  - signature: 031ce01f3c0b924a651422a118698fbc6bee0bf14495b3c206bfbfae65b917130c3ec4fa307f12fe9b44f638e7dcf473c3191a8539086b0e36d2fe167bc4959f
+    file: jruby-src-1.7.10.zip
+  - signature: 160b701f2f500dfab64beb635e5c4dc57760dd422d0fffe8d3cf8d84ee6ea17a877ef77a0087b4888ea9db64ce7750de01a73a51530aa6666a2efdcdccdb89e0
+    file: jruby-dist-1.7.10-bin.tar.gz
+  - signature: 4e2cb7a4c3cc6f5575a0ddf87b7ed7754014782094d54c1b49338e5101119533016ab7b597ff9b9900227b9e12ee2f11079d7eca7ccc350d0ef939c5c403a44f
+    file: jruby-dist-1.7.10-bin.zip

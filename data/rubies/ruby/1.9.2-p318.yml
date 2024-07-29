@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 1.9.2-p318
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: be431c6cbfa27e3836a06c6315717747
+    file: ruby-1.9.2-p318.tar.bz2
+  - signature: cc7bf1025128e1985882ae243f348802
+    file: ruby-1.9.2-p318.tar.gz
+  - signature: 28435d3fda06ff57293a683417b9a3c8
+    file: ruby-1.9.2-p318.zip
+  sha1:
+  - signature: c66c124bd038271b9593ff839c1979d8a859a3f0
+    file: ruby-1.9.2-p318.tar.bz2
+  - signature: 8402e3726bcf62b422b1e9dd8a425b8707dc4042
+    file: ruby-1.9.2-p318.tar.gz
+  - signature: 477b6393d8bc41c186f04dc6154543ccfb558bbf
+    file: ruby-1.9.2-p318.zip
+  sha256:
+  - signature: 9fcd60aaa118c35ec41c7e9974f1d771b1e632315661fd60f907c21357b082ce
+    file: ruby-1.9.2-p318.tar.bz2
+  - signature: 891f707714cb7585ffc76dfaf855e4fcd5b2c0a64655b62d9b23b6a3985a2749
+    file: ruby-1.9.2-p318.tar.gz
+  - signature: 98a954647b08ac3f5fcdacb4769daf683aa0a0eb15f030d24db538bb8a9aec49
+    file: ruby-1.9.2-p318.zip
+  sha512:
+  - signature: 5c525c7eb272d8a863d5d9ccdc563cd43b53f7c06976a9670cac60ce9efa4a6d216cdcef2b2be83daa7403490d4e8a555f52542eac9a79484119b9b09c90b324
+    file: ruby-1.9.2-p318.tar.bz2
+  - signature: 8f191782d32c069df5b08d508974fc41afcbcd103ad131c65caa90303599fffa38da58295fc7c8ba882efe1e345287c995df10a0f2335fc07977a6cff7dfc241
+    file: ruby-1.9.2-p318.tar.gz
+  - signature: c39d4ae4eabb4639bff24656cc0037418b3dad476f230b6f4f6b94a6bfe444d180a88a15ca4a90f5f2e4869ef7ecdd0a3279abdb66eeb72cb3f9ad86feb28009
+    file: ruby-1.9.2-p318.zip

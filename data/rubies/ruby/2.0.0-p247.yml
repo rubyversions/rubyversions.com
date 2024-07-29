@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 2.0.0-p247
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 60913f3eec0c4071f44df42600be2604
+    file: ruby-2.0.0-p247.tar.bz2
+  - signature: c351450a0bed670e0f5ca07da3458a5b
+    file: ruby-2.0.0-p247.tar.gz
+  - signature: 7548f781d868456e84afcd0327c7f894
+    file: ruby-2.0.0-p247.zip
+  sha1:
+  - signature: 9d3e5758c87a2c8016aec246f278b7551f8cb675
+    file: ruby-2.0.0-p247.tar.bz2
+  - signature: 850b93afb5914ee3f38f0769e309abf0cedf084b
+    file: ruby-2.0.0-p247.tar.gz
+  - signature: 92aa8fc7661064f0ceeaaf2fe63ad071e3ad80d6
+    file: ruby-2.0.0-p247.zip
+  sha256:
+  - signature: '08e3d4b85b8a1118a8e81261f59dd8b4ddcfd70b6ae554e0ec5ceb99c3185e8a'
+    file: ruby-2.0.0-p247.tar.bz2
+  - signature: 3e71042872c77726409460e8647a2f304083a15ae0defe90d8000a69917e20d3
+    file: ruby-2.0.0-p247.tar.gz
+  - signature: 40c938238075b1e7e8df5d7ebfd069a45b93066318d91da9024d81b20a1c5a8a
+    file: ruby-2.0.0-p247.zip
+  sha512:
+  - signature: 9bd793d0df8f0704fb1521a937c09ecc89b777851312793f0b3391df11dec8239808585697b932c4a94665fa29c7781503166dbd109f269811788c4c648f285f
+    file: ruby-2.0.0-p247.tar.bz2
+  - signature: 18011c5556757694b4db749331616e536236698c6977005a4287b54a16e6709a4158a2845358cc2fad75e02ae5c72a2e717b098c259e26f3f6f475036554d557
+    file: ruby-2.0.0-p247.tar.gz
+  - signature: 46c2b5d28c5f08664f7e2252972084ca15e37509dcba88f89a871831cd7b5e14b531d6852979e7129684a101c2672cdad393808c328fed6cee4cdaea2f5d269a
+    file: ruby-2.0.0-p247.zip
