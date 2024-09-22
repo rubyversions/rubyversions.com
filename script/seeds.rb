@@ -26,13 +26,13 @@ POSTMODERN_RUBY_VERSIONS_REPO_PATH = ENV['POSTMODERN_RUBY_VERSIONS_REPO_PATH'].f
 
 POSTMODERN_RUBY_FILES = {
   checksums: {
-    md5:      "checksums.md5",
-    sha1:     "checksums.sha1",
-    sha256:   "checksums.sha256",
-    sha512:   "checksums.sha512",
+    md5:    'checksums.md5',
+    sha1:   'checksums.sha1',
+    sha256: 'checksums.sha256',
+    sha512: 'checksums.sha512'
   },
-  stable:   "stable.txt",
-  versions: "versions.txt"
+  stable:    'stable.txt',
+  versions:  'versions.txt'
 }.freeze
 
 # Helper methods
@@ -47,7 +47,7 @@ def postmodern_ruby_file_path ruby, name
   [
     POSTMODERN_RUBY_VERSIONS_REPO_PATH,
     String(ruby),
-    file_name,
+    file_name
   ].join '/'
 end
 
@@ -69,21 +69,21 @@ end
 
 def stable_versions ruby
   stable_versions_file_path = postmodern_ruby_file_path ruby, :stable
-  File.readlines(stable_versions_file_path).map { |line| line.chomp }
+  File.readlines(stable_versions_file_path).map(&:chomp)
 end
 
 def checksums ruby, release
   output = {}
 
-  POSTMODERN_RUBY_FILES[:checksums].each do |checksum, file_name|
-    checksum_file_path = postmodern_ruby_file_path ruby, { checksum: checksum }
+  POSTMODERN_RUBY_FILES[:checksums].each_key do |checksum|
+    checksum_file_path = postmodern_ruby_file_path ruby, { checksum: }
     checksums_in_this_file = []
 
     File.readlines(checksum_file_path).each do |checksum_line|
       signature, release_file_name = checksum_line.chomp.split
 
       stripped_file_name = release_file_name.sub "#{ruby}-", ''
-      %W[
+      %w[
         graalvm-ce- graalvm-jdk- truffleruby-jvm- darwin- java11- java8-
         aarch64- -aarch64
         amd64- -amd64
