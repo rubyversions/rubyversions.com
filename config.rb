@@ -40,7 +40,7 @@ page '/*.txt', layout: false
 
 helpers do
   def latest_ruby_version
-    '3.3.5'
+    data.rubies.ruby.stable[:stable].sort.last
   end
 end
 
