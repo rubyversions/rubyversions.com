@@ -24,6 +24,7 @@ if ENV['POSTMODERN_RUBY_VERSIONS_REPO_PATH'].nil?
 end
 POSTMODERN_RUBY_VERSIONS_REPO_PATH = ENV['POSTMODERN_RUBY_VERSIONS_REPO_PATH'].freeze
 
+# rubocop:disable Naming/VariableNumber
 POSTMODERN_RUBY_FILES = {
   checksums: {
     md5:    'checksums.md5',
@@ -34,6 +35,7 @@ POSTMODERN_RUBY_FILES = {
   stable:    'stable.txt',
   versions:  'versions.txt'
 }.freeze
+# rubocop:enable Naming/VariableNumber
 
 # TEMP: what’s a better name?
 UNWANTED_FILE_FRAGMENTS = %w[
@@ -81,7 +83,7 @@ def stable_versions ruby
   File.readlines(stable_versions_file_path).map(&:chomp)
 end
 
-def checksums ruby, release
+def checksums ruby, release # rubocop:disable Metrics/MethodLength
   output = {}
 
   POSTMODERN_RUBY_FILES[:checksums].each_key do |checksum|
