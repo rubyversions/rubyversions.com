@@ -17,7 +17,10 @@ gem 'middleman-sprockets', '4.1.0'
 gem 'base64'
 gem 'bigdecimal'
 gem 'csv'
+gem 'logger'
 gem 'mutex_m'
+gem 'ostruct'
+gem 'rdoc'
 
 # assets
 gem 'bootstrap'
