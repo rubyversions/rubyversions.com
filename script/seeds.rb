@@ -54,7 +54,6 @@ def postmodern_ruby_file_path ruby, name
     if name.is_a? Hash
       POSTMODERN_RUBY_FILES[:checksums][name.values.first]
     else
-      puts "in the else: for #{ruby}, #{name}"
       POSTMODERN_RUBY_FILES[name]
     end
 
@@ -92,12 +91,7 @@ def checksums ruby, release
     File.readlines(checksum_file_path).each do |checksum_line|
       signature, release_file_name = checksum_line.chomp.split
 
-      stripped_file_name = release_file_name.sub "#{ruby}-", ''
-      UNWANTED_FILE_FRAGMENTS.each do |fragment|
-        stripped_file_name = stripped_file_name.sub fragment, ''
-      end
-
-      if stripped_file_name == release
+      if stripped_file_name(ruby, release_file_name) == release
         checksums_in_this_file << { 'signature' => signature, 'file' => release_file_name }
       end
 
@@ -106,6 +100,16 @@ def checksums ruby, release
   end
 
   output
+end
+
+def stripped_file_name ruby, release_file_name
+  file_name = release_file_name.sub "#{ruby}-", ''
+
+  UNWANTED_FILE_FRAGMENTS.each do |fragment|
+    file_name.sub! fragment, ''
+  end
+
+  file_name
 end
 
 # big loop
