@@ -1,5 +1,5 @@
 require 'yaml'
-require 'env'
+require 'dotenv/load'
 
 # CONSTANTS
 RUBIES = {
