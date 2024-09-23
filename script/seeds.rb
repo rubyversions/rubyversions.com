@@ -35,20 +35,35 @@ POSTMODERN_RUBY_FILES = {
   versions:  'versions.txt'
 }.freeze
 
+# TEMP: what’s a better name?
+UNWANTED_FILE_FRAGMENTS = %w[
+  graalvm-ce- graalvm-jdk- truffleruby-jvm- darwin- java11- java8-
+  aarch64- -aarch64
+  amd64- -amd64
+  linux- _linux -linux
+  bin- _bin -bin
+  src- dist- pkg/
+  _x64 -x64
+  _macos -macos
+  .bz2 .gz .tar .zip .xz
+].freeze
+
 # Helper methods
 def postmodern_ruby_file_path ruby, name
   file_name =
     if name.is_a? Hash
+      puts caller
+      puts "hash: for #{ruby}, #{name.values.first}"
+      puts name
+      puts
+
       POSTMODERN_RUBY_FILES[:checksums][name.values.first]
     else
+      puts "in the else: for #{ruby}, #{name}"
       POSTMODERN_RUBY_FILES[name]
     end
 
-  [
-    POSTMODERN_RUBY_VERSIONS_REPO_PATH,
-    String(ruby),
-    file_name
-  ].join '/'
+  [POSTMODERN_RUBY_VERSIONS_REPO_PATH, String(ruby), file_name].join '/'
 end
 
 def data_yaml_file_path ruby, release
@@ -83,17 +98,7 @@ def checksums ruby, release
       signature, release_file_name = checksum_line.chomp.split
 
       stripped_file_name = release_file_name.sub "#{ruby}-", ''
-      %w[
-        graalvm-ce- graalvm-jdk- truffleruby-jvm- darwin- java11- java8-
-        aarch64- -aarch64
-        amd64- -amd64
-        linux- _linux -linux
-        bin- _bin -bin
-        src- dist- pkg/
-        _x64 -x64
-        _macos -macos
-        .bz2 .gz .tar .zip .xz
-      ].each do |fragment|
+      UNWANTED_FILE_FRAGMENTS.each do |fragment|
         stripped_file_name = stripped_file_name.sub fragment, ''
       end
 
