@@ -11,7 +11,7 @@ gem 'middleman-livereload'
 #       Error: File to import not found or unreadable: ./variables.scss.
 #               on line 1:1 of stdin >> @import "./variables.scss";
 #       I think that #source_file_relative_to_root is where the problem is
-gem 'middleman-sprockets', '4.1.0'
+gem 'middleman-sprockets', '4.1.1'
 
 # ruby 3.3 deprecations from stdlib, depended on by middleman, et al
 gem 'base64'
