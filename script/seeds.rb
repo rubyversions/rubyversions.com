@@ -52,11 +52,6 @@ UNWANTED_FILE_FRAGMENTS = %w[
 def postmodern_ruby_file_path ruby, name
   file_name =
     if name.is_a? Hash
-      puts caller
-      puts "hash: for #{ruby}, #{name.values.first}"
-      puts name
-      puts
-
       POSTMODERN_RUBY_FILES[:checksums][name.values.first]
     else
       puts "in the else: for #{ruby}, #{name}"
