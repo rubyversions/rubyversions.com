@@ -108,7 +108,7 @@ GEM
       sprockets (>= 3.0)
     minitest (5.25.1)
     mutex_m (0.2.0)
-    ostruct (0.6.0)
+    ostruct (0.6.1)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.3)
@@ -120,7 +120,7 @@ GEM
       racc
     parslet (2.0.0)
     popper_js (2.11.8)
-    psych (5.1.2)
+    psych (5.2.0)
       stringio
     public_suffix (6.0.1)
     racc (1.8.1)
@@ -154,7 +154,7 @@ GEM
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
-    stringio (3.1.1)
+    stringio (3.1.2)
     temple (0.10.3)
     terser (1.2.4)
       execjs (>= 0.3.0, < 3)
