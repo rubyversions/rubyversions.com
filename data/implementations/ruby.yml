@@ -1,4 +1,11 @@
 ---
-ruby:
-  name: Ruby
+name: Ruby
+urls:
+  repo: https://github.com/ruby/ruby
   website: https://ruby-lang.org
+status: active
+aliases:
+  - MRI
+  - Matz’s Ruby Interpreter
+  - Ruby MRI
+  - CRuby

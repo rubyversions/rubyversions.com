@@ -1,26 +1,17 @@
 <h1 class='display-1'>All Ruby implementations</h1>
 
 <div class='mb-5'>
-  <% data.rubies.slice('ruby').each do |ruby| %>
-    <h2 class='display-2'><%= ruby.first %></h2>
+  <% data.status.each do |status, rubies| %>
+    <h2 class='fs-6 m-0 fw-light border-bottom'><%= status.titleize %></h2>
+
+    <ul class='mb-5 list-unstyled'>
+      <% rubies.each do |slug| %>
+        <li class='mb-3' id='<%= slug %>'>
+          <h3 class='h2 m-0'><%= implementation_name slug %></h3>
+          <p><%= link_to_implementation_website slug %></p>
+        </li>
+      <% end %>
+    </ul>
+
   <% end %>
 </div>
-
-<div class='mb-5'>
-  <% data.rubies.except('ruby').each do |ruby| %>
-    <h2 class='display-2'><%= ruby.first %></h2>
-  <% end %>
-</div>
-
-<ol>
-  <% data.implementations.each do |implementation, content| %>
-    <li>
-      <h3><%= implementation %></h3>
-
-      <dl>
-        <dt><%= content.first.last.inspect %></dt>
-        <dd><%= content.last.inspect %></dd>
-      </dl>
-    </li>
-  <% end %>
-</ol>

@@ -42,6 +42,18 @@ helpers do
   def latest_ruby_version
     data.rubies.ruby.stable[:stable].sort.last
   end
+
+  def implementation_name slug
+    data.implementations[String(slug)]['name']
+  end
+
+  def implementation_website slug
+    data.implementations[String(slug)]['urls']['website']
+  end
+
+  def link_to_implementation_website slug
+    link_to implementation_website(slug), implementation_website(slug)
+  end
 end
 
 # Build-specific configuration

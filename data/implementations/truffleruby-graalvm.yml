@@ -1,4 +1,6 @@
 ---
-truffleruby-graalvm:
-  name: TruffleRuby (GraalVM)
+name: TruffleRuby (GraalVM)
+urls:
+  repo: https://github.com/oracle/truffleruby
   website: https://www.graalvm.org/ruby
+status: active

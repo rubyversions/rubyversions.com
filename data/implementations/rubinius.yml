@@ -1,4 +1,8 @@
 ---
-rubinius:
-  name: Rubinius
+name: Rubinius
+urls:
+  repo: https://github.com/rubinius/rubinius
   website: https://github.com/rubinius
+status: inactive
+aliases:
+  - rbx

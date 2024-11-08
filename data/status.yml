@@ -1,0 +1,13 @@
+---
+default:
+  - ruby
+alternative:
+  - jruby
+  - mruby
+  - truffleruby
+  - truffleruby-graalvm
+inactive:
+  - ironruby
+  - macruby
+  - maglev
+  - rubinius

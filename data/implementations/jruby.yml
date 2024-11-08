@@ -1,4 +1,6 @@
 ---
-jruby:
-  name: JRuby
+name: JRuby
+urls:
+  repo: https://github.com/jruby/jruby
   website: https://www.jruby.org
+status: active

@@ -1,4 +1,6 @@
 ---
-mruby:
-  name: mruby
+name: mruby
+urls:
+  repo: https://github.com/mruby/mruby
   website: https://mruby.org
+status: active

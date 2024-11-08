@@ -1,0 +1,8 @@
+---
+name: MacRuby
+urls:
+  repo: https://github.com/MacRuby/MacRuby
+  website: http://macruby.org
+status: inactive
+aliases:
+  - ruby+objc
