@@ -34,7 +34,6 @@ page '/*.txt', layout: false
 #   },
 # )
 
-
 helpers do
   def latest_ruby_version
     data.rubies.ruby.stable[:stable].max
@@ -67,19 +66,18 @@ configure :build do
   activate :relative_assets
 end
 
-
 # rubies#index
-proxy '/all', '/rubies/index.html'
+proxy '/all', '/rubies/index.html', layout: 'layout'
 
 # rubies#show
 def ruby_slugs
   path = [__dir__, 'data', 'status.yml'].join '/'
   rubies_by_status = YAML.safe_load_file path
-  ruby_slugs = rubies_by_status.map { |section, slugs| slugs }.flatten
+  rubies_by_status.values.flatten
 end
 
 ruby_slugs.each do |slug|
-  proxy slug, '/rubies/show.html', locals: { slug: slug }, ignore: true
+  proxy slug, '/rubies/show.html', locals: { slug: slug }, ignore: true, layout: 'layout'
 end
 
 # Helpers
