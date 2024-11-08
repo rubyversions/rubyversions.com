@@ -1,3 +1,4 @@
+---
 truffleruby-graalvm:
   name: TruffleRuby (GraalVM)
   website: https://www.graalvm.org/ruby
