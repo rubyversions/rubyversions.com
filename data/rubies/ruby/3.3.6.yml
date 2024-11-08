@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 3.3.6
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 51bcf91da64e5889e2e59c7adc7189c5
+    file: ruby-3.3.6.tar.gz
+  - signature: f5eb601e5c8b37ee8169b82fb528b821
+    file: ruby-3.3.6.tar.xz
+  - signature: df30f96b9512838f95b12a402368a801
+    file: ruby-3.3.6.zip
+  sha1:
+  - signature: 0106171cd1801fb5663e8e709f3d6c935d683c9b
+    file: ruby-3.3.6.tar.gz
+  - signature: 25391e9bd8547cd07e09afcfc472777520a3178a
+    file: ruby-3.3.6.tar.xz
+  - signature: 88239456249cd80cadd1cbf98a317ae700ccd9df
+    file: ruby-3.3.6.zip
+  sha256:
+  - signature: 8dc48fffaf270f86f1019053f28e51e4da4cce32a36760a0603a9aee67d7fd8d
+    file: ruby-3.3.6.tar.gz
+  - signature: 540975969d1af42190d26ff629bc93b1c3f4bffff4ab253e245e125085e66266
+    file: ruby-3.3.6.tar.xz
+  - signature: a60240a6f9bcc8db6c07d40ad29c7dceb21430debe3ebc39bf339207818132f6
+    file: ruby-3.3.6.zip
+  sha512:
+  - signature: 4ae22f5c2a1f7ed84aab7587ff04ce4d9933cffe4347deaef0ab88d22c9780f274c1664a4ee1dd8235bc3cc749be828ffa8db7cb5f5002339a59a599acf3c729
+    file: ruby-3.3.6.tar.gz
+  - signature: c4b86188bf539fa737932e1ba5b746bc295e7c43b2f8cca2668eb7c88aa7228e2ce9032bbcd244a7d558a11bc842445b5fbeac3503ca7d223b63c53e08dba4ab
+    file: ruby-3.3.6.tar.xz
+  - signature: c010c7d3e2b373b41a18bcadfb6dba276afabe479d75624569b5bdc605f3575bced2aff511708e25ceca43c7c918400222329e55e599c54154f203957f119ad2
+    file: ruby-3.3.6.zip
