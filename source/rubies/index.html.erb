@@ -1,0 +1,26 @@
+<h1 class='display-1'>All Ruby implementation</h1>
+
+<div class='mb-5'>
+  <% data.rubies.slice('ruby').each do |ruby| %>
+    <h2 class='display-2'><%= ruby.first %></h2>
+  <% end %>
+</div>
+
+<div class='mb-5'>
+  <% data.rubies.except('ruby').each do |ruby| %>
+    <h2 class='display-2'><%= ruby.first %></h2>
+  <% end %>
+</div>
+
+<ul>
+<% data.implementations.each do |implementation, content| %>
+  <li>
+    <h3><%= implementation %></h3>
+
+    <dl>
+      <dt><%= content.first.last.inspect %></dt>
+      <dd><%= content.last.inspect %></dd>
+    </dl>
+  </li>
+<% end %>
+</ul>
