@@ -34,13 +34,10 @@ page '/*.txt', layout: false
 #   },
 # )
 
-# Helpers
-# Methods defined in the helpers block are available in templates
-# https://middlemanapp.com/basics/helper-methods/
 
 helpers do
   def latest_ruby_version
-    data.rubies.ruby.stable[:stable].sort.last
+    data.rubies.ruby.stable[:stable].max
   end
 
   def implementation_name slug
@@ -54,6 +51,10 @@ helpers do
   def link_to_implementation_website slug
     link_to implementation_website(slug), implementation_website(slug)
   end
+
+  def implementation_slugs
+    data.implementations.keys
+  end
 end
 
 # Build-specific configuration
@@ -65,3 +66,22 @@ configure :build do
   activate :asset_hash
   activate :relative_assets
 end
+
+
+# rubies#index
+proxy '/all', '/rubies/index.html'
+
+# rubies#show
+def ruby_slugs
+  path = [__dir__, 'data', 'status.yml'].join '/'
+  rubies_by_status = YAML.safe_load_file path
+  ruby_slugs = rubies_by_status.map { |section, slugs| slugs }.flatten
+end
+
+ruby_slugs.each do |slug|
+  proxy slug, '/rubies/show.html', locals: { slug: slug }, ignore: true
+end
+
+# Helpers
+# Methods defined in the helpers block are available in templates
+# https://middlemanapp.com/basics/helper-methods/
