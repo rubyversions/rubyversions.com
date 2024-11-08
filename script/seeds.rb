@@ -63,7 +63,10 @@ def postmodern_ruby_file_path ruby, name
 end
 
 def data_yaml_file_path ruby, release
-  yaml_path = ['data', 'rubies', ruby].join '/'
+  directories = ['data', 'rubies', ruby]
+  directories << 'versions' unless String(release) == 'stable'
+  yaml_path = directories.compact.join '/'
+
   file_name = [release, 'yml'].join '.'
 
   [yaml_path, file_name].join '/'
