@@ -51,8 +51,17 @@ helpers do
     link_to implementation_website(slug), implementation_website(slug)
   end
 
-  def implementation_slugs
-    data.implementations.keys
+  def implementation_status slug
+    data.status.select { |_status, rubies| rubies.include? slug }.keys.first
+  end
+
+  def implementation_status_color slug
+    status = implementation_status(slug).to_sym
+    {
+      main:        :primary,
+      alternative: :info,
+      inactive:    :danger
+    }[status]
   end
 end
 
