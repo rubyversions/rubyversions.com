@@ -2,9 +2,9 @@
 
 Website for all versions of all Ruby implementations
 
-https://rubyversions.com
-https://rubyversions.org
-https://github.com/rubyversions/rubyversions.com
+- https://rubyversions.com
+- https://rubyversions.org
+- https://github.com/rubyversions/rubyversions.com
 
 ## Authors
 
@@ -13,14 +13,14 @@ https://github.com/rubyversions/rubyversions.com
 ## Colophon
 
 - [Ruby](https://ruby-lang.org)
-- [Jekyll](https://jekyllrb.com)
+- [Middleman](https://middlemanapp.com)
 - [GitHub Pages](https://pages.github.com)
 
 ## License
 
 **[PUBLIC DOMAIN](https://github.com/rubyversions/rubyversions.com/blob/main/LICENSE.md)**
 
-Your heart is as free as the air you breathe. \\
+Your heart is as free as the air you breathe.
 The ground you stand on is liberated territory.
 
 In legal text, the **Ruby Versions website and repo** are dedicated
