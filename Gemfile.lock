@@ -106,7 +106,7 @@ GEM
     middleman-sprockets (4.1.0)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
-    minitest (5.25.1)
+    minitest (5.25.4)
     mutex_m (0.2.0)
     ostruct (0.6.1)
     padrino-helpers (0.15.3)
