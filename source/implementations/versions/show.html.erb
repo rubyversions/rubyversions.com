@@ -1,10 +1,10 @@
 <%
 if current_page.path == 'latest'
-  slug    = 'ruby'
-  version = data.rubies.ruby.stable[:stable].max
+  version_number = latest_ruby_version
+  slug = 'ruby'
 end
 
-version = data.rubies[slug].versions[version]
+version = data.rubies[slug].versions[version_number]
 %>
 
 <h1 class="display-1"><%= implementation_name slug %></h1>
