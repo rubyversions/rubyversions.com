@@ -13,10 +13,6 @@ gem 'middleman-livereload'
 #       I think that #source_file_relative_to_root is where the problem is
 gem 'middleman-sprockets', '4.1.0'
 
-# assets
-gem 'bootstrap'
-gem 'terser'
-
 group :development, :test do
   gem 'dotenv' # reading ENV vars from .env file
   gem 'rubocop', require: false # code style guide and linting

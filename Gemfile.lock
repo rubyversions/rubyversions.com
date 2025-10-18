@@ -22,8 +22,6 @@ GEM
     base64 (0.3.0)
     benchmark (0.4.1)
     bigdecimal (3.3.1)
-    bootstrap (5.3.5)
-      popper_js (>= 2.11.8, < 3)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -126,7 +124,6 @@ GEM
       ast (~> 2.4.1)
       racc
     parslet (2.0.0)
-    popper_js (2.11.8)
     prism (1.6.0)
     public_suffix (6.0.2)
     racc (1.8.1)
@@ -165,8 +162,6 @@ GEM
       logger
       rack (>= 2.2.4, < 4)
     temple (0.10.4)
-    terser (1.2.6)
-      execjs (>= 0.3.0, < 3)
     thor (1.4.0)
     tilt (2.6.1)
     toml (0.3.0)
@@ -211,14 +206,12 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  bootstrap
   dotenv
   middleman
   middleman-autoprefixer
   middleman-livereload
   middleman-sprockets (= 4.1.0)
   rubocop
-  terser
   tzinfo
   tzinfo-data
   wdm
