@@ -29,11 +29,15 @@
 </table>
 
 <h2 id="versions">Versions</h2>
-<table class="table">
-  <% versions(slug).each do |version| %>
-    <tr>
-      <td><%= link_to version, "/#{slug}/#{version}" %></td>
-      <td>TODO: DATE</td>
-    </tr>
-  <% end %>
-</table>
+<% if versions(slug).present? %>
+  <table class="table">
+    <% versions(slug).each do |version| %>
+      <tr>
+        <td><%= link_to version, "/#{slug}/#{version}" %></td>
+        <td>TODO: DATE</td>
+      </tr>
+    <% end %>
+  </table>
+<% else %>
+  <p>TODO: No versions found, yet.</p>
+<% end %>

@@ -53,18 +53,15 @@ helpers do
   end
 
   def versions slug
-    data.rubies[slug].versions.keys.sort_by { |v| Gem::Version.new(v) }.reverse
+    implementation = data.rubies[slug]
+    return [] if implementation.blank?
+
+    implementation.versions.keys.sort_by { |v| Gem::Version.new(v) }.reverse
   end
 
   def get_version slug, version
     data.rubies[slug].versions[version]
   end
-end
-
-def implementation_slugs
-  path = [__dir__, 'data', 'status.yml'].join '/'
-  rubies_by_status = YAML.safe_load_file path
-  rubies_by_status.values.flatten
 end
 
 # Build-specific configuration
