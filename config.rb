@@ -23,8 +23,12 @@ page '/*.txt',  layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 helpers do
+  def latest_stable_version slug
+    data.rubies[slug].stable[:stable].max
+  end
+
   def latest_ruby_version
-    data.rubies.ruby.stable[:stable].max
+    latest_stable_version 'ruby'
   end
 
   def implementation_name slug
@@ -93,6 +97,18 @@ data.implementations.each do |slug, implementation|
         locals: { slug: slug, implementation: implementation },
         ignore: true,
         layout: 'layout'
+
+  # /:implementation/stable => implementations/versions/show.html
+  # /ruby/stable
+  # /jruby/stable
+  # /truffleruby/stable
+  # /rubinius/stable
+  # ...
+  proxy "/#{slug}/stable",
+        '/implementations/versions/show.html',
+        locals: { slug: slug },
+        ignore: true,
+        layout: 'layout'
 end
 
 # imp_versions = data.rubies[slug].versions.keys.sort_by { |v| Gem::Version.new(v) }.reverse
@@ -108,18 +124,4 @@ end
 #         locals: { slug: slug, version: version },
 #         ignore: true,
 #         layout: 'layout'
-# end
-
-# /:implementation/stable => implementations/versions/show.html
-# /ruby/stable
-# /jruby/stable
-# /truffleruby/stable
-# /rubinius/stable
-# ...
-#       ignore: true,
-# latest_stable_version = data.rubies[slug].stable[:stable].max
-# proxy "/#{slug}/stable/index.html",
-#       '/implementations/versions/show.html',
-#       locals: { slug: slug, implementation_version: latest_stable_version },
-#       layout: 'layout'
 # end
