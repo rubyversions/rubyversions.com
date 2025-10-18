@@ -1,7 +1,9 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+activate :asset_hash
 activate :directory_indexes
+activate :relative_assets
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -59,9 +61,8 @@ end
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-configure :build do
-  activate :asset_hash
-  activate :relative_assets
+configure :development do
+  set :debug_assets, true
 end
 
 # rubies#index
