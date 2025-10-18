@@ -6,7 +6,7 @@
 
   <title>
     <%= data.site.title %> |
-    <%= current_page.data.title %>
+    <%= yield_content(:title) || current_page.data.title %>
   </title>
 
   <%= partial "head/mode_switcher_js" %>

@@ -19,14 +19,6 @@ page '/*.txt',  layout: false
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
-# proxy(
-#   '/this-page-has-no-template.html',
-#   '/template-file.html',
-#   locals: {
-#     which_fake_page: 'Rendering a fake page with a local variable'
-#   },
-# )
-
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
@@ -60,17 +52,19 @@ helpers do
     }[status]
   end
 
-  def implementation_versions slug
+  def versions slug
     data.rubies[slug].versions.keys.sort_by { |v| Gem::Version.new(v) }.reverse
   end
 
   def get_version slug, version
     data.rubies[slug].versions[version]
   end
+end
 
-  def latest_stable_version slug
-    data.rubies[slug].stable[:stable].max
-  end
+def implementation_slugs
+  path = [__dir__, 'data', 'status.yml'].join '/'
+  rubies_by_status = YAML.safe_load_file path
+  rubies_by_status.values.flatten
 end
 
 # Build-specific configuration
@@ -79,41 +73,56 @@ configure :development do
   set :debug_assets, true
 end
 
-# rubies#index
-proxy '/all', '/implementations/index.html', layout: 'layout'
+# Routes
+# /all => implementations#index
+proxy '/all', '/implementations/index.html', ignore: true, layout: 'layout'
 
-ready do
-  def latest_ruby_version
-    data.rubies.ruby.stable[:stable].max
-  end
+# /latest => versions#show
+proxy '/latest',
+      '/implementations/versions/show.html',
+      locals: { slug: 'ruby', version: data.rubies.ruby.stable[:stable].max },
+      ignore: true,
+      layout: 'layout'
 
-  def latest_stable_version slug
-    data.rubies[slug].stable[:stable].max
-  end
-
-  def implementation_versions slug
-    data.rubies[slug].versions.keys.sort_by { |v| Gem::Version.new(v) }.reverse
-  end
-
-  redirect '/latest', to: "/ruby/#{latest_ruby_version}"
-
-  def ruby_slugs
-    path = [__dir__, 'data', 'status.yml'].join '/'
-    rubies_by_status = YAML.safe_load_file path
-    rubies_by_status.values.flatten
-  end
-
-  ruby_slugs.each do |slug|
-    proxy "/#{slug}", '/implementations/show.html', locals: { slug: slug }, ignore: true, layout: 'layout'
-
-    implementation_versions(slug).each do |version|
-      proxy "/#{slug}/#{version}",
-            '/implementations/versions/show.html',
-            locals: { slug: slug, version: version },
-            ignore: true,
-            layout: 'layout'
-    end
-
-    proxy "/#{slug}/stable", "/#{slug}/#{latest_stable_version(slug)}.html", layout: 'layout', ignore: true
-  end
+data.implementations.each do |slug, implementation|
+  # /:implementation => implementations#show
+  # /ruby
+  # /jruby
+  # /truffleruby
+  # /rubinius
+  # ...
+  proxy slug,
+        '/implementations/show.html',
+        locals: { slug: slug, implementation: implementation },
+        ignore: true,
+        layout: 'layout'
 end
+
+# imp_versions = data.rubies[slug].versions.keys.sort_by { |v| Gem::Version.new(v) }.reverse
+# puts imp_versions
+# imp_versions.each do |version|
+#   # /:implementation/:version => implementations/versions/show.html
+#   # /ruby/3.4.7
+#   # /jruby/10.0.2.0
+#   # /truffleruby/22.1.0
+#   # ...
+#   proxy "/#{slug}/#{version}/index.html",
+#         '/implementations/versions/show.html',
+#         locals: { slug: slug, version: version },
+#         ignore: true,
+#         layout: 'layout'
+# end
+
+# /:implementation/stable => implementations/versions/show.html
+# /ruby/stable
+# /jruby/stable
+# /truffleruby/stable
+# /rubinius/stable
+# ...
+#       ignore: true,
+# latest_stable_version = data.rubies[slug].stable[:stable].max
+# proxy "/#{slug}/stable/index.html",
+#       '/implementations/versions/show.html',
+#       locals: { slug: slug, implementation_version: latest_stable_version },
+#       layout: 'layout'
+# end
