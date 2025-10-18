@@ -1,30 +1,30 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
     <%= data.site.title %> |
     <%= current_page.data.title %>
   </title>
 
-  <%= partial 'head/mode_switcher_js' %>
+  <%= partial "head/mode_switcher_js" %>
 
-  <%= partial 'head/twitter' %>
-  <%= partial 'head/facebook' %>
-  <%= partial 'head/google_analytics' %>
+  <%= partial "head/twitter" %>
+  <%= partial "head/facebook" %>
+  <%= partial "head/google_analytics" %>
 
-  <%= stylesheet_link_tag 'application' %>
+  <%= stylesheet_link_tag "application" %>
 </head>
 
 <body>
-  <%= partial 'header' %>
+  <%= partial "header" %>
 
-  <main class='container my-5'>
+  <main class="container my-5">
     <%= yield %>
   </main>
 
-  <%= partial 'footer' %>
+  <%= partial "footer" %>
 </body>
 </html>

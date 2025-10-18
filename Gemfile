@@ -8,6 +8,7 @@ gem 'middleman-livereload'
 
 group :development, :test do
   gem 'dotenv' # reading ENV vars from .env file
+  gem 'herb' # HTML+ERB linting
   gem 'rubocop', require: false # code style guide and linting
 end
 
