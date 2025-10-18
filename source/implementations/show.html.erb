@@ -2,7 +2,7 @@
 
 <header class="mb-2">
   <h1 class="display-1"><%= implementation.name %></h1>
-  <span class="badge bg-<%= implementation_status_color slug %> text-uppercase">
+  <span class="badge bg-<%= badge_color slug %> text-uppercase">
     <%= implementation.status %>
   </span>
 
@@ -34,7 +34,7 @@
     <% versions(slug).each do |version| %>
       <tr>
         <td><%= link_to version, "/#{slug}/#{version}" %></td>
-        <td>TODO: DATE</td>
+        <!--<td>TODO: DATE</td>-->
       </tr>
     <% end %>
   </table>

@@ -43,7 +43,7 @@ helpers do
     data.status.select { |_status, rubies| rubies.include? slug }.keys.first
   end
 
-  def implementation_status_color slug
+  def badge_color slug
     status = implementation_status(slug).to_sym
     {
       main:        :primary,
