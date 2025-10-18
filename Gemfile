@@ -17,7 +17,6 @@ end
 platforms :windows, :jruby do
   gem 'tzinfo'
   gem 'tzinfo-data'
+  # Performance-booster for watching directories on Windows
+  gem 'wdm', platforms: :windows
 end
-
-# Performance-booster for watching directories on Windows
-gem 'wdm', platforms: :windows
