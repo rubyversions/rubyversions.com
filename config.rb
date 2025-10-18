@@ -104,7 +104,7 @@ ready do
   end
 
   ruby_slugs.each do |slug|
-    proxy "/#{slug}", '/rubies/implementation.html', locals: { slug: slug }, ignore: true, layout: 'layout'
+    proxy "/#{slug}", '/rubies/show.html', locals: { slug: slug }, ignore: true, layout: 'layout'
 
     implementation_versions(slug).each do |version|
       proxy "/#{slug}/#{version}",

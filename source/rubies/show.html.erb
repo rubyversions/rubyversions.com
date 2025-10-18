@@ -1,4 +1,18 @@
+<% content_for :title do %>
+  <%= implementation_name(slug) %>
+<% end %>
+
 <h1 class="display-1"><%= implementation_name slug %></h1>
 <span class="badge bg-<%= implementation_status_color slug %> text-uppercase">
   <%= implementation_status slug %>
 </span>
+
+
+
+<ul class="list-group">
+  <% implementation_versions(slug).each do |version| %>
+    <li class="list-group-item">
+      <%= link_to version, "/#{slug}/#{version}" %>
+    </li>
+  <% end %>
+</ul>
