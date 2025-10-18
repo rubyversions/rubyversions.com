@@ -34,16 +34,6 @@ GEM
     fast_blank (1.0.1)
     fastimage (2.3.1)
     ffi (1.17.0)
-    ffi (1.17.0-aarch64-linux-gnu)
-    ffi (1.17.0-aarch64-linux-musl)
-    ffi (1.17.0-arm-linux-gnu)
-    ffi (1.17.0-arm-linux-musl)
-    ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86-linux-gnu)
-    ffi (1.17.0-x86-linux-musl)
-    ffi (1.17.0-x86_64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
-    ffi (1.17.0-x86_64-linux-musl)
     haml (6.3.0)
       temple (>= 0.8.2)
       thor
@@ -219,7 +209,7 @@ DEPENDENCIES
   wdm
 
 RUBY VERSION
-   ruby 3.3.6p108
+   ruby 3.4.7p58
 
 BUNDLED WITH
    2.5.16
