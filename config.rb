@@ -3,10 +3,6 @@
 
 activate :directory_indexes
 
-configure :development do
-  activate :livereload
-end
-
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
