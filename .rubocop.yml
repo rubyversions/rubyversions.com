@@ -35,3 +35,6 @@ Style/MixinUsage:
 
 Metrics/MethodLength:
   Max: 20
+
+Metrics/BlockLength:
+  Enabled: false

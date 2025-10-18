@@ -1,0 +1,32 @@
+<%
+version_data = get_version(slug, version)
+%>
+
+<% content_for :title, "#{implementation_name(slug)} #{version}" %>
+
+<h1 class="display-1"><%= implementation_name(slug) %> <%= version %></h1>
+
+<h2>Checksums</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>MD5</th>
+      <th>SHA1</th>
+      <th>SHA256</th>
+      <th>SHA512</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% version_data['checksums']['md5'].each_with_index do |md5, index| %>
+      <tr>
+        <td><%= md5['file'] %></td>
+        <td><code><%= md5['signature'] %></code></td>
+        <td><code><%= version_data['checksums']['sha1'][index]['signature'] %></code></td>
+        <td><code><%= version_data['checksums']['sha256'][index]['signature'] %></code></td>
+        <td><code><%= version_data['checksums']['sha512'][index]['signature'] %></code></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -27,6 +27,9 @@ page '/*.txt',  layout: false
 #   },
 # )
 
+# Helpers
+# Methods defined in the helpers block are available in templates
+# https://middlemanapp.com/basics/helper-methods/
 helpers do
   def latest_ruby_version
     data.rubies.ruby.stable[:stable].max
@@ -56,11 +59,22 @@ helpers do
       inactive:    :danger
     }[status]
   end
+
+  def implementation_versions slug
+    data.rubies[slug].versions.keys.sort_by { |v| Gem::Version.new(v) }.reverse
+  end
+
+  def get_version slug, version
+    data.rubies[slug].versions[version]
+  end
+
+  def latest_stable_version slug
+    data.rubies[slug].stable[:stable].max
+  end
 end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-
 configure :development do
   set :debug_assets, true
 end
@@ -68,17 +82,38 @@ end
 # rubies#index
 proxy '/all', '/rubies/index.html', layout: 'layout'
 
-# rubies#show
-def ruby_slugs
-  path = [__dir__, 'data', 'status.yml'].join '/'
-  rubies_by_status = YAML.safe_load_file path
-  rubies_by_status.values.flatten
-end
+ready do
+  def latest_ruby_version
+    data.rubies.ruby.stable[:stable].max
+  end
 
-ruby_slugs.each do |slug|
-  proxy slug, '/rubies/show.html', locals: { slug: slug }, ignore: true, layout: 'layout'
-end
+  def latest_stable_version slug
+    data.rubies[slug].stable[:stable].max
+  end
 
-# Helpers
-# Methods defined in the helpers block are available in templates
-# https://middlemanapp.com/basics/helper-methods/
+  def implementation_versions slug
+    data.rubies[slug].versions.keys.sort_by { |v| Gem::Version.new(v) }.reverse
+  end
+
+  redirect '/latest', to: "/ruby/#{latest_ruby_version}"
+
+  def ruby_slugs
+    path = [__dir__, 'data', 'status.yml'].join '/'
+    rubies_by_status = YAML.safe_load_file path
+    rubies_by_status.values.flatten
+  end
+
+  ruby_slugs.each do |slug|
+    proxy "/#{slug}", '/rubies/implementation.html', locals: { slug: slug }, ignore: true, layout: 'layout'
+
+    implementation_versions(slug).each do |version|
+      proxy "/#{slug}/#{version}",
+            '/rubies/version.html',
+            locals: { slug: slug, version: version },
+            ignore: true,
+            layout: 'layout'
+    end
+
+    proxy "/#{slug}/stable", "/#{slug}/#{latest_stable_version(slug)}.html", layout: 'layout', ignore: true
+  end
+end

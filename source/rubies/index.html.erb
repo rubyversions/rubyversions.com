@@ -7,7 +7,7 @@
     <ul class="mb-5 list-unstyled">
       <% rubies.each do |slug| %>
         <li class="mb-3" id="<%= slug %>">
-          <h3 class="h2 m-0"><%= link_to implementation_name(slug), 'asdf' %></h3>
+          <h3 class="h2 m-0"><%= link_to implementation_name(slug), slug %></h3>
           <p><%= link_to_implementation_website slug %></p>
         </li>
       <% end %>
