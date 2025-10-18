@@ -4,5 +4,3 @@ urls:
   repo: https://github.com/IronLanguages/ironruby
   website: http://ironruby.net
 status: inactive
-aliases:
-  - ruby+objc
