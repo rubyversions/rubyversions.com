@@ -13,15 +13,6 @@ gem 'middleman-livereload'
 #       I think that #source_file_relative_to_root is where the problem is
 gem 'middleman-sprockets', '4.1.0'
 
-# ruby 3.3 deprecations from stdlib, depended on by middleman, et al
-gem 'base64'
-gem 'bigdecimal'
-gem 'csv'
-gem 'logger'
-gem 'mutex_m'
-gem 'ostruct'
-gem 'rdoc'
-
 # assets
 gem 'bootstrap'
 gem 'terser'
