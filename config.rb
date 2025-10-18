@@ -80,7 +80,7 @@ configure :development do
 end
 
 # rubies#index
-proxy '/all', '/rubies/index.html', layout: 'layout'
+proxy '/all', '/implementations/index.html', layout: 'layout'
 
 ready do
   def latest_ruby_version
@@ -104,11 +104,11 @@ ready do
   end
 
   ruby_slugs.each do |slug|
-    proxy "/#{slug}", '/rubies/show.html', locals: { slug: slug }, ignore: true, layout: 'layout'
+    proxy "/#{slug}", '/implementations/show.html', locals: { slug: slug }, ignore: true, layout: 'layout'
 
     implementation_versions(slug).each do |version|
       proxy "/#{slug}/#{version}",
-            '/rubies/version.html',
+            '/implementations/versions/show.html',
             locals: { slug: slug, version: version },
             ignore: true,
             layout: 'layout'
