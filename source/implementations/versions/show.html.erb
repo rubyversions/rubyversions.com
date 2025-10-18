@@ -1,12 +1,5 @@
 <%
-if current_page.path == 'latest'
-  version_number = latest_ruby_version
-  slug = 'ruby'
-end
-
-if current_page.path.end_with? 'stable'
-  version_number = latest_stable_version slug
-end
+version_number ||= latest_stable_version slug
 
 version = data.rubies[slug].versions[version_number]
 %>
