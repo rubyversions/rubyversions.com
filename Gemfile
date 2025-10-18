@@ -4,14 +4,7 @@ ruby file: '.ruby-version'
 
 # middleman static site generator
 gem 'middleman'
-gem 'middleman-autoprefixer'
 gem 'middleman-livereload'
-# NOTE: middleman-sprockets 4.1.1 fails to import .scss partials
-#       https://github.com/middleman/middleman-sprockets/compare/v4.1.0...v4.1.1
-#       Error: File to import not found or unreadable: ./variables.scss.
-#               on line 1:1 of stdin >> @import "./variables.scss";
-#       I think that #source_file_relative_to_root is where the problem is
-gem 'middleman-sprockets', '4.1.0'
 
 group :development, :test do
   gem 'dotenv' # reading ENV vars from .env file
