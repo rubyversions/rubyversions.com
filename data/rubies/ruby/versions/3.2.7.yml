@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 3.2.7
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: c72e290d57080f828156b5c24fe8e4ad
+    file: ruby-3.2.7.tar.gz
+  - signature: 4eb37e1bab4344ac80fe5f886799fdda
+    file: ruby-3.2.7.tar.xz
+  - signature: 930acd2ec9124cfb77349b84192b02fb
+    file: ruby-3.2.7.zip
+  sha1:
+  - signature: c45aa881a7ea1175212d385fe5c8b6e9ff14b2e5
+    file: ruby-3.2.7.tar.gz
+  - signature: 54e07b3adf1e948f5a35fc4ef9b24dd5976f1740
+    file: ruby-3.2.7.tar.xz
+  - signature: d18fbf11004fdc98bc2c221b167b0d62bfc98dd2
+    file: ruby-3.2.7.zip
+  sha256:
+  - signature: 8488fa620ff0333c16d437f2b890bba3b67f8745fdecb1472568a6114aad9741
+    file: ruby-3.2.7.tar.gz
+  - signature: fc159b0d4a8ce412948fb69e61493839a0b3e1d5c919180f27036f1c948cfbe2
+    file: ruby-3.2.7.tar.xz
+  - signature: e4efb7d9e8f8fee6c717917760796c3e29d6c644f9777e4a46bd0a69ed21d5fd
+    file: ruby-3.2.7.zip
+  sha512:
+  - signature: 174e70ac20a21ea77e2c5055a9123a6812109fd7b54c0f7b948312b8159eedbfb11c06120390c158430ca8543e36893da6c809883c82757082d22e08004c5055
+    file: ruby-3.2.7.tar.gz
+  - signature: c10b6fd27fad3bbd33d780c0a3eccb5df2a8465a89d2294ea6f14c7e5e8f7c8ea30b8a8b68bf8903c76f9133c5d984d5d66052ec4eb413153c739e6eea24beed
+    file: ruby-3.2.7.tar.xz
+  - signature: 5f57fb8b2d44187a8f900095cbe7bc90d9439c6436e3e361241b83102b85f665e3d7ed64fe1f6150dfb94eb289467f375ef24b46d5ac9b5f03b01ef31ed39606
+    file: ruby-3.2.7.zip

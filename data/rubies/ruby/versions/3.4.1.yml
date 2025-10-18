@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 3.4.1
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 43e587b9a6de2a51dd1fa2613615542b
+    file: ruby-3.4.1.tar.gz
+  - signature: 45bf4f2706ee6d07133f3355e581f920
+    file: ruby-3.4.1.tar.xz
+  - signature: b8f4919bbe640c86dd22cac156bf6ae8
+    file: ruby-3.4.1.zip
+  sha1:
+  - signature: dc42fe22bcdfbd30f63cd93296d893c53b1dadcc
+    file: ruby-3.4.1.tar.gz
+  - signature: 61783f85c57da9f05201e491029889d71742a83f
+    file: ruby-3.4.1.tar.xz
+  - signature: a7145041a0178f2423dbad5d1dd67ba0862b9ee7
+    file: ruby-3.4.1.zip
+  sha256:
+  - signature: 3d385e5d22d368b064c817a13ed8e3cc3f71a7705d7ed1bae78013c33aa7c87f
+    file: ruby-3.4.1.tar.gz
+  - signature: '018d59ffb52be3c0a6d847e22d3fd7a2c52d0ddfee249d3517a0c8c6dbfa70af'
+    file: ruby-3.4.1.tar.xz
+  - signature: a0c62089fb75c47e392bc96778dd76bd7ad1baa40a7ed040372c805de20bccc8
+    file: ruby-3.4.1.zip
+  sha512:
+  - signature: 93acc262e3b7cf86aeddebdad5b8938c187b9c44a73b0c252b6f873745964001459ae45ece7376745916e317c24895596a42b4544e836670fc6e90058e6f0de4
+    file: ruby-3.4.1.tar.gz
+  - signature: 8d2e34117696f9debf463ae1eed288fdbb5c1a12e32800e901b69218e3b7302a0066052077e2ebca851e3a635296199bd5a10437eea1d6f787f69a77bb865680
+    file: ruby-3.4.1.tar.xz
+  - signature: 4f96c56b0a26c0d4d554cf47764f4acdc2e59545da0b85fe4d5235a17d26ac47f0c609af66099173056e3405849a9f847c32e7aaaa3a057c7d46007968aa4c73
+    file: ruby-3.4.1.zip

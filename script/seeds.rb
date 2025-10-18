@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'yaml'
 require 'dotenv/load'
 
@@ -24,7 +26,6 @@ if ENV['POSTMODERN_RUBY_VERSIONS_REPO_PATH'].nil?
 end
 POSTMODERN_RUBY_VERSIONS_REPO_PATH = ENV['POSTMODERN_RUBY_VERSIONS_REPO_PATH'].freeze
 
-# rubocop:disable Naming/VariableNumber
 POSTMODERN_RUBY_FILES = {
   checksums: {
     md5:    'checksums.md5',
@@ -35,9 +36,7 @@ POSTMODERN_RUBY_FILES = {
   stable:    'stable.txt',
   versions:  'versions.txt'
 }.freeze
-# rubocop:enable Naming/VariableNumber
-
-# TEMP: what’s a better name?
+# # TEMP: what’s a better name?
 UNWANTED_FILE_FRAGMENTS = %w[
   graalvm-ce- graalvm-jdk- truffleruby-jvm- darwin- java11- java8-
   aarch64- -aarch64
@@ -86,7 +85,7 @@ def stable_versions ruby
   File.readlines(stable_versions_file_path).map(&:chomp)
 end
 
-def checksums ruby, release # rubocop:disable Metrics/MethodLength
+def checksums ruby, release
   output = {}
 
   POSTMODERN_RUBY_FILES[:checksums].each_key do |checksum|

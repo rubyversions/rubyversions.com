@@ -10,6 +10,11 @@ Layout/LineLength:
 
 Naming/VariableNumber:
   EnforcedStyle: snake_case
+  AllowedIdentifiers:
+    - md5
+    - sha1
+    - sha256
+    - sha512
 
 Style/AsciiComments:
   Enabled: false
@@ -27,3 +32,6 @@ Style/MixinUsage:
   Exclude:
     # For Scripts to Rule Them All
     - script/*
+
+Metrics/MethodLength:
+  Max: 20

@@ -1,0 +1,41 @@
+---
+name: truffleruby-graalvm
+version: 24.2.1
+website: https://www.graalvm.org/ruby
+checksums:
+  md5:
+  - signature: 00edcba6931fbc4e864a0e697f69f65a
+    file: truffleruby-jvm-24.2.1-linux-amd64.tar.gz
+  - signature: 7915deb8ce37dcb946fa42c05203dd30
+    file: truffleruby-jvm-24.2.1-linux-aarch64.tar.gz
+  - signature: 1c210ad8e213dd1211127aab87620d88
+    file: truffleruby-jvm-24.2.1-macos-amd64.tar.gz
+  - signature: 28ae2e3064ccdb6255b2d00c07768b46
+    file: truffleruby-jvm-24.2.1-macos-aarch64.tar.gz
+  sha1:
+  - signature: d6c28960839547fb73296df8c38ec70a2a1002c1
+    file: truffleruby-jvm-24.2.1-linux-amd64.tar.gz
+  - signature: d0cacc1dbb93aa6bbdba3420aba9ef679d51c4f0
+    file: truffleruby-jvm-24.2.1-linux-aarch64.tar.gz
+  - signature: 4a4beeddfbffb36ef1e3d614362b3007032c2882
+    file: truffleruby-jvm-24.2.1-macos-amd64.tar.gz
+  - signature: 362c5e45f61987440e8ba05c8d820ba1e4454bfe
+    file: truffleruby-jvm-24.2.1-macos-aarch64.tar.gz
+  sha256:
+  - signature: c16f3996ae9446deb33ef6ad3f0de4d8f53e6e7dc87c621a746a56dca6f77793
+    file: truffleruby-jvm-24.2.1-linux-amd64.tar.gz
+  - signature: 4d52efab718c48c0a4d9f9ecf26caac81171d5c5a8568cbf7983572449c30f78
+    file: truffleruby-jvm-24.2.1-linux-aarch64.tar.gz
+  - signature: e97e7298c573290e49df3e8c4e3b8b4f5d17d209c2d7ee33d37e641e4044bc39
+    file: truffleruby-jvm-24.2.1-macos-amd64.tar.gz
+  - signature: 56b6e02860f69c0e2c49782e04557980bc5753d155afa246aeb63909631d8a61
+    file: truffleruby-jvm-24.2.1-macos-aarch64.tar.gz
+  sha512:
+  - signature: c02b5660adf9c9efc0607a3ba0d450085e2bc8e978066c8b662840309f107a33792ebc04aa23d575577f5846f34d22c5f6ceafe0c478b3b5f6ea8b0b66beb7f1
+    file: truffleruby-jvm-24.2.1-linux-amd64.tar.gz
+  - signature: e2774f56990fdc7a28fe7811f9800ba8756729cd6c49d29f03ae3540835211f1e3d891545b77228e433f0db31882e6e1868c7c8eae0a78fc29e52b8f663c2a5a
+    file: truffleruby-jvm-24.2.1-linux-aarch64.tar.gz
+  - signature: 990372c0620ded9d5532482a7316e74d4a218f81e0abd04fde8444d09295beab1af2464b990b370de25b6f48a87537e14e683fc8d00906d44cab6adab60a3dd6
+    file: truffleruby-jvm-24.2.1-macos-amd64.tar.gz
+  - signature: c570b1db35cc2e76fa6be678d8f5cc0a6d814caeb9635ca4405395ee04591f2f92d7b4beb38d9a18b1291dcd3b952181d92ff20a3199c88e70e1a195168e4a1c
+    file: truffleruby-jvm-24.2.1-macos-aarch64.tar.gz

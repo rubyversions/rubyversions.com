@@ -1,0 +1,33 @@
+---
+name: ruby
+version: 3.3.8
+website: https://ruby-lang.org
+checksums:
+  md5:
+  - signature: 874dd01d11ddb2886df05340c6388ba9
+    file: ruby-3.3.8.tar.gz
+  - signature: 481010994214318ff27f3bfe53e35cab
+    file: ruby-3.3.8.tar.xz
+  - signature: 3f5cb48d18b24250383391f9dd763021
+    file: ruby-3.3.8.zip
+  sha1:
+  - signature: 71b8362d413f58ed5aef2ecd132769210c45f058
+    file: ruby-3.3.8.tar.gz
+  - signature: 9ee07098fd930744d8df5d4945b5f99d2fecb9ef
+    file: ruby-3.3.8.tar.xz
+  - signature: 4c0d938d2791ab696e921557aec19613bb364a67
+    file: ruby-3.3.8.zip
+  sha256:
+  - signature: 5ae28a87a59a3e4ad66bc2931d232dbab953d0aa8f6baf3bc4f8f80977c89cab
+    file: ruby-3.3.8.tar.gz
+  - signature: 44ae70fee043da3ce48289b7a52618ebe32dc083253993d486211c7e445c8642
+    file: ruby-3.3.8.tar.xz
+  - signature: 389b8deae02849e769855dea892c921d3387b6548209189837a00f1cdf353797
+    file: ruby-3.3.8.zip
+  sha512:
+  - signature: c5005ba4019fbae19650a9a9ce139e13608345065da9e2277dbeac9d0ac9e3b07b666816afe7be690088080c8c9cf88a8c372971d429479dcebea80d6c2e3883
+    file: ruby-3.3.8.tar.gz
+  - signature: 71c2f3ac9955e088fa885fd2ff695e67362a770a5d33e5160081eda3dd298ca2c692e299b03d757caecfbc94043fedc4ad093de84c505585d480cb36bbf978b9
+    file: ruby-3.3.8.tar.xz
+  - signature: 1aa6a0412760d0d1f423cd5f02533696b7c952c04f567b89aa875997e1d53a548c294c0b771a9e06e666daab038e3481a6251e361163449f92b02ab3a89a6373
+    file: ruby-3.3.8.zip

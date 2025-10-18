@@ -1,0 +1,41 @@
+---
+name: truffleruby
+version: 25.0.0
+website: https://www.graalvm.org/ruby/
+checksums:
+  md5:
+  - signature: 9092a77911c210db55c70798492b2137
+    file: truffleruby-25.0.0-linux-amd64.tar.gz
+  - signature: 9988da30add0c5e6f12de79cb5d7c9d3
+    file: truffleruby-25.0.0-linux-aarch64.tar.gz
+  - signature: c1d602b61df2010a771bbe0bc23b8246
+    file: truffleruby-25.0.0-macos-amd64.tar.gz
+  - signature: 2cb712b7ac9da4ce74a978df5727bd90
+    file: truffleruby-25.0.0-macos-aarch64.tar.gz
+  sha1:
+  - signature: 8ae39f5f310bd65c7b56dc9b659657d807d22e23
+    file: truffleruby-25.0.0-linux-amd64.tar.gz
+  - signature: cba31054d18f73eb72a0ddc9425c9009498eae92
+    file: truffleruby-25.0.0-linux-aarch64.tar.gz
+  - signature: 95ac2d2de16775d7c3a171f494aebaff23bbacad
+    file: truffleruby-25.0.0-macos-amd64.tar.gz
+  - signature: 7a15711ff63d7ec3f16177b644d46094ab23c028
+    file: truffleruby-25.0.0-macos-aarch64.tar.gz
+  sha256:
+  - signature: fc8896c38f15217c004089bc3bfff1575767a6356b6a05b842bf6284e2e52788
+    file: truffleruby-25.0.0-linux-amd64.tar.gz
+  - signature: 0f787597ca770adbc8277ba056e71b6fbf81224d3d9f7e2c1d7a83d3347462e2
+    file: truffleruby-25.0.0-linux-aarch64.tar.gz
+  - signature: 2e4a4b2381c17b70dcc637bd8178c2b2a68bb716c2db0b469ab2d00b34f79ee0
+    file: truffleruby-25.0.0-macos-amd64.tar.gz
+  - signature: c3282bd44a2d292a539e4bbe6793a44d50f351e799b21a23aa68e40b6c38b3a3
+    file: truffleruby-25.0.0-macos-aarch64.tar.gz
+  sha512:
+  - signature: 812308114f44bb9a33088d65273fbc6d34a7fa9d05e73a06091f89cb1f64d0f2add224573ab6058e019062864e97eded48729a5b7facc65af28f92f4777f5fe9
+    file: truffleruby-25.0.0-linux-amd64.tar.gz
+  - signature: ae909305a6b66df9e0499aee8e45abc5cbb403e13f750ec8fd82d91e851a414d558d42401977b1587bb2ec35aa7304004a71cf8da6e259dced238057a505158c
+    file: truffleruby-25.0.0-linux-aarch64.tar.gz
+  - signature: 5201a570cfea28d9766a758270c8d28b27ffc85d2d4e6d59a2ec7f141304eba1391641f93bb0520f30b95833bb474cc5e04da53d2a2b2e336bf3f96d5c11fe82
+    file: truffleruby-25.0.0-macos-amd64.tar.gz
+  - signature: f3cfceb95cec0066971a455bde093dbf4769c79f25cb60f48a363689b0688d9035ec744a01303d01b62bf87d9fa68b6a681bdcb5b5a6a0a2ad9f361d78983917
+    file: truffleruby-25.0.0-macos-aarch64.tar.gz
