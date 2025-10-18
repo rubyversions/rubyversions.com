@@ -1,7 +1,33 @@
-<hr>
-<%= slug %>
-<hr>
-<%= version %>
-<hr>
-<%= data.rubies.ruby.stable[:stable].max %>
-<hr>
+<%
+if current_page.path == 'latest'
+  slug    = 'ruby'
+  version = data.rubies.ruby.stable[:stable].max
+end
+
+version = data.rubies[slug].versions[version]
+%>
+
+<h1 class="display-1"><%= implementation_name slug %></h1>
+<h2><%= version.version %></h2>
+
+<table id="urls" class="mb-5">
+  <tbody>
+    <% Array(version.website).each do |url| %>
+      <tr>
+        <th scope="col"><%= link_to 'Website', url %></th>
+        <td class="ps-3"><%= link_to url, url %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<h2>Checksums</h2>
+<% version.checksums.each do |kind, file_signatures| %>
+  <h3><%= kind.upcase %></h3>
+  <dl>
+    <% file_signatures.each do |file_signature| %>
+      <dt><%= file_signature.values.first %></dt>
+      <dd><%= file_signature.values.last %></dd>
+    <% end %>
+  </dl>
+<% end %>

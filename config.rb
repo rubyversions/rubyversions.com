@@ -77,7 +77,7 @@ proxy '/all', '/implementations/index.html', ignore: true, layout: 'layout'
 # /latest => versions#show
 proxy '/latest',
       '/implementations/versions/show.html',
-      locals: { slug: 'ruby', version: data.rubies.ruby.stable[:stable].max },
+      locals: { slug: 'ruby' },
       ignore: true,
       layout: 'layout'
 
