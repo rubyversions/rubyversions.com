@@ -72,8 +72,11 @@ def data_yaml_file_path ruby, release
 end
 
 def write_yaml_data_file ruby, release, data
+  # no line length limit
+  yaml_formatting_options = { line_width: -1 } # -1 means no line length limit
+
   # build file name and path for the yaml data file
-  yaml_content = data.to_yaml
+  yaml_content = data.to_yaml yaml_formatting_options
   file_path    = data_yaml_file_path ruby, release
 
   # write the yaml data file
