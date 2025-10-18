@@ -1,13 +1,13 @@
-<h1 class='display-1'>All Ruby implementations</h1>
+<h1 class="display-1">All Ruby implementations</h1>
 
-<div class='mb-5'>
+<div class="mb-5">
   <% data.status.each do |status, rubies| %>
-    <h2 class='fs-6 m-0 fw-light border-bottom'><%= status.titleize %></h2>
+    <h2 class="fs-6 m-0 fw-light border-bottom"><%= status.titleize %></h2>
 
-    <ul class='mb-5 list-unstyled'>
+    <ul class="mb-5 list-unstyled">
       <% rubies.each do |slug| %>
-        <li class='mb-3' id='<%= slug %>'>
-          <h3 class='h2 m-0'><%= implementation_name slug %></h3>
+        <li class="mb-3" id="<%= slug %>">
+          <h3 class="h2 m-0"><%= link_to implementation_name(slug), 'asdf' %></h3>
           <p><%= link_to_implementation_website slug %></p>
         </li>
       <% end %>
