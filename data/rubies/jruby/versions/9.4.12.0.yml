@@ -4,22 +4,22 @@ version: 9.4.12.0
 website: https://www.jruby.org
 checksums:
   md5:
-  - signature: c7a26b4bd2fde1064b1cc6bf67f2f645
-    file: jruby-dist-9.4.12.0-bin.tar.gz
-  - signature: a3ea848f9e3a439ec09d7294f2544b39
-    file: jruby-dist-9.4.12.0-bin.zip
+    - signature: c7a26b4bd2fde1064b1cc6bf67f2f645
+      file: jruby-dist-9.4.12.0-bin.tar.gz
+    - signature: a3ea848f9e3a439ec09d7294f2544b39
+      file: jruby-dist-9.4.12.0-bin.zip
   sha1:
-  - signature: d6fb8647ae350083013ebeb8111e142bbc9305be
-    file: jruby-dist-9.4.12.0-bin.tar.gz
-  - signature: c11b71ca706a0e4541058c5e6324e782de21b371
-    file: jruby-dist-9.4.12.0-bin.zip
+    - signature: d6fb8647ae350083013ebeb8111e142bbc9305be
+      file: jruby-dist-9.4.12.0-bin.tar.gz
+    - signature: c11b71ca706a0e4541058c5e6324e782de21b371
+      file: jruby-dist-9.4.12.0-bin.zip
   sha256:
-  - signature: 05c5d203d6990c92671cc42f57d2fa1c1083bbfd16fa7023dc5848cdb8f0aa2e
-    file: jruby-dist-9.4.12.0-bin.tar.gz
-  - signature: 47c328248e160a28064af23499d6f98d1fe8041c864d33f89d3e66ac5a4d0895
-    file: jruby-dist-9.4.12.0-bin.zip
+    - signature: 05c5d203d6990c92671cc42f57d2fa1c1083bbfd16fa7023dc5848cdb8f0aa2e
+      file: jruby-dist-9.4.12.0-bin.tar.gz
+    - signature: 47c328248e160a28064af23499d6f98d1fe8041c864d33f89d3e66ac5a4d0895
+      file: jruby-dist-9.4.12.0-bin.zip
   sha512:
-  - signature: 01f74e4dad2d4357c0dd5dfa937400a3d3d3ebdc0485444359658f3e4b58c8af180ff66ce75b269afc75548cb832c4f75e891f506fb5e4004f9b12286991a8df
-    file: jruby-dist-9.4.12.0-bin.tar.gz
-  - signature: 9f93f01520b4f671f29bec25703c2552a1e2b0d0cf4b73e7a967041ec187c214e0cb128eef40aee6fda67a7e828b6cc6734fa6c255000afb92358325915a0f17
-    file: jruby-dist-9.4.12.0-bin.zip
+    - signature: 01f74e4dad2d4357c0dd5dfa937400a3d3d3ebdc0485444359658f3e4b58c8af180ff66ce75b269afc75548cb832c4f75e891f506fb5e4004f9b12286991a8df
+      file: jruby-dist-9.4.12.0-bin.tar.gz
+    - signature: 9f93f01520b4f671f29bec25703c2552a1e2b0d0cf4b73e7a967041ec187c214e0cb128eef40aee6fda67a7e828b6cc6734fa6c255000afb92358325915a0f17
+      file: jruby-dist-9.4.12.0-bin.zip

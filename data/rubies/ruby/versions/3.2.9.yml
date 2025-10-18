@@ -4,30 +4,30 @@ version: 3.2.9
 website: https://ruby-lang.org
 checksums:
   md5:
-  - signature: 331b0de94a140adf96fa8216a66ea49e
-    file: ruby-3.2.9.tar.gz
-  - signature: b44d41ecd3198ada69a5af680967983d
-    file: ruby-3.2.9.tar.xz
-  - signature: ecbb8eee1ff40bb4bd2b0d4f500f19fa
-    file: ruby-3.2.9.zip
+    - signature: 331b0de94a140adf96fa8216a66ea49e
+      file: ruby-3.2.9.tar.gz
+    - signature: b44d41ecd3198ada69a5af680967983d
+      file: ruby-3.2.9.tar.xz
+    - signature: ecbb8eee1ff40bb4bd2b0d4f500f19fa
+      file: ruby-3.2.9.zip
   sha1:
-  - signature: 174f37666192a3fdc9cf24e5eddc0cf4d5de0b1e
-    file: ruby-3.2.9.tar.gz
-  - signature: c1bb7eb3b2254f9513abfc0b9335f4da14bfa093
-    file: ruby-3.2.9.tar.xz
-  - signature: a853b1413e73a827ca2bee640550f4ae54c9fe18
-    file: ruby-3.2.9.zip
+    - signature: 174f37666192a3fdc9cf24e5eddc0cf4d5de0b1e
+      file: ruby-3.2.9.tar.gz
+    - signature: c1bb7eb3b2254f9513abfc0b9335f4da14bfa093
+      file: ruby-3.2.9.tar.xz
+    - signature: a853b1413e73a827ca2bee640550f4ae54c9fe18
+      file: ruby-3.2.9.zip
   sha256:
-  - signature: abbad98db9aeb152773b0d35868e50003b8c467f3d06152577c4dfed9d88ed2a
-    file: ruby-3.2.9.tar.gz
-  - signature: cf6699d0084c588e7944d92e1a8edda28b1cc3ee471a1f0aebb4b3d32c9753b2
-    file: ruby-3.2.9.tar.xz
-  - signature: a3fc780839729c138ac9ef543ac505d67f04e404b65a404419843a2fed2f661b
-    file: ruby-3.2.9.zip
+    - signature: abbad98db9aeb152773b0d35868e50003b8c467f3d06152577c4dfed9d88ed2a
+      file: ruby-3.2.9.tar.gz
+    - signature: cf6699d0084c588e7944d92e1a8edda28b1cc3ee471a1f0aebb4b3d32c9753b2
+      file: ruby-3.2.9.tar.xz
+    - signature: a3fc780839729c138ac9ef543ac505d67f04e404b65a404419843a2fed2f661b
+      file: ruby-3.2.9.zip
   sha512:
-  - signature: d3fc84ee71a85f5a9bc75d7354508adf197238ee6fa0f83d72bb7659aaf9d4294ae577d64f4a937b511abf241d44d190643227577dcd9cd04dc0553375913975
-    file: ruby-3.2.9.tar.gz
-  - signature: 4db0656694c25c971bcf3591516e6feddb7fc60c4474b63dd1d2c1481c3629421edc904666067b2dcbc47357db1a32b7bf412055306fe29cee30fa048f89b6e3
-    file: ruby-3.2.9.tar.xz
-  - signature: 6a313a36d6e630fb795d37f18da1e908d03c05d7200ef86e2260a18b5fc71f8f3201431f255e3cf7a47e0ee25ab5b9158b9477100ad6729e1f7ebf13f9b0a840
-    file: ruby-3.2.9.zip
+    - signature: d3fc84ee71a85f5a9bc75d7354508adf197238ee6fa0f83d72bb7659aaf9d4294ae577d64f4a937b511abf241d44d190643227577dcd9cd04dc0553375913975
+      file: ruby-3.2.9.tar.gz
+    - signature: 4db0656694c25c971bcf3591516e6feddb7fc60c4474b63dd1d2c1481c3629421edc904666067b2dcbc47357db1a32b7bf412055306fe29cee30fa048f89b6e3
+      file: ruby-3.2.9.tar.xz
+    - signature: 6a313a36d6e630fb795d37f18da1e908d03c05d7200ef86e2260a18b5fc71f8f3201431f255e3cf7a47e0ee25ab5b9158b9477100ad6729e1f7ebf13f9b0a840
+      file: ruby-3.2.9.zip

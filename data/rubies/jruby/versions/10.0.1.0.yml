@@ -4,22 +4,22 @@ version: 10.0.1.0
 website: https://www.jruby.org
 checksums:
   md5:
-  - signature: cdeb4e6b0ba8b26059b9ad87b7d478b0
-    file: jruby-dist-10.0.1.0-bin.tar.gz
-  - signature: 3afc7e789e6f1eaafc019f8607ba14e5
-    file: jruby-dist-10.0.1.0-bin.zip
+    - signature: cdeb4e6b0ba8b26059b9ad87b7d478b0
+      file: jruby-dist-10.0.1.0-bin.tar.gz
+    - signature: 3afc7e789e6f1eaafc019f8607ba14e5
+      file: jruby-dist-10.0.1.0-bin.zip
   sha1:
-  - signature: 52bfb5c543c4d129b67d9adba5dbe203b7a2fc29
-    file: jruby-dist-10.0.1.0-bin.tar.gz
-  - signature: a72676c1342bfb89b67fc39fbb3209ec142303ac
-    file: jruby-dist-10.0.1.0-bin.zip
+    - signature: 52bfb5c543c4d129b67d9adba5dbe203b7a2fc29
+      file: jruby-dist-10.0.1.0-bin.tar.gz
+    - signature: a72676c1342bfb89b67fc39fbb3209ec142303ac
+      file: jruby-dist-10.0.1.0-bin.zip
   sha256:
-  - signature: 22174ed408aa19340fc3c609b67f5a83374539ecc50053153d60f6e1f81faa9d
-    file: jruby-dist-10.0.1.0-bin.tar.gz
-  - signature: 0c9bf877be7d22e3844701c853d582c7fb9962c70f4ff8a0ae3d34117544bee2
-    file: jruby-dist-10.0.1.0-bin.zip
+    - signature: 22174ed408aa19340fc3c609b67f5a83374539ecc50053153d60f6e1f81faa9d
+      file: jruby-dist-10.0.1.0-bin.tar.gz
+    - signature: 0c9bf877be7d22e3844701c853d582c7fb9962c70f4ff8a0ae3d34117544bee2
+      file: jruby-dist-10.0.1.0-bin.zip
   sha512:
-  - signature: 0db65687d23912e08906804353d6a7d47cff5b426a2c6df5cbeb3971adb48ba7f84299f5fc9d8ddbc184c24e5ee46d0fdaf1afb489be1743d7c4c378c0a7f903
-    file: jruby-dist-10.0.1.0-bin.tar.gz
-  - signature: 3fd60aca2f92925ccf194c16250e2854b8a14aee86d7a1ff2f4d90b223ce3dd827358ff80a72bc9d7bfd30c94d29725317e1ad8b0cb7ca98d440ef62b6da1ae7
-    file: jruby-dist-10.0.1.0-bin.zip
+    - signature: 0db65687d23912e08906804353d6a7d47cff5b426a2c6df5cbeb3971adb48ba7f84299f5fc9d8ddbc184c24e5ee46d0fdaf1afb489be1743d7c4c378c0a7f903
+      file: jruby-dist-10.0.1.0-bin.tar.gz
+    - signature: 3fd60aca2f92925ccf194c16250e2854b8a14aee86d7a1ff2f4d90b223ce3dd827358ff80a72bc9d7bfd30c94d29725317e1ad8b0cb7ca98d440ef62b6da1ae7
+      file: jruby-dist-10.0.1.0-bin.zip
