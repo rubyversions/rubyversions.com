@@ -109,10 +109,10 @@ GEM
       toml
       uglifier (>= 3, < 5)
       webrick
-    middleman-livereload (3.4.7)
+    middleman-livereload (3.5.0)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
-      rack-livereload (~> 0.3.15)
+      rack-livereload (~> 0.6.1)
     minitest (5.26.0)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
@@ -127,9 +127,9 @@ GEM
     prism (1.6.0)
     public_suffix (6.0.2)
     racc (1.8.1)
-    rack (3.2.3)
-    rack-livereload (0.3.17)
-      rack
+    rack (3.1.18)
+    rack-livereload (0.6.1)
+      rack (>= 3.0, < 3.2)
     rackup (2.2.1)
       rack (>= 3)
     rainbow (3.1.1)
@@ -267,7 +267,7 @@ CHECKSUMS
   middleman (4.6.2) sha256=22aab5cc55447491f42fb8a137d0e3040380ae1bfd6813f2eb0bfc52940df2be
   middleman-cli (4.6.2) sha256=22beb73c6e9e53b56f8353647a36f1131a6bc3dd95c74f8ccabf40a0939d6930
   middleman-core (4.6.2) sha256=f74882bf38c65d897c3696258b99c0bc33cdf4f5d084fc8c135cf77c1776e110
-  middleman-livereload (3.4.7) sha256=1d0307b4862bf49aa272ea38798672d76b7c1a01168ffe8c81791113fd6ddf7a
+  middleman-livereload (3.5.0) sha256=8244d596851cac983719346bd13828b95cc049db9df8911e4d00f22b6fd6a762
   minitest (5.26.0) sha256=f5817ad09f863a4f7eac917707c1ca5c09cdc4a35e17d91171760178324d2c30
   padrino-helpers (0.15.3) sha256=b8231f148308428db18380bbc8914b4f5b1dd90ffa50e8972373b9b7f553cf4d
   padrino-support (0.15.3) sha256=2d25607c04c782bbf0b338f54c3bd08fbbd63dfd51f0acae0ca5d95783c419cc
@@ -277,8 +277,8 @@ CHECKSUMS
   prism (1.6.0) sha256=bfc0281a81718c4872346bc858dc84abd3a60cae78336c65ad35c8fbff641c6b
   public_suffix (6.0.2) sha256=bfa7cd5108066f8c9602e0d6d4114999a5df5839a63149d3e8b0f9c1d3558394
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
-  rack (3.2.3) sha256=239a373da6584574f25f042d8ed4ba21e691c9799f1d2b5c8920bbbc23ca3d41
-  rack-livereload (0.3.17) sha256=b1dcf1f7f9b7b320dc2e84406d3450d30edcec0731a171d815f75d4577a59fea
+  rack (3.1.18) sha256=669d707f768ef7b953c4495a1db5e776607f7f9c9a8bb32d42ccccc14d098444
+  rack-livereload (0.6.1) sha256=34337d2bdbea44327b9f7bd99f2595b04f90d8b2cf5305648c0e4860f3a30539
   rackup (2.2.1) sha256=f737191fd5c5b348b7f0a4412a3b86383f88c43e13b8217b63d4c8d90b9e798d
   rainbow (3.1.1) sha256=039491aa3a89f42efa1d6dec2fc4e62ede96eb6acd95e52f1ad581182b79bc6a
   rb-fsevent (0.11.2) sha256=43900b972e7301d6570f64b850a5aa67833ee7d87b458ee92805d56b7318aefe
