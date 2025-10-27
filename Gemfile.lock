@@ -18,7 +18,7 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     ast (2.4.3)
     base64 (0.3.0)
-    benchmark (0.4.1)
+    benchmark (0.5.0)
     bigdecimal (3.3.1)
     coffee-script (2.4.1)
       coffee-script-source
@@ -218,7 +218,7 @@ CHECKSUMS
   addressable (2.8.7) sha256=462986537cf3735ab5f3c0f557f14155d778f4b43ea4f485a9deb9c8f7c58232
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
-  benchmark (0.4.1) sha256=d4ef40037bba27f03b28013e219b950b82bace296549ec15a78016552f8d2cce
+  benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
   bigdecimal (3.3.1) sha256=eaa01e228be54c4f9f53bf3cc34fe3d5e845c31963e7fcc5bedb05a4e7d52218
   coffee-script (2.4.1) sha256=82fe281e11b93c8117b98c5ea8063e71741870f1c4fbb27177d7d6333dd38765
   coffee-script-source (1.12.2) sha256=e12b16fd8927fbbf8b87cb2e9a85a6cf457c6881cc7ff8b1af15b31f70da07a4
