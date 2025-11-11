@@ -111,17 +111,17 @@ data.implementations.each do |slug, implementation|
         layout: 'layout'
 end
 
-data.rubies.each do |slug, implementation_versions|
-  # /:implementation/:version => implementations/versions/show.html
-  # /ruby/3.4.7
-  # /jruby/10.0.2.0
-  # /truffleruby/22.1.0
-  # ...
-  implementation_versions.versions.each do |version_number, _deatils|
-    proxy "/#{slug}/#{version_number}",
-          '/implementations/versions/show.html',
-          locals: { slug: slug, version_number: version_number },
-          ignore: true,
-          layout: 'layout'
-  end
-end
+# imp_versions = data.rubies[slug].versions.keys.sort_by { |v| Gem::Version.new(v) }.reverse
+# puts imp_versions
+# imp_versions.each do |version|
+#   # /:implementation/:version => implementations/versions/show.html
+#   # /ruby/3.4.7
+#   # /jruby/10.0.2.0
+#   # /truffleruby/22.1.0
+#   # ...
+#   proxy "/#{slug}/#{version}/index.html",
+#         '/implementations/versions/show.html',
+#         locals: { slug: slug, version: version },
+#         ignore: true,
+#         layout: 'layout'
+# end
