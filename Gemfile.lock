@@ -55,14 +55,17 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (5.0.0)
-    herb (0.7.5)
-    herb (0.7.5-aarch64-linux-musl)
-    herb (0.7.5-arm64-darwin)
-    herb (0.7.5-x86-linux-gnu)
-    herb (0.7.5-x86-linux-musl)
-    herb (0.7.5-x86_64-darwin)
-    herb (0.7.5-x86_64-linux-gnu)
-    herb (0.7.5-x86_64-linux-musl)
+    herb (0.8.3)
+    herb (0.8.3-aarch64-linux-gnu)
+    herb (0.8.3-aarch64-linux-musl)
+    herb (0.8.3-arm-linux-gnu)
+    herb (0.8.3-arm-linux-musl)
+    herb (0.8.3-arm64-darwin)
+    herb (0.8.3-x86-linux-gnu)
+    herb (0.8.3-x86-linux-musl)
+    herb (0.8.3-x86_64-darwin)
+    herb (0.8.3-x86_64-linux-gnu)
+    herb (0.8.3-x86_64-linux-musl)
     http_parser.rb (0.8.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
@@ -247,14 +250,17 @@ CHECKSUMS
   haml (6.3.0) sha256=8e6eb87d869639e348852009e74a2a1663d79663ed7e7dbcb38beb1f12bcdd97
   hamster (3.0.0) sha256=5951e3a3ffd15ba854a976ac36ebae9469966f726034ffed0dccdb6d12d434d8
   hashie (5.0.0) sha256=9d6c4e51f2a36d4616cbc8a322d619a162d8f42815a792596039fc95595603da
-  herb (0.7.5) sha256=1542a07ed8d91d1b0d36c66dd74918664e251ba42aa487765cf2420777727248
-  herb (0.7.5-aarch64-linux-musl) sha256=958db20a1c7aa5601a2c0c1772b78b7d1f3b0c644b4e482a9eb3b6f1bf10650e
-  herb (0.7.5-arm64-darwin) sha256=cc2485601f65b12eaa944ba0d78d89be60d5fcf5dfc5bd1d82fc5898d09c34e2
-  herb (0.7.5-x86-linux-gnu) sha256=6027f5fc71ee3edae03cc85208045d65bb714defef43d5698e6a99ac6371036f
-  herb (0.7.5-x86-linux-musl) sha256=1e67ad618fb06267bde6f25260c12ee1be9b63a3e80beb3ea5ecc86507e12fdd
-  herb (0.7.5-x86_64-darwin) sha256=c8eaba50f0fc907457b66a9c4d4001901fb39b124786148c13cc83e66dca7b98
-  herb (0.7.5-x86_64-linux-gnu) sha256=597df846865be8dd063161956031ec64619795da655659cb173ce668eb5ab0b8
-  herb (0.7.5-x86_64-linux-musl) sha256=f3db234c4bcff81dd5fb01451f4a9b8cf14995c97aef6f4bd4b09f24e39a5dde
+  herb (0.8.3) sha256=e5ca2733682abd67b724786142e268d3c6227c41540bb670712bd91e3c8a9594
+  herb (0.8.3-aarch64-linux-gnu) sha256=413b804e2dacac597222e5d6788d930b7391b23218704465872a961cb97ce86e
+  herb (0.8.3-aarch64-linux-musl) sha256=6182b6a0e0c1ef82269efcfd3c822404e6f1c9fc72d38c7ea816a81b61e63abb
+  herb (0.8.3-arm-linux-gnu) sha256=9779406b160973b8e46f06f90cfeda71782238e10bac38a3ef4a190a9b91abe5
+  herb (0.8.3-arm-linux-musl) sha256=34841b0e7a76f09d433c96a7c344841d6e9e8d8caa00e82a88be59822b99fe27
+  herb (0.8.3-arm64-darwin) sha256=f6844296fd9a0bd27e819ab29cdf2fc7b59eebd99373fbf60a35cd791bd7c67c
+  herb (0.8.3-x86-linux-gnu) sha256=15483a9499e6f5cf05cb952787afa93dfc11dcf07a9e21a2b7745dc98b797315
+  herb (0.8.3-x86-linux-musl) sha256=caa28253b7042614c073c6de141d8119afa94d28ae5d96359596346136d5c970
+  herb (0.8.3-x86_64-darwin) sha256=ce7c0408c553f419cfb430d360beaf1c3922555cddab89761e7ec54ba8bb60bb
+  herb (0.8.3-x86_64-linux-gnu) sha256=71fe9e86270b9c49accb35e70b30fa9167daa8ece78521a95663ed10f5f60388
+  herb (0.8.3-x86_64-linux-musl) sha256=1de0b5c65a5286714426424bacc46a131c6babe5dcaa5761adb5581b946bfb0b
   http_parser.rb (0.8.0) sha256=5a0932f1fa82ce08a8516a2685d5a86031c000560f89946913c555a0697544be
   i18n (1.14.7) sha256=ceba573f8138ff2c0915427f1fc5bdf4aa3ab8ae88c8ce255eb3ecf0a11a5d0f
   json (2.15.1) sha256=b1c1b2e7c116eb1903e0ce0c374783e6ead8747a0f9eca132d274018ebb80b89
