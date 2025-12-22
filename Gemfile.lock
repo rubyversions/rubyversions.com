@@ -113,7 +113,8 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
-    minitest (5.26.0)
+    minitest (6.0.0)
+      prism (~> 1.5)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.3)
@@ -268,7 +269,7 @@ CHECKSUMS
   middleman-cli (4.6.2) sha256=22beb73c6e9e53b56f8353647a36f1131a6bc3dd95c74f8ccabf40a0939d6930
   middleman-core (4.6.2) sha256=f74882bf38c65d897c3696258b99c0bc33cdf4f5d084fc8c135cf77c1776e110
   middleman-livereload (3.4.7) sha256=1d0307b4862bf49aa272ea38798672d76b7c1a01168ffe8c81791113fd6ddf7a
-  minitest (5.26.0) sha256=f5817ad09f863a4f7eac917707c1ca5c09cdc4a35e17d91171760178324d2c30
+  minitest (6.0.0) sha256=4ca597fc1d735ea18d2b4b98c5fb1d5a6da4a6f35ddf32bd5fa3eded33a453be
   padrino-helpers (0.15.3) sha256=b8231f148308428db18380bbc8914b4f5b1dd90ffa50e8972373b9b7f553cf4d
   padrino-support (0.15.3) sha256=2d25607c04c782bbf0b338f54c3bd08fbbd63dfd51f0acae0ca5d95783c419cc
   parallel (1.27.0) sha256=4ac151e1806b755fb4e2dc2332cbf0e54f2e24ba821ff2d3dcf86bf6dc4ae130
