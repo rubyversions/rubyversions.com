@@ -14,8 +14,8 @@ GEM
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
-    addressable (2.8.7)
-      public_suffix (>= 2.0.2, < 7.0)
+    addressable (2.9.0)
+      public_suffix (>= 2.0.2, < 8.0)
     ast (2.4.3)
     base64 (0.3.0)
     benchmark (0.4.1)
@@ -76,15 +76,15 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
     memoist (0.16.2)
-    middleman (4.6.2)
-      middleman-cli (= 4.6.2)
-      middleman-core (= 4.6.2)
-    middleman-cli (4.6.2)
+    middleman (4.6.3)
+      middleman-cli (= 4.6.3)
+      middleman-core (= 4.6.3)
+    middleman-cli (4.6.3)
       thor (>= 0.17.0, < 2)
-    middleman-core (4.6.2)
+    middleman-core (4.6.3)
       activesupport (>= 6.1)
       addressable (~> 2.4)
-      bundler (~> 2.0)
+      bundler (> 2.0)
       coffee-script (~> 2.2)
       contracts
       dotenv
@@ -92,14 +92,14 @@ GEM
       execjs (~> 2.0)
       fast_blank
       fastimage (~> 2.0)
-      haml (>= 4.0.5)
+      haml (>= 4.0.5, < 7)
       hamster (~> 3.0)
       hashie (>= 3.4, < 6.0)
       i18n (>= 1.6, < 1.15)
       kramdown (~> 2.4)
       listen (~> 3.0)
       memoist (~> 0.14)
-      padrino-helpers (~> 0.15.0)
+      padrino-helpers (>= 0.15, < 0.17)
       parallel
       rack (>= 3)
       rackup
@@ -125,7 +125,7 @@ GEM
       racc
     parslet (2.0.0)
     prism (1.6.0)
-    public_suffix (6.0.2)
+    public_suffix (7.0.5)
     racc (1.8.1)
     rack (3.2.3)
     rack-livereload (0.3.17)
@@ -215,11 +215,12 @@ DEPENDENCIES
 
 CHECKSUMS
   activesupport (8.0.3) sha256=a711ce5e30660b23232f26a38699469f8d859d47aa1f722e183fda6d7cc17823
-  addressable (2.8.7) sha256=462986537cf3735ab5f3c0f557f14155d778f4b43ea4f485a9deb9c8f7c58232
+  addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   benchmark (0.4.1) sha256=d4ef40037bba27f03b28013e219b950b82bace296549ec15a78016552f8d2cce
   bigdecimal (3.3.1) sha256=eaa01e228be54c4f9f53bf3cc34fe3d5e845c31963e7fcc5bedb05a4e7d52218
+  bundler (4.0.12) sha256=7f8b757d28dfb636e7b24fba2344ac6dd13b5b24f4b46d62573d483f211825ac
   coffee-script (2.4.1) sha256=82fe281e11b93c8117b98c5ea8063e71741870f1c4fbb27177d7d6333dd38765
   coffee-script-source (1.12.2) sha256=e12b16fd8927fbbf8b87cb2e9a85a6cf457c6881cc7ff8b1af15b31f70da07a4
   concurrent-ruby (1.3.5) sha256=813b3e37aca6df2a21a3b9f1d497f8cbab24a2b94cab325bffe65ee0f6cbebc6
@@ -264,9 +265,9 @@ CHECKSUMS
   listen (3.9.0) sha256=db9e4424e0e5834480385197c139cb6b0ae0ef28cc13310cfd1ca78377d59c67
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   memoist (0.16.2) sha256=a52c53a3f25b5875151670b2f3fd44388633486dc0f09f9a7150ead1e3bf3c45
-  middleman (4.6.2) sha256=22aab5cc55447491f42fb8a137d0e3040380ae1bfd6813f2eb0bfc52940df2be
-  middleman-cli (4.6.2) sha256=22beb73c6e9e53b56f8353647a36f1131a6bc3dd95c74f8ccabf40a0939d6930
-  middleman-core (4.6.2) sha256=f74882bf38c65d897c3696258b99c0bc33cdf4f5d084fc8c135cf77c1776e110
+  middleman (4.6.3) sha256=cf6293bf3d7917d495f466358c7d9707843c06347d5db2168e950b24c235704e
+  middleman-cli (4.6.3) sha256=03deb5b893f748a5adeaf22ccc1452dfede2de25a4583bb451a0162857eb9974
+  middleman-core (4.6.3) sha256=5cab1e1f16b00d26f541a4ca787427e1e0203c34f2d81471c1fae3bf1e7509a8
   middleman-livereload (3.4.7) sha256=1d0307b4862bf49aa272ea38798672d76b7c1a01168ffe8c81791113fd6ddf7a
   minitest (5.26.0) sha256=f5817ad09f863a4f7eac917707c1ca5c09cdc4a35e17d91171760178324d2c30
   padrino-helpers (0.15.3) sha256=b8231f148308428db18380bbc8914b4f5b1dd90ffa50e8972373b9b7f553cf4d
@@ -275,7 +276,7 @@ CHECKSUMS
   parser (3.3.9.0) sha256=94d6929354b1a6e3e1f89d79d4d302cc8f5aa814431a6c9c7e0623335d7687f2
   parslet (2.0.0) sha256=d45130695d39b43d7e6a91f4d2ec66b388a8d822bae38de9b4de9a5fbde1f606
   prism (1.6.0) sha256=bfc0281a81718c4872346bc858dc84abd3a60cae78336c65ad35c8fbff641c6b
-  public_suffix (6.0.2) sha256=bfa7cd5108066f8c9602e0d6d4114999a5df5839a63149d3e8b0f9c1d3558394
+  public_suffix (7.0.5) sha256=1a8bb08f1bbea19228d3bed6e5ed908d1cb4f7c2726d18bd9cadf60bc676f623
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
   rack (3.2.3) sha256=239a373da6584574f25f042d8ed4ba21e691c9799f1d2b5c8920bbbc23ca3d41
   rack-livereload (0.3.17) sha256=b1dcf1f7f9b7b320dc2e84406d3450d30edcec0731a171d815f75d4577a59fea
